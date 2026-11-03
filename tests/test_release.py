@@ -1,10 +1,22 @@
 from pathlib import Path
 from collections import Counter
-import csv,json,re,unittest
+import csv,json,re,unittest,importlib.util,tempfile,shutil
 import pandas as pd
 import fitz
 ROOT=Path(__file__).resolve().parent.parent
 class ReleaseTests(unittest.TestCase):
+ def split_checker(self):
+  spec=importlib.util.spec_from_file_location('release_verify_split',ROOT/'analysis/verify_split.py');module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);return module
+ def test_source_sample_reconstruction(self):
+  self.assertEqual(self.split_checker().verify_sample(),1200)
+ def test_source_sample_rejects_altered_reference_label(self):
+  with tempfile.TemporaryDirectory() as folder:
+   root=Path(folder)
+   for name in ['01_data/uk_pmqs.csv','01_data/splits/category_selection.json','01_data/splits/sst_main.csv','05_evidence/three_bucket_classification.csv']:
+    target=root/name;target.parent.mkdir(parents=True,exist_ok=True);shutil.copyfile(ROOT/name,target)
+   p=root/'05_evidence/three_bucket_classification.csv';data=pd.read_csv(p);data.loc[0,'gold_code']=999;data.to_csv(p,index=False)
+   with self.assertRaises(AssertionError):self.split_checker().verify_sample(root)
+
  def test_matched_input_integrity(self):
   d=pd.read_csv(ROOT/'05_evidence/confidence_per_question.csv');s=pd.read_csv(ROOT/'01_data/splits/sst_main.csv').set_index('id')
   self.assertEqual(len(d),9599);self.assertFalse(d.duplicated(['question_id','variant']).any());self.assertTrue(d.gold.eq(d.question_id.map(s.majortopic)).all())

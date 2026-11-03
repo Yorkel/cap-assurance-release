@@ -4,6 +4,7 @@ Code, frozen inputs and analytical materials accompanying a study of AI-produced
 
 ## What is reproduced
 
+- Read-only reconstruction of all 1,200 sampled identifiers and CAP reference labels from source-row order (`analysis/verify_split.py`), with source dates and text checked against the deposited sample.
 - Eight retained GPT-4o configurations on 1,200 questions, with 1,199 complete cases; accuracy, matched-item variation, four-way CAP-agreement grouping, agreement filtering, pairwise AI–AI/AI–CAP comparison, paired tests, bootstrap rankings, category effects and full-period weighted topic shares.
 - Five later unchanged repeats: 6,000 raw answers, prompt consistency, saved-label reconciliation and pairwise disagreement.
 - Extracted-score discrimination and **hypothetical** threshold routing. These scores are not validated final-answer probabilities or observed human-review outcomes.
