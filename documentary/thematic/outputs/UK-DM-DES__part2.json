@@ -1,0 +1,173 @@
+{
+  "group": "UK-DM-DES",
+  "themes": [
+    {
+      "theme": "Legal limits on using AI and delegating decisions",
+      "source": "new",
+      "definition": "Statutory duties, restated in the documents, that limit whether a public body may use AI for a decision or how it must reach that decision.",
+      "what_is_set_out": "These are the passages in the cell whose force comes from existing statute, which the documents restate rather than create. UK174 says public law can help decide 'whether a particular decision should be delegated to a decision maker, rather than letting an AI tool make an automated decision', that 'the legislative framework might not allow the process you’re automating to be delegated to a machine, or it might provide for a decision to be made by a particular person', that 'Public authorities must act in a way that is compatible with human rights', and that decisions affecting legal status or rights stay with a human decision-maker under UK GDPR. UK268 restates purpose limitation for training data: reuse of historical data 'must be covered by the original purpose'. UK216 (EHRC) restates the public sector equality duty: 'You must build equality into your existing services and decisions about new policies or services', and this 'must happen at the start of your decision-making on whether or not to use a new AI system'. UK139 reminds regulators of their duties under the Equality Act 2010 and the Human Rights Act 1998. No AI-specific statute is cited in this cell.",
+      "documents": ["UK174", "UK268", "UK216", "UK139"],
+      "holders": "Public authorities and 'you' (UK174); public bodies in England and non-devolved and cross-border public bodies (UK216); regulators (UK139); the body training a model on historical data (UK268, holder not stated).",
+      "binding": "Statutory duties restated in guidance. Consequences named: possible infringement of UK GDPR (UK174); legal challenge to automated decisions or assessments (UK174, coder field); reputational damage and legal action for breaches of the Equality Act 2010 (UK216).",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-DES-020", "UK-DM-DES-036", "UK-DM-DES-037", "UK-DM-DES-038", "UK-DM-DES-045", "UK-DM-DES-094", "UK-DM-DES-097", "UK-DM-DES-303"],
+      "quotes": [
+        {"id": "UK-DM-DES-038", "doc": "UK174", "location": "Using AI safely and responsibly > Legal considera…", "quote": "the legislative framework might not allow the process you’re automating to be delegated to a machine, or it might provide for a decision to be made by a particular person."},
+        {"id": "UK-DM-DES-097", "doc": "UK216", "location": "UK216_EHRC_AI_checklist_public_bodies.txt, === pa…", "quote": "It must happen at the start of your decision-making on whether or not to use a new AI system."},
+        {"id": "UK-DM-DES-045", "doc": "UK268", "location": "A2.html, Appendix 2: Personal data and GDPR in th…", "quote": "When an AI is trained on historical data (possibly collected before the project started), further processing of this kind must be covered by the original purpose."},
+        {"id": "UK-DM-DES-303", "doc": "UK139", "location": "Applying individual principles: Fairness", "quote": "regulators need to consider their responsibilities under the 2010 Equality Act and the 1998 Human Rights Act."}
+      ]
+    },
+    {
+      "theme": "Uses to avoid and named prohibitions",
+      "source": "new",
+      "definition": "Use cases the documents say should be avoided or may be forbidden, and named tools that are prohibited.",
+      "what_is_set_out": "UK174 lists use cases that should be avoided in the public sector (coder note), including AI used 'on its own in high-risk areas which could cause harm to someone’s health, safety, fundamental rights or the environment' and fully automated decisions involving 'someone’s health or safety'; it also advises against LLM chatbots on public-facing government websites 'unless the risk of direct prompt injection is acceptable', and tells meeting organisers to state that third-party transcription tools are not allowed. DWP is the only document to prohibit a named product: 'Users must not attempt to access DeepSeek AI on DWP devices.' AI_Insights warns that AI coding assistants 'may introduce unacceptable risks' where a production service is developed and deployed from a single environment, and gives an example of a use that 'may be justifiably forbidden' (sending automatically generated reports to an email alias). Apart from DWP's prohibition, these are conditional cautions, and judging whether a use is acceptable is left to the body using the tool.",
+      "documents": ["UK174", "UK190", "AI_Insights"],
+      "holders": "'You' and public sector organisations (UK174, the nearest actor where the holder is not stated); organisers of virtual meetings (UK174); DWP users (UK190); developers and organisations (AI_Insights). Who may issue the email-alias prohibition is not named.",
+      "binding": "DWP: a mandatory policy prohibition, with line managers acting on non-compliance under DWP's discipline policy (coder field). UK174: 'should not', 'be cautious' and 'Avoid' in non-statutory guidance and practical-recommendation boxes. AI_Insights: 'may'.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-DES-012", "UK-DM-DES-014", "UK-DM-DES-040", "UK-DM-DES-042", "UK-DM-DES-092", "UK-DM-DES-187", "UK-DM-DES-209"],
+      "quotes": [
+        {"id": "UK-DM-DES-014", "doc": "UK174", "location": "Building AI solutions > Identifying use cases for…", "quote": "fully automated decision making: be cautious about any use case involving significant decisions, such as those involving someone’s health or safety."},
+        {"id": "UK-DM-DES-042", "doc": "UK174", "location": "Using AI safely and responsibly > Security > Prac…", "quote": "Avoid putting LLM chatbots on public-facing government websites unless the risk of direct prompt injection is acceptable under the specific use case."},
+        {"id": "UK-DM-DES-092", "doc": "UK190", "location": "Policy Statements, 7", "quote": "Users must not attempt to access DeepSeek AI on DWP devices."},
+        {"id": "UK-DM-DES-187", "doc": "AI_Insights", "location": "AI Insights: AI Coding Assistants for developers…", "quote": "if your production service is developed, maintained and deployed from a single environment, using AI coding assistants may introduce unacceptable risks."}
+      ]
+    },
+    {
+      "theme": "Controlling unsanctioned and user-built AI",
+      "source": "new",
+      "definition": "Measures to stop or govern AI that staff or end users adopt or build outside approved channels ('shadow AI'), including default blocking of online tools.",
+      "what_is_set_out": "UK010 asks energy-sector stakeholders to be always aware 'what technology is being used, for what purpose and where it is being used', used only 'by appropriately authorised staff and systems', and to consider controls 'preventing the use of shadow AI through additional education and technical controls'. DWP's policy says 'Online AI tools may initially be blocked', with use then dependent on approval. AI_Insights, speaking for DSIT, says 'we may wish to audit, govern, and control end-user defined entities', that agent entities configured by end users are 'generally not within our control and require a similar set of agreed and responsible processes', that entities in production need 'a valid business justification' and 'an agreed, understood, and transparent process', and that staff signing up to generative AI services 'must make sure you’re acting in line with the policies of your organisation'. None of these passages says who agrees the process or judges the justification.",
+      "documents": ["UK190", "UK010", "AI_Insights"],
+      "holders": "Energy-sector stakeholders (UK010); DWP (nearest actor for blocking); DSIT ('we'), end users creating entities, and staff signing up to generative AI services (AI_Insights).",
+      "binding": "'Should' and 'expected to consider' (UK010); a power ('may') in DWP policy; 'must' and 'require' in AI_Insights, with binding force not stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-DES-091", "UK-DM-DES-121", "UK-DM-DES-122", "UK-DM-DES-204", "UK-DM-DES-205", "UK-DM-DES-208", "UK-DM-DES-213"],
+      "quotes": [
+        {"id": "UK-DM-DES-122", "doc": "UK010", "location": "Appendix 5, A5.8b, p.45", "quote": "the need for any additional controls to prevent the unauthorised or uncontrolled use of AI, for example, preventing the use of shadow AI through additional education and technical controls"},
+        {"id": "UK-DM-DES-213", "doc": "AI_Insights", "location": "AI Insights: Integrated Agents > Risks and Concer…", "quote": "These are reasons enough to clarify why we may wish to audit, govern, and control end-user defined entities."},
+        {"id": "UK-DM-DES-091", "doc": "UK190", "location": "Policy Statements, 6", "quote": "Online AI tools may initially be blocked."}
+      ]
+    },
+    {
+      "theme": "Controls on what information goes into AI tools",
+      "source": "new",
+      "definition": "Rules on which data may be entered into or used by AI tools, and the approvals or contract terms needed before sensitive data are used.",
+      "what_is_set_out": "DWP sets the most specific rule: 'users must ensure that approval has been granted by the relevant governance board' before OFFICIAL-SENSITIVE or higher information, personal data or non-public DWP code is used with an AI tool, and suppliers using AI tools for DWP business may not use such information 'without explicit approval from DWP' (who in DWP approves is not stated). UK174 says 'When using public AI applications, you must not enter official information unless it has been published or is cleared for publication'. AI_Insights strongly recommends 'business or enterprise level contracts, or local model execution of open source models' for coding assistants, because free or personal licences record prompts and responses to train the provider's models (coder note). UK268 restates that reuse of historical data for training 'must be covered by the original purpose', and AI_Insights floats an individual's permission as the basis for generative AI access to parts of their email account (an exploratory idea).",
+      "documents": ["UK174", "UK268", "UK190", "AI_Insights"],
+      "holders": "DWP users and suppliers, with the 'relevant governance board' or DWP approving; civil servants using public AI applications (UK174); developers and organisations (AI_Insights); individual account holders (AI_Insights).",
+      "binding": "Mandatory departmental policy (DWP); 'must not' in non-statutory guidance (UK174); 'strongly recommended' (AI_Insights); statutory purpose limitation restated (UK268); exploratory (individual permission).",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-DES-041", "UK-DM-DES-045", "UK-DM-DES-080", "UK-DM-DES-089", "UK-DM-DES-189", "UK-DM-DES-237"],
+      "quotes": [
+        {"id": "UK-DM-DES-089", "doc": "UK190", "location": "Policy Statements, 2", "quote": "Where there is a business need to use any of the following information with an AI tool, users must ensure that approval has been granted by the relevant governance board"},
+        {"id": "UK-DM-DES-041", "doc": "UK174", "location": "Using AI safely and responsibly > Security > How…", "quote": "When using public AI applications, you must not enter official information unless it has been published or is cleared for publication."},
+        {"id": "UK-DM-DES-189", "doc": "AI_Insights", "location": "AI Insights: AI Coding Assistants for developers…", "quote": "it is strongly recommended that you only make use of business or enterprise level contracts, or local model execution of open source models"}
+      ]
+    },
+    {
+      "theme": "Bounding a tool's purpose and pilot scope",
+      "source": "starting code",
+      "definition": "Requirements to define a tool's purpose, boundaries and limits, to hold it to them, and to start with narrow, low-risk uses (a split of the starting code 'deciding scope').",
+      "what_is_set_out": "Several documents ask that a tool be held to a stated purpose and that early use be narrow. UK268 lists 'Defining the purpose, boundaries, and limitations of the AI application' as part of lifecycle management; UK099 says 'The scope of your project should be strictly limited to your identified purpose throughout its life cycle'; the ATRS template requires bodies to record the tool's scope 'as well as limitations or contexts where it does not apply'. UK266 calls it best practice 'to start with small, clearly defined, low-risk use cases' and to treat pilots 'as learning exercises rather than routes to rapid automation', naming the pitfall of pilots 'drifting into live use without proper controls'. AI_Insights recommends that first attempts at building agents be 'restrained in their ambition to simple, measurable and predictable tasks', that distilled models have defined domain boundaries, that records projects select a main use case and the content to target, and that content under retention rules or legal hold be excluded from AI value scoring.",
+      "documents": ["UK268", "UK099", "AI_Insights", "UK087", "UK266"],
+      "holders": "The organisation (UK268); 'you' and project teams (UK099); bodies completing ATRS records (UK087); organisations running pilots (UK266, nearest actor); any person or team creating agent entities, teams distilling models, and KIM professionals and teams (AI_Insights).",
+      "binding": "Good practice and 'should' in guidance; the ATRS field is required within a record that is mandatory by policy for in-scope central government bodies; experimental ideas ('could', 'would') in AI_Insights section 6.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-DES-066", "UK-DM-DES-113", "UK-DM-DES-207", "UK-DM-DES-227", "UK-DM-DES-244", "UK-DM-DES-269", "UK-DM-DES-270", "UK-DM-DES-271", "UK-DM-DES-297", "UK-DM-DES-340"],
+      "quotes": [
+        {"id": "UK-DM-DES-113", "doc": "UK099", "location": "p. 33, Privacy: Purpose and benefit in the contex…", "quote": "The scope of your project should be strictly limited to your identified purpose throughout its life cycle."},
+        {"id": "UK-DM-DES-297", "doc": "UK087", "location": "Sheet 2.2. Description, field 2.2.1 'Detailed des…", "quote": "Include its scope, as well as limitations or contexts where it does not apply."},
+        {"id": "UK-DM-DES-340", "doc": "UK266", "location": "'Pilots'", "quote": "Best practice for piloting AI is to start with small, clearly defined, low-risk use cases, with strong senior ownership and multidisciplinary oversight, and to treat pilots as learning exercises rather than routes to rapid automation."},
+        {"id": "UK-DM-DES-207", "doc": "AI_Insights", "location": "AI Insights: Integrated Agents > Entity Guideline…", "quote": "It is strongly recommended that any person or team’s initial exploration in the creation of user-defined entities are restrained in their ambition to simple, measurable and predictable tasks."}
+      ]
+    },
+    {
+      "theme": "Choosing the model, vendor and sourcing route",
+      "source": "new",
+      "definition": "Criteria and processes for selecting which AI model, vendor, infrastructure or build-or-buy route is used.",
+      "what_is_set_out": "Choice of model and supplier is treated as a decision to document and justify, with criteria but no named approver. UK268 expects organisations to 'document the rationale for model selection', to use external models 'from trusted sources', to weigh security when deciding 'whether to develop AI systems in-house or purchase', and to consider suppliers' environmental credentials and 'the long-term risks of relying on foreign suppliers'. The NAO's rule is to adopt and configure trusted, secure tools where they meet its needs and to 'build or partner only where this is necessary'. AI_Insights is the most operational: 'map a formal process to decide the appropriate cloud vendor, tooling and model'; 'Only use ... AI coding assistants provided by trusted vendors'; choose 'the most appropriate model for a particular use case' to achieve 'a reliable, consistent and cost-effective implementation'; and weigh openness of training data and weights, model size against speed and energy, proprietary against open-source models (cost and privacy), and agentic against traditional RAG. Explainability is a selection criterion in UK174 ('avoid using less explainable AI methods in areas where explainability is essential') and UK136 ('make this one of your design criteria'), and UK082 recommends a consistent build, buy or innovation-challenge sourcing framework and standardised, interoperable, open-source infrastructure at scale. 'Trusted' is not defined in these passages, and the chooser is usually 'you'.",
+      "documents": ["UK174", "UK268", "NAO_AI_Strategy", "AI_Insights", "UK082", "UK136"],
+      "holders": "The organisation (UK268); the NAO; 'you', teams selecting models, developers and organisations (AI_Insights); senior leaders choosing a tooling approach (AI_Insights); public organisations selecting AI (UK174); procurement teams (UK136); government (UK082).",
+      "binding": "Guidance ('should', 'consider', 'strongly recommended', imperatives, 'not recommended'); NAO organisational commitment; UK082 recommendations whose acceptance is not recorded in the text. No consequence stated.",
+      "checks": "Model selection (UK268): trigger at selection; compared against alternatives (coder note: simpler ML, fine-tuned small models, LLMs via API); metric: the criteria and tests used are to be documented but are not stated here; who: the organisation; what happens with the result: a documented rationale that auditors can examine. Otherwise n/a.",
+      "passage_ids": ["UK-DM-DES-027", "UK-DM-DES-029", "UK-DM-DES-030", "UK-DM-DES-048", "UK-DM-DES-057", "UK-DM-DES-059", "UK-DM-DES-064", "UK-DM-DES-069", "UK-DM-DES-178", "UK-DM-DES-185", "UK-DM-DES-188", "UK-DM-DES-189", "UK-DM-DES-191", "UK-DM-DES-197", "UK-DM-DES-199", "UK-DM-DES-201", "UK-DM-DES-226", "UK-DM-DES-247", "UK-DM-DES-251", "UK-DM-DES-262", "UK-DM-DES-263", "UK-DM-DES-264", "UK-DM-DES-265", "UK-DM-DES-267", "UK-DM-DES-289", "UK-DM-DES-293", "UK-DM-DES-356"],
+      "quotes": [
+        {"id": "UK-DM-DES-069", "doc": "UK268", "location": "ModelDevelopment.html, 4.3.1", "quote": "Auditors should expect organisations to document the rationale for model selection, ensuring choices are technically sound, justified, and transparent."},
+        {"id": "UK-DM-DES-178", "doc": "NAO_AI_Strategy", "location": "p.18, Engaging others, Working with partners", "quote": "Where trusted, secure tools meet our needs, we will adopt and configure them. We will build or partner only where this is necessary to protect audit quality, manage risk, or deliver capabilities not available in the market."},
+        {"id": "UK-DM-DES-201", "doc": "AI_Insights", "location": "AI Insights: Generative AI > Cloud solutions (lin…", "quote": "You should map a formal process to decide the appropriate cloud vendor, tooling and model based on the use case that you’re addressing."},
+        {"id": "UK-DM-DES-356", "doc": "UK136", "location": "Ten Guidelines: 'Avoid Black Box algorithms and v…", "quote": "Encourage explainability and interpretability of algorithms and make this one of your design criteria."}
+      ]
+    },
+    {
+      "theme": "Buyer control over suppliers",
+      "source": "new",
+      "definition": "Requirements that the buying body keep authority over AI it procures and impose its standards on suppliers and their sub-contractors.",
+      "what_is_set_out": "UK099 sets the general principle: 'As a baseline, make sure that any supplier maintains the same standards as would be expected from you if the system was developed internally', covering data governance, performance evaluation, data minimisation and legal accountability (coder note). UK268 asks that for purchased or partially outsourced development 'the auditee retains sufficient control over AI usage', applies its go/no-go evidence to purchased systems as well, and flags the long-term risk of relying on foreign suppliers. DWP's Annex A binds 'suppliers and their third parties when using AI tools for DWP business', including the need for explicit DWP approval before sensitive information is used. UK010 includes 'oversight of the supply chain' in the governance it expects. UK174 reports that DSIT plans 'simple baseline requirements for government suppliers of AI products and services', to be embedded in procurement frameworks with the Cabinet Office after testing and consultation, so this is a plan, not a rule in force.",
+      "documents": ["UK174", "UK268", "UK190", "UK099", "UK010"],
+      "holders": "'You' as buyer (UK099); the auditee (UK268); DWP, and its suppliers and their third parties (UK190); energy-sector stakeholders (UK010); DSIT and the Cabinet Office (UK174, planned).",
+      "binding": "Mandatory departmental policy for DWP suppliers (how it is enforced on suppliers is not stated in these passages); good practice elsewhere; the DSIT baseline requirements are a proposal not yet in force.",
+      "checks": "n/a in these passages (supplier performance evaluation appears only in a coder note to UK099).",
+      "passage_ids": ["UK-DM-DES-004", "UK-DM-DES-064", "UK-DM-DES-068", "UK-DM-DES-078", "UK-DM-DES-079", "UK-DM-DES-080", "UK-DM-DES-108", "UK-DM-DES-138"],
+      "quotes": [
+        {"id": "UK-DM-DES-108", "doc": "UK099", "location": "p. 19, Accountability if you’re using a third par…", "quote": "As a baseline, make sure that any supplier maintains the same standards as would be expected from you if the system was developed internally."},
+        {"id": "UK-DM-DES-068", "doc": "UK268", "location": "Governance.html, 4.1.3.2 Expected controls", "quote": "For purchased or partially outsourced development, measures should ensure the auditee retains sufficient control over AI usage, including:"},
+        {"id": "UK-DM-DES-079", "doc": "UK190", "location": "Annex A – Third Party Artificial Intelligence sec…", "quote": "This section details the requirements for suppliers and their third parties when using AI tools for DWP business."},
+        {"id": "UK-DM-DES-004", "doc": "UK174", "location": "Building AI solutions > Buying AI > Running your…", "quote": "provide simple baseline requirements for government suppliers of AI products and services. After testing and consultation, DSIT is planning to work with the Cabinet Office to embed the tool in government procurement frameworks"}
+      ]
+    },
+    {
+      "theme": "Spend and procurement controls",
+      "source": "new",
+      "definition": "Financial approval thresholds, business-case rules and procurement decision criteria that govern buying or funding AI.",
+      "what_is_set_out": "UK174 restates central spend controls: an investment 'approaching £10 million will require a five-part business case' using the Green Book; 'it’s mandatory to assure all non-business-as-usual spend above £100,000 for digital activities and £1 million for technology activities through your assurance boards'; and the DDaT sourcing playbook applies to central departments and their arm's length bodies on a ‘comply or explain’ basis. UK268 names a budgetary commissioner as 'the authority on whether the development and operation of such software is a worthwhile use of the auditee organisation’s budget'. UK136 (the Office for AI procurement guidelines for central government) asks that procurement decisions be made 'in a diverse multidisciplinary team', that public benefit be 'a main driver of your decision-making process when assessing proposals', that public-benefit goals 'must be relevant to what you are procuring' and meet non-discrimination, equal treatment and proportionality, and that explainability be a design criterion. UK082 recommends 'A faster, multi-stage gated and scaling AI procurement process' that 'only layers bureaucratic controls as the investment-size gets larger', central finance to scale proven pilots, and mission-led national tenders. UK082's call for lighter controls on small pilots sits beside UK174's fixed spend thresholds; the documents do not say how the two interact [inference].",
+      "documents": ["UK174", "UK268", "UK082", "UK136"],
+      "holders": "'You' (departments and public sector organisations) and their assurance boards (UK174); a budgetary commissioner (UK268); central government departments and procurement teams (UK136); government and mission delivery boards (UK082).",
+      "binding": "Spend approval described as mandatory, and the Green Book as 'must' above the threshold (UK174, restating central rules); the DDaT playbook on comply or explain; UK136 recommended, with 'must' in guidance; UK082 recommendations whose acceptance is not recorded in the text. No consequence stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-DES-001", "UK-DM-DES-002", "UK-DM-DES-003", "UK-DM-DES-046", "UK-DM-DES-289", "UK-DM-DES-290", "UK-DM-DES-291", "UK-DM-DES-292", "UK-DM-DES-352", "UK-DM-DES-353", "UK-DM-DES-354", "UK-DM-DES-355", "UK-DM-DES-356"],
+      "quotes": [
+        {"id": "UK-DM-DES-002", "doc": "UK174", "location": "Building AI solutions > Buying AI > AI business c…", "quote": "it’s mandatory to assure all non-business-as-usual spend above £100,000 for digital activities and £1 million for technology activities through your assurance boards."},
+        {"id": "UK-DM-DES-046", "doc": "UK268", "location": "A5.html, Appendix 5: Roles, Budgetary commissioner", "quote": "They are the authority on whether the development and operation of such software is a worthwhile use of the auditee organisation’s budget"},
+        {"id": "UK-DM-DES-353", "doc": "UK136", "location": "Ten Guidelines, 4 'Assess the benefits and risks…", "quote": "Explain in your procurement documentation that the public benefit is a main driver of your decision-making process when assessing proposals."},
+        {"id": "UK-DM-DES-290", "doc": "UK082", "location": "2.2, Pilot, recommendation 38", "quote": "A faster, multi-stage gated and scaling AI procurement process that enables easy and quick access to small-scale funding for pilots and only layers bureaucratic controls as the investment-size gets larger."}
+      ]
+    },
+    {
+      "theme": "Organisational AI strategy and priorities",
+      "source": "starting code",
+      "definition": "Requirements that a body set its own direction for AI use (a strategy, adoption plan or priority use cases), and statements of who drives it.",
+      "what_is_set_out": "UK174 recommends an 'AI strategy and adoption plan' covering effects on organisation structures and change management, and a use-cases register to prioritise what to explore first. UK010 asks energy-sector stakeholders 'At the outset' to 'define their strategy on the use of AI', says the board may need to agree it 'In some circumstances' (not specified), and that strategies 'should be driven at board and senior management levels'. UK266 wants a strategy that is 'clearly articulated, business-led and aligned with other organisational strategies', and its audit-committee questions ask whether there is 'a clear strategic use for AI' and whether the strategy separates innovation from solving existing business problems. The NAO sets priorities for its own use ('We will prioritise the use of AI where it delivers clear, long-term value'), plans to map processes to find safe opportunities for AI-enabled steps, and aims to 'Transform how we deliver assurance'; DWP 'promotes and advocates the use of artificial intelligence (AI) in a measured and controlled manner'; and UK136 asks departments to update their technology and data strategies to incorporate AI. These are statements of direction: only the NAO attaches success measures (coder note), and none says what follows if a strategy is missing.",
+      "documents": ["UK174", "UK190", "UK010", "NAO_AI_Strategy", "UK266", "UK136"],
+      "holders": "The organisation (UK174, UK266); energy-sector stakeholders, their boards and senior management (UK010); the NAO; DWP; central government departments (UK136).",
+      "binding": "Recommended or good practice ('should', 'may be necessary', questions); NAO organisational commitments and roadmap actions; DWP policy statement of position.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-DES-007", "UK-DM-DES-008", "UK-DM-DES-086", "UK-DM-DES-129", "UK-DM-DES-130", "UK-DM-DES-136", "UK-DM-DES-167", "UK-DM-DES-180", "UK-DM-DES-181", "UK-DM-DES-335", "UK-DM-DES-336", "UK-DM-DES-342", "UK-DM-DES-358"],
+      "quotes": [
+        {"id": "UK-DM-DES-130", "doc": "UK010", "location": "Section 3, Practice 1, para 3.4, pp.10-11", "quote": "At the outset, stakeholders should define their strategy on the use of AI, which takes account of their operating environment, associated risks, and any positive AI application implications."},
+        {"id": "UK-DM-DES-335", "doc": "UK266", "location": "'AI strategy'", "quote": "A strong digital and AI strategy should be clearly articulated, business-led and aligned with other organisational strategies."},
+        {"id": "UK-DM-DES-180", "doc": "NAO_AI_Strategy", "location": "p.4, AI principles, Valuable", "quote": "We will prioritise the use of AI where it delivers clear, long-term value to the NAO and the public we serve."},
+        {"id": "UK-DM-DES-086", "doc": "UK190", "location": "Overview", "quote": "DWP promotes and advocates the use of artificial intelligence (AI) in a measured and controlled manner."}
+      ]
+    },
+    {
+      "theme": "Central push to adopt and scale AI",
+      "source": "new",
+      "definition": "Statements from central sources that push public bodies towards faster adoption, experimentation and scaling of AI, and set the appetite for doing so.",
+      "what_is_set_out": "UK082 recommends that 'The public sector should rapidly pilot and scale AI products and services', that government 'should generally employ a flexible “Scan > Pilot > Scale” approach', that a select number of proven pilots scale with central finance and tools, that the Digital Centre of Government identify 'quick wins' within three months, and that government use AI-driven data cleansing tools on its own data; it concludes that 'Business-as-usual is not an option' and that government 'will need to be prepared to absorb some risk'. Its acceptance by government is not recorded in the text. AI_Insights (GDS) tells senior leaders that 'prohibiting or delaying the onboarding of AICA tools' raises 'three significant concerns', strongly encourages experimentation with coding assistants, and says that for departmental shared drives 'AI and data science-enabled approaches will be required'. This pro-adoption direction sits beside the cautionary tests in UK174 and UK099 (consider not using AI at all) without the documents reconciling them [inference]. UK082 also asks that AI use be 'tailored appropriately to the specific setting', and that government test each action by whether it benefits 'people and organisations trying to do new and ambitious things'.",
+      "documents": ["AI_Insights", "UK082"],
+      "holders": "The public sector and government, the Digital Centre of Government and mission delivery boards (UK082); senior leaders in His Majesty's Government and departments (AI_Insights).",
+      "binding": "UK082: recommendations in an independent report ('should', 'must', 'will need to'), acceptance not recorded in the text. AI_Insights: non-binding framing and encouragement. No duties or consequences.",
+      "checks": "n/a (the criterion for a 'proven' pilot is not stated).",
+      "passage_ids": ["UK-DM-DES-186", "UK-DM-DES-190", "UK-DM-DES-249", "UK-DM-DES-281", "UK-DM-DES-282", "UK-DM-DES-287", "UK-DM-DES-288", "UK-DM-DES-291", "UK-DM-DES-292", "UK-DM-DES-293", "UK-DM-DES-294", "UK-DM-DES-295", "UK-DM-DES-296"],
+      "quotes": [
+        {"id": "UK-DM-DES-281", "doc": "UK082", "location": "'The opportunity'", "quote": "Push hard on cross-economy AI adoption: The public sector should rapidly pilot and scale AI products and services and encourage the private sector to do the same."},
+        {"id": "UK-DM-DES-295", "doc": "UK082", "location": "Conclusion", "quote": "Business-as-usual is not an option. Instead, government will need to be prepared to absorb some risk in the context of uncertainty."},
+        {"id": "UK-DM-DES-186", "doc": "AI_Insights", "location": "AI Insights: AI Coding Assistants for developers…", "quote": "For senior leaders in His Majesty’s Government (HMG), prohibiting or delaying the onboarding of AICA tools within their organisations pose three significant concerns"},
+        {"id": "UK-DM-DES-249", "doc": "AI_Insights", "location": "AI insights: Using AI to manage shared drives > 1…", "quote": "At this scale of departmental shared drives, manual approaches are not viable. AI and data science-enabled approaches will be required to manage content effectively."}
+      ]
+    }
+  ]
+}

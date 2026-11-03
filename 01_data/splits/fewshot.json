@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1164,
+    "question": "Business leaders at the CBI conference in Birmingham this week expressed support for the Government's policy of preparing the economy for possible United Kingdom entry into the single European currency. They also expressed support for the Government's spending plans, and felt that they were sustainable and that cuts in public spending were not required. In view of the policies put forward by the Conservative party on both those issues, does my right hon. Friend agree that it will be many years before that party regains the confidence of UK business?",
+    "gold_code": 1,
+    "gold_name": "Macroeconomics",
+    "classifier_top1": {
+      "code": 1,
+      "name": "Macroeconomics",
+      "prob": 0.09918904775525213
+    },
+    "classifier_top2": {
+      "code": 18,
+      "name": "Foreign Trade",
+      "prob": 0.09491631809807397
+    },
+    "entropy": 2.881869028567136,
+    "reasoning": "Boundary Macro vs Foreign Trade. Single European currency debate \u2014 classifier nearly ties Macro/FT. Substance is domestic monetary policy (entry into single currency = macroeconomic decision). Venue trap: international-venue framing doesn't override domestic policy substance."
+  },
+  {
+    "id": 3255,
+    "question": "Q6. [10883]  When my right hon. Friend meets President Bush, will he put high on the agenda the plight of hundreds and thousands of Afghans, caused by the failure of food to get through to villages in Afghanistan?",
+    "gold_code": 19,
+    "gold_name": "International Affairs",
+    "classifier_top1": {
+      "code": 16,
+      "name": "Defence",
+      "prob": 0.12145433526648382
+    },
+    "classifier_top2": {
+      "code": 4,
+      "name": "Agriculture",
+      "prob": 0.11295754668602287
+    },
+    "entropy": 2.8205679633383665,
+    "reasoning": "Boundary International Affairs vs Defence / Agriculture. Afghan food aid during Bush meeting \u2014 classifier picks Defence top-1, Agriculture top-2. Substance is humanitarian diplomacy = International Affairs. Target-population + venue trap combined: war-zone framing (Defence) + food commodity (Agriculture) both resistible."
+  },
+  {
+    "id": 8859,
+    "question": "I am sure that my right hon. Friend will have been impressed by the incredible courage of Adrian Sudbury, who is using the last weeks of his life to campaign for more bone marrow donors to come forward. I have been impressed by the response so far of the Secretaries of State for Children, Schools and Families and for Health, but what more can my right hon. Friend do to help my friend Adrian to achieve his legacy and help 7,000 people to live?",
+    "gold_code": 3,
+    "gold_name": "Health",
+    "classifier_top1": {
+      "code": 3,
+      "name": "Health",
+      "prob": 0.14802976283491062
+    },
+    "classifier_top2": {
+      "code": 13,
+      "name": "Social Welfare",
+      "prob": 0.12031963878046308
+    },
+    "entropy": 2.800106673234844,
+    "reasoning": "Boundary Health vs Social Welfare. Bone marrow donor campaign \u2014 classifier top-1 Health, top-2 Social Welfare. Substance is medical-service delivery (donor registration = Health). Welfare-framing trap: personal-courage framing resistible; substantive health content wins."
+  },
+  {
+    "id": 8743,
+    "question": "While the Prime Minister is on the subject of disabled people, may I ask whether he is aware that Labour\u2019s attack on vulnerable people has been extended to disabled anglers? They have seen the cost of their fishing licence\r\n30 Apr 2008 : Column 304\r\ngo up by 37 per cent., as opposed to 2 per cent. for able-bodied people\u2014if, that is, they can find a post office from which to buy one",
+    "gold_code": 2,
+    "gold_name": "Civil Rights",
+    "classifier_top1": {
+      "code": 5,
+      "name": "Labor",
+      "prob": 0.12493071143031874
+    },
+    "classifier_top2": {
+      "code": 13,
+      "name": "Social Welfare",
+      "prob": 0.10029212418510416
+    },
+    "entropy": 2.8211103139608817,
+    "reasoning": "Boundary Civil Rights vs Labor / Social Welfare. Disabled anglers' fishing licence cost \u2014 classifier picks Labor top-1, Social Welfare top-2. Substance is disability policy = Civil Rights. Target-population trap: sporting/licence venue doesn't override disability-as-protected-characteristic."
+  },
+  {
+    "id": 616,
+    "question": "Has my right hon. Friend noticed that all opinion polls show that the overwhelming majority of country dwellers are opposed to hunting with hounds? Has he also noticed that there is a considerable overlap between the so-called countryside alliance and the bloodsports wing of the Conservative party? Is he aware that many of those who will be attending next Sunday's demonstration will be there not by free will but because they are employed by landowners and fear for their tied cottages and tenancies? Will he bear those points in mind when considering what weight to give to representations made to him by this so-called countryside alliance?",
+    "gold_code": 7,
+    "gold_name": "Environment",
+    "classifier_top1": {
+      "code": 14,
+      "name": "Housing",
+      "prob": 0.1523401293584673
+    },
+    "classifier_top2": {
+      "code": 4,
+      "name": "Agriculture",
+      "prob": 0.14834669684426138
+    },
+    "entropy": 2.7758293915048875,
+    "reasoning": "Boundary Environment vs Agriculture / Housing. Hunting with hounds debate \u2014 classifier nearly ties Housing / Agriculture. Substance is animal-welfare / wildlife policy = Environment. Venue trap: rural/countryside framing (Agriculture) resistible; the hunting itself is an environmental-regulation question."
+  },
+  {
+    "id": 8627,
+    "question": "It seems certain that coal miners\u2019 beat knee is about to be made a prescribed industrial disease. In order that we can avoid another feeding frenzy for solicitors, will the Prime Minister get his Ministers to meet interested MPs to see whether a scheme can be established that gives value for money to the taxpayer, fair compensation to the coal miner and nothing to the solicitor?",
+    "gold_code": 8,
+    "gold_name": "Energy",
+    "classifier_top1": {
+      "code": 5,
+      "name": "Labor",
+      "prob": 0.18554725433376057
+    },
+    "classifier_top2": {
+      "code": 8,
+      "name": "Energy",
+      "prob": 0.08929206657328351
+    },
+    "entropy": 2.8097056346565936,
+    "reasoning": "Boundary Energy vs Labor. Coal miners' beat knee as industrial disease \u2014 classifier picks Labor top-1 (0.19), Energy top-2 (0.09). Substance is coal-industry policy = Energy (CAP subtopic: coal). Policy-instrument + target-population trap: occupational-disease framing (Labor) doesn't override industry-sector attribution."
+  }
+]

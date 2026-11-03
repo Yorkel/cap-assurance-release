@@ -1,0 +1,158 @@
+{
+  "group": "UK-DEL-RES",
+  "themes": [
+    {
+      "theme": "Information sources for ongoing monitoring",
+      "source": "new",
+      "definition": "Signals that a public body is told to use, or that are said to be available, for monitoring how an AI tool behaves once it is in use.",
+      "what_is_set_out": "EHRC (UK216) lists sources a public body 'might want to consider' when it keeps monitoring an AI system for equality effects: complaints from service users, national research, court judgments, feedback from other organisations using similar technology, and engagement with staff and service users; it also recommends that contracts require the third-party supplier to 'provide the information you might need to monitor how the AI is working once it is implemented'. UK133 notes that the digital nature of AI interventions 'offers opportunities to build an automated collection of monitoring data' that could show early signs of unintended consequences, and that assurance activities can supply evidence. AI_Insights points to vendors' updates on known vulnerabilities and to the data-science community, and UK010 asks stakeholders to monitor developments in AI so that learning plans stay current. These are sources, not procedures: no passage says how often to look, what level of complaints or drift should prompt action, or who must act on what is found.",
+      "documents": ["UK216", "UK133", "AI_Insights", "UK010"],
+      "holders": "Public bodies in England, and non-devolved and cross-border bodies (UK216); third-party suppliers under contract (UK216); not stated (UK133); vendors and the data-science community as sources (AI_Insights); stakeholders (UK010).",
+      "binding": "'Might want to consider' and a recommended contractual requirement (UK216); 'offers opportunities' (UK133); mentions (AI_Insights); good practice (UK010). No consequence is stated.",
+      "checks": "Trigger: ongoing, after the tool is implemented. Compared against: external signals (complaints, research, court judgments, other organisations' experience) and automated monitoring data looking for 'early signs' of unintended consequences. Metric or threshold: not stated. Who: the public body, with information supplied by the contractor. What happens with the result: not stated in this cell.",
+      "passage_ids": ["UK-DEL-RES-058", "UK-DEL-RES-059", "UK-DEL-RES-061", "UK-DEL-RES-070", "UK-DEL-RES-071", "UK-DEL-RES-110", "UK-DEL-RES-147"],
+      "quotes": [
+        {"id": "UK-DEL-RES-059", "doc": "UK216", "location": "Checklist page, p.5, 'Keep monitoring the artific…", "quote": "complaints from service users national research court judgments feedback from other organisations using similar technology"},
+        {"id": "UK-DEL-RES-058", "doc": "UK216", "location": "Checklist page, p.5", "quote": "provide the information you might need to monitor how the AI is working once it is implemented"},
+        {"id": "UK-DEL-RES-071", "doc": "UK133", "location": "p. 9, 2.2 Developing the Theory of Change", "quote": "The digital nature of AI interventions offers opportunities to build an automated collection of monitoring data to help identify early signs of whether any unintended consequences are materialising."},
+        {"id": "UK-DEL-RES-147", "doc": "AI_Insights", "location": "AI Insights: Prompt Risks > Vigilance (line 105)", "quote": "Vendors frequently provide updates on well-known vulnerabilities, and the data science community is also active in this line of defence."}
+      ]
+    },
+    {
+      "theme": "Data quality, data gaps and access to data",
+      "source": "starting code",
+      "definition": "Data, and access to data and records, needed to build, test, evaluate and monitor an AI tool, together with guidance on judging data quality.",
+      "what_is_set_out": "UK099 refers teams to the Government Data Quality Framework 'for guidance on understanding, documenting and improving data quality', and links it to checks for problems such as data drift and model poisoning. EHRC (UK216) says limited data on protected characteristics 'is not an excuse for not considering them' and that gaps should be filled proportionately, for example by targeted engagement. UK266 has audit and risk assurance committees ask whether 'enough accessible data exist' of sufficient completeness and quality and whether management understands the data's condition, noting that overestimated data readiness is a recurring cause of failure. AI_Insights (records management) sets out practical needs: access to the records and all in-scope content, a sufficiently large data set to train or test the model, and the capability to run analytics. UK133 asks evaluators to find existing data for a baseline and notes automated monitoring data; Ofgem's Data Best Practice Guidance covers input, output and training data in the energy sector (UK010). UK082 recommends a data-rich experimentation environment with streamlined access to data sets. Apart from that recommendation and the frameworks, nothing here provides data; it is required of, or advised to, the public body.",
+      "documents": ["UK099", "UK216", "UK266", "AI_Insights", "UK133", "UK010", "UK082"],
+      "holders": "Teams (UK099); public bodies in England (UK216); management and the organisation, questioned by audit and risk assurance committees (UK266); 'you' / knowledge and information management teams (AI_Insights); evaluators (UK133); Ofgem as provider of guidance (UK010); government (UK082, recommendation).",
+      "binding": "'Should' (UK216, UK133); questions for committees (UK266); 'need' / 'will need' (AI_Insights); pointers to frameworks (UK099, UK010); a recommendation whose acceptance is not recorded (UK082). No consequence is stated.",
+      "checks": "Data-quality checks are pointed to rather than specified: UK099 ties the Government Data Quality Framework to checks for data drift and model poisoning; trigger, comparator, metric, who and result: not stated. UK266's questions are asked by audit and risk assurance committees; trigger: not stated in these passages; result: not stated.",
+      "passage_ids": ["UK-DEL-RES-057", "UK-DEL-RES-065", "UK-DEL-RES-071", "UK-DEL-RES-082", "UK-DEL-RES-088", "UK-DEL-RES-094", "UK-DEL-RES-151", "UK-DEL-RES-162", "UK-DEL-RES-169", "UK-DEL-RES-202", "UK-DEL-RES-230", "UK-DEL-RES-231"],
+      "quotes": [
+        {"id": "UK-DEL-RES-057", "doc": "UK216", "location": "Checklist page, p.4, 'Consider each protected cha…", "quote": "Having limited or no data on certain protected characteristics is not an excuse for not considering them. Where you have data gaps, you should take proportionate steps to fill these."},
+        {"id": "UK-DEL-RES-231", "doc": "UK266", "location": "Areas of focus and questions to ask, 'Innovation'…", "quote": "Does enough accessible data exist, and is it of sufficient completeness and quality?"},
+        {"id": "UK-DEL-RES-088", "doc": "UK099", "location": "p.55, Safety, Ensure data is fit for purpose", "quote": "for guidance on understanding, documenting and improving data quality"},
+        {"id": "UK-DEL-RES-169", "doc": "AI_Insights", "location": "Using AI to manage the digital heap: 2.1 The disc…", "quote": "You will also need to ensure that your team has access to the records in question."}
+      ]
+    },
+    {
+      "theme": "Documentation templates and records (data cards, model cards, ATRS)",
+      "source": "starting code",
+      "definition": "Templates, examples and formats for documenting an AI tool, its data and its use, chiefly the Algorithmic Transparency Recording Standard (ATRS) materials and model or data cards.",
+      "what_is_set_out": "The ATRS team provides the template 'in two formats: an Excel version and a Google Sheets version', a repository of existing records and fictional worked examples (UK086), and an optional dataset card sheet (UK087). UK086 recommends 'assigning a lead at your organisation' to gather the information from internal teams and third-party providers and oversee the record. The template has a field for 'The required training those using the algorithmic tool must undertake, if applicable' (UK087), which records training but does not require it. UK174 and UK099 mention data cards, model cards, fact sheets and data sheets (Google's named as an example) as reference points for documenting models and the data used in training and testing, and UK085 says the Standard is designed to be consistent with industry model cards and with information vendors often publish in white papers. These formats could hold information about testing and performance, but the passages in this cell do not say what testing must be recorded.",
+      "documents": ["UK086", "UK087", "UK085", "UK174", "UK099"],
+      "holders": "The ATRS team / GDS (provider of template, repository and examples); a lead in the organisation completing a record (UK086); those using the algorithmic tool (UK087 training field); not stated for model and data cards (UK174, UK099); vendors as a source (UK085).",
+      "binding": "Template and examples provided; the lead is recommended ('We recommend'); the dataset card is 'optional'; card formats are mentions. No consequence is stated in this cell.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DEL-RES-026", "UK-DEL-RES-072", "UK-DEL-RES-205", "UK-DEL-RES-206", "UK-DEL-RES-221", "UK-DEL-RES-222", "UK-DEL-RES-223", "UK-DEL-RES-225"],
+      "quotes": [
+        {"id": "UK-DEL-RES-222", "doc": "UK086", "location": "4. 'Downloading the template'", "quote": "The ATRS template is available in two formats: an Excel version and a Google Sheets version for browser."},
+        {"id": "UK-DEL-RES-206", "doc": "UK087", "location": "Sheet 2.3. Deployment, field 2.3.4 'Required trai…", "quote": "The required training those using the algorithmic tool must undertake, if applicable."},
+        {"id": "UK-DEL-RES-026", "doc": "UK174", "location": "Using AI safely and responsibly > Ethics > Transp…", "quote": "data and model cards or fact sheets, which can be used as a reference point when documenting information about AI models and the data sets used in training and testing"},
+        {"id": "UK-DEL-RES-225", "doc": "UK085", "location": "5.3", "quote": "the Standard is designed to be consistent with emerging industry good practice on model cards (and indeed information that might often be published by vendors in a white paper)."}
+      ]
+    },
+    {
+      "theme": "Organisations' own AI policies, guidance and templates",
+      "source": "new",
+      "definition": "Internal policies, guidance, templates and quality-assurance processes that a public body produces for its own staff who use AI.",
+      "what_is_set_out": "UK268 says internal AI policy documents, 'such as an internal AI strategy or guidelines for safe and ethical use', can help prepare staff across the organisation. The NAO commits, for itself, to 'Update guidance, templates and quality assurance processes to reflect AI-enabled ways of working' and to 'Define and publish AI risk assessment, assurance and decision artefacts'. DWP's policy (UK190) points staff to guidance on AI and data protection, including automated decision making, provided by its Data Protection Officer's team on the intranet. These are the few passages in which a public body describes resources it provides internally rather than resources others offer; the content of the internal guidance is not in the passages.",
+      "documents": ["UK268", "NAO_AI_Strategy", "UK190"],
+      "holders": "Not stated (UK268); the NAO (NAO_AI_Strategy); DWP's Data Protection Officer's team (UK190).",
+      "binding": "'Can help' (UK268); commitments in the NAO's own strategy; information provided under a departmental policy (UK190). No consequence is stated.",
+      "checks": "The NAO's updated quality-assurance processes would bear on AI-assisted work, but trigger, comparator, metric, who and what happens with the result are not stated. Otherwise n/a.",
+      "passage_ids": ["UK-DEL-RES-043", "UK-DEL-RES-054", "UK-DEL-RES-129", "UK-DEL-RES-132"],
+      "quotes": [
+        {"id": "UK-DEL-RES-043", "doc": "UK268", "location": "Deployment.html, 4.5.1", "quote": "AI policy documents, such as an internal AI strategy or guidelines for safe and ethical use, can help prepare staff throughout the organisation to adapt to AI-based solutions."},
+        {"id": "UK-DEL-RES-129", "doc": "NAO_AI_Strategy", "location": "p.15, Our priority actions, 3. Develop our proces…", "quote": "Update guidance, templates and quality assurance processes to reflect AI-enabled ways of working."},
+        {"id": "UK-DEL-RES-132", "doc": "NAO_AI_Strategy", "location": "p.15, Our priority actions, 5. Establish robust g…", "quote": "Define and publish AI risk assessment,assurance and decision artefacts."},
+        {"id": "UK-DEL-RES-054", "doc": "UK190", "location": "Policy Statements, 14", "quote": "Further information (including guidance on automated decision making) is provided by the Data Protection Officer’s"}
+      ]
+    },
+    {
+      "theme": "Official assurance and ethics catalogues, guides and self-assessment tools",
+      "source": "starting code",
+      "definition": "Central government products that describe how to carry out AI assurance or ethical review, catalogue techniques, or let a team assess itself.",
+      "what_is_set_out": "The most-cited resource is the Portfolio of AI assurance techniques, developed by the Responsible Technology Adoption Unit (RTAU) 'initially in collaboration with techUK' and described by UK206 as real-world techniques developed by assurance providers (UK174, UK206). Alongside it, DSIT's Introduction to AI assurance 'identifies the key elements of an assurance process – including risk assessment, impact assessment, bias audit, compliance audit, conformity assessment and formal verification' (UK174) and calls itself the first of a series 'to help organisations upskill' (UK206); the coders note that UK174 describes it as developed to help private-sector organisations. UK174 tells teams to 'Use assurance techniques to evaluate the performance of AI systems', with these two as starting points. The NAO, with other national audit offices, offers an AI auditing tool that 'helps teams plan, test and evidence AI assurance' (UK268). UK099 offers the Data and AI Ethics Self-Assessment Tool, DSIT's Model for Responsible Innovation (usable for red-teaming workshops), the UK Statistics Authority's ethics checklist, and points to the AI Testing and Assurance Framework for continuous post-deployment monitoring; UK086 points to RTAU's repository of bias-mitigation techniques; UK174 and UK216 point to the Data Ethics Framework. Some items were promised rather than in hand at publication: UK207 says both that the CDEI 'will publish' an assurance guide and that it is 'published alongside' the roadmap (a footnote marks it forthcoming), and UK206 says DSIT 'shortly plans' sector-specific guidance.",
+      "documents": ["UK174", "UK206", "UK268", "UK099", "UK086", "UK207", "UK216"],
+      "holders": "Providers: DSIT and its RTAU (formerly CDEI); the NAO with other audit offices; the UK Statistics Authority; CDEI; the Self-Assessment Tool's publisher is not stated ([inference] GDS). Users: teams and 'you' in public bodies.",
+      "binding": "Offers. Use is recommended ('Use assurance techniques...', UK174; 'you should use' the self-assessment tool, per the coder note on UK099). No consequence is stated.",
+      "checks": "These resources support checks but do not set them. UK174's 'evaluate the performance of AI systems': trigger, comparator and metric not stated. NAO auditing tool ('plan, test and evidence'): trigger, comparator, metric not stated; who: public-body teams. UK099's pointer to the AI Testing and Assurance Framework: trigger: post-deployment, continuous; comparator and metric not stated. What happens with the results: not stated.",
+      "passage_ids": ["UK-DEL-RES-013", "UK-DEL-RES-024", "UK-DEL-RES-025", "UK-DEL-RES-027", "UK-DEL-RES-049", "UK-DEL-RES-060", "UK-DEL-RES-076", "UK-DEL-RES-080", "UK-DEL-RES-081", "UK-DEL-RES-086", "UK-DEL-RES-187", "UK-DEL-RES-188", "UK-DEL-RES-190", "UK-DEL-RES-218", "UK-DEL-RES-251", "UK-DEL-RES-257"],
+      "quotes": [
+        {"id": "UK-DEL-RES-025", "doc": "UK174", "location": "Using AI safely and responsibly > Ethics > Accoun…", "quote": "Use assurance techniques to evaluate the performance of AI systems. The Introduction to AI assurance provides a useful starting point, and the Portfolio of AI assurance techniques offers real-world examples."},
+        {"id": "UK-DEL-RES-049", "doc": "UK268", "location": "NAO page 'AI auditing tool', What it covers", "quote": "The tool helps teams plan, test and evidence AI assurance without starting from scratch."},
+        {"id": "UK-DEL-RES-076", "doc": "UK099", "location": "p. 3, Data and AI Ethics Self-Assessment Tool", "quote": "The tool will help you capture information, and share learnings, challenges and progress with colleagues."},
+        {"id": "UK-DEL-RES-251", "doc": "UK207", "location": "1. Enabling trustworthy assurance practices", "quote": "The CDEI will publish an AI assurance guide to accompany this roadmap as an immediate follow up to this work."}
+      ]
+    },
+    {
+      "theme": "Government guidance series and signposting",
+      "source": "starting code",
+      "definition": "General government guidance collections, and pointers to them, that documents send readers to without assigning them a specific assurance function.",
+      "what_is_set_out": "The AI Playbook is the hub: UK071 'encourage[s] teams to refer to' it, UK266 calls it 'a valuable resource for those responsible for implementation', and UK099 lists it among further resources with the AI Knowledge Hub, ATRS, the AQuA Book and data-sharing and data-quality frameworks. GDS's AI Insights series is offered to help departments and public bodies implement and use AI 'effectively, safely and securely' (AI_Insights, also pointed to in UK174), and says it will be updated regularly. UK174 says teams 'should use the Technology code of practice' to understand deployment life cycles; UK136 lists existing policy to consider alongside it (Digital Service Standard, Technology Code of Practice, Data Ethics Framework, the guide to using AI in the public sector) and points to the Alan Turing Institute's guide on AI ethics and safety for fairness in data selection. These are pointers; whether the referenced guidance itself contains requirements is outside this cell.",
+      "documents": ["UK174", "UK071", "UK266", "UK099", "AI_Insights", "UK136"],
+      "holders": "Providers: GDS (Playbook, AI Insights), the AI Knowledge Hub, and others named; for UK136's Turing guide, the Alan Turing Institute. Users: teams, departments and those responsible for implementation.",
+      "binding": "'Should use' (UK174, Technology Code of Practice); 'encourage' (UK071); 'should be considered alongside' (UK136); otherwise mentions. No consequence.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DEL-RES-019", "UK-DEL-RES-021", "UK-DEL-RES-089", "UK-DEL-RES-091", "UK-DEL-RES-121", "UK-DEL-RES-138", "UK-DEL-RES-142", "UK-DEL-RES-236", "UK-DEL-RES-238", "UK-DEL-RES-244"],
+      "quotes": [
+        {"id": "UK-DEL-RES-121", "doc": "UK071", "location": "Tools and Resources for Testing", "quote": "We encourage teams to refer to the UK Government AI Playbook, which provides practical guidance on responsible AI development and use."},
+        {"id": "UK-DEL-RES-236", "doc": "UK266", "location": "Introduction: Context and responsibilities", "quote": "This will be a valuable resource for those responsible for implementation."},
+        {"id": "UK-DEL-RES-142", "doc": "AI_Insights", "location": "AI Insights: Introduction > Introducing the GDS A…", "quote": "The articles will help government departments and public sector organisations implement and use artificial intelligence (AI) solutions effectively, safely and securely."},
+        {"id": "UK-DEL-RES-244", "doc": "UK136", "location": "Introduction, 'How should the guidelines be used?'", "quote": "This guidance should be considered alongside existing policy and guidance in relation to the use of technology and digital services:"}
+      ]
+    },
+    {
+      "theme": "Regulator and data-protection guidance and toolkits",
+      "source": "starting code",
+      "definition": "Guidance, checklists and toolkits from regulators (ICO, EHRC, Ofgem and others) and from in-house data-protection officers that public bodies are pointed to when delivering AI.",
+      "what_is_set_out": "ICO resources are pointed to most often: the AI and data protection risk toolkit, to be used 'to reduce the risks to individuals’ rights and freedoms' (UK174, UK086); guidance on AI and data protection (AI_Insights; UK206 'for those in compliance-focused roles'); guidance on automated decision making (UK190); and a toolkit 'designed to provide further practical support to organisations auditing the compliance of their own AI systems' (UK207). EHRC provides a checklist to help public bodies without a specific duty to publish an equality impact assessment comply with the Public Sector Equality Duty (UK216), whose 10-step guide UK099 recommends for EIAs, and guidance on AI use by public bodies (listed in UK139). UK139 lists regulators' AI guidance and says regulators 'could' provide tools and guidance for AI safety risk assessments, supported by expert risk analysis from a DSIT central function. Ofgem offers Data Best Practice Guidance and points to NCSC, ICO and Ofgem guidance to be applied 'with the same consideration and rigour' (UK010). DWP points staff to its own Data Protection Officer's guidance (UK190).",
+      "documents": ["UK174", "UK086", "AI_Insights", "UK206", "UK190", "UK207", "UK216", "UK099", "UK139", "UK010"],
+      "holders": "Providers: ICO, EHRC, Ofgem, UK regulators generally (UK139), DSIT's central function (for regulators), DWP's Data Protection Officer's team. Users: public bodies, 'you', compliance staff, AI developers and deployers, regulators.",
+      "binding": "Mostly pointers; UK099 'We recommend'; UK010 'should be applied'; UK139 explicitly non-binding ('could'). [inference] The duties these resources serve (data protection law, the Public Sector Equality Duty) are statutory, but the resources themselves are guidance. No consequence is stated in this cell.",
+      "checks": "UK139 (regulator tools for safety risk assessments) and UK207 (ICO toolkit for organisations auditing their own AI systems' compliance): trigger, comparator and metric not stated; who: the organisation itself, or regulators; what happens with the result: not stated.",
+      "passage_ids": ["UK-DEL-RES-022", "UK-DEL-RES-052", "UK-DEL-RES-054", "UK-DEL-RES-055", "UK-DEL-RES-074", "UK-DEL-RES-094", "UK-DEL-RES-097", "UK-DEL-RES-154", "UK-DEL-RES-193", "UK-DEL-RES-207", "UK-DEL-RES-209", "UK-DEL-RES-212", "UK-DEL-RES-215", "UK-DEL-RES-219", "UK-DEL-RES-252"],
+      "quotes": [
+        {"id": "UK-DEL-RES-022", "doc": "UK174", "location": "Using AI safely and responsibly > Data protection…", "quote": "Use the ICO’s AI data protection and risk toolkit to reduce the risks to individuals’ rights and freedoms."},
+        {"id": "UK-DEL-RES-055", "doc": "UK216", "location": "Checklist page, p.2", "quote": "It will help public bodies that do not have a specific duty to prepare or publish an equality impact assessment (EIA) to think about what they need to do to comply with the PSED."},
+        {"id": "UK-DEL-RES-212", "doc": "UK139", "location": "Applying individual principles: Safety, security…", "quote": "Provide tools and guidance for undertaking AI-related safety risk assessments and implementing appropriate mitigations. For example, by providing examples of risk identification processes, risks to consider and mitigations that can be implemented."},
+        {"id": "UK-DEL-RES-252", "doc": "UK207", "location": "Example regulatory initiatives for AI assurance", "quote": "The third is an AI and data protection toolkit designed to provide further practical support to organisations auditing the compliance of their own AI systems."}
+      ]
+    },
+    {
+      "theme": "Risk and impact assessment frameworks, templates and examples",
+      "source": "starting code",
+      "definition": "Frameworks, templates, scenarios and example questionnaires pointed to for assessing an AI tool's risks and impacts.",
+      "what_is_set_out": "Risk frameworks pointed to range from HM Treasury's Orange Book (UK174, UK086) to the NIST AI Risk Management Framework and IBM's AI Risk Atlas (UK268, to be considered 'even where not mandated by law'), NCSC's machine-learning risk matrix with an instruction to 'keep a record of the assessment' (UK010), and a list of frameworks Ofgem continues to review, including nuclear-sector, AMLAS and ISO/IEC material (UK010). UK174 provides its own security scenarios for use 'as a template for assessing the risks', scored by the OWASP methodology. For impact assessment, UK136 points to Canada's Directive on Automated Decision Making and AI Now's Algorithmic Impact Assessment framework and says data protection and equality impact assessments 'can provide a useful starting point'; UK206 mentions the Ada Lovelace Institute's template algorithmic impact assessment for healthcare; UK139 suggests regulators provide risk-assessment tools. UK136 also points to the Alan Turing Institute's process-based governance framework, which sets roles, workflow stages, time frames for evaluation and monitoring, and logging protocols; UK071 recommends 'Risk Based Assurance' practices (the link is lost in extraction). All are offered as aids; none is required.",
+      "documents": ["UK174", "UK086", "UK268", "UK010", "UK136", "UK206", "UK139", "UK071"],
+      "holders": "Providers: HM Treasury / Government Finance Function, NIST, IBM, NCSC, GDS (scenarios), Government of Canada, AI Now, Ada Lovelace Institute, Alan Turing Institute, regulators. Users: 'you', teams, 'potential users of the technology', central government buyers.",
+      "binding": "'Consider', 'may be beneficial', 'can provide', 'recommended', 'refer to'. No consequence is stated.",
+      "checks": "Risk assessments come before use (UK010: record kept 'to aid future use'). Compared against: risk matrices or a scoring method (OWASP in UK174). Metric or threshold: OWASP-based risk scores (UK174, per the coder note; no threshold given); otherwise not stated. Who: potential users, teams. What happens with the result: a record is kept (UK010); otherwise not stated.",
+      "passage_ids": ["UK-DEL-RES-029", "UK-DEL-RES-032", "UK-DEL-RES-048", "UK-DEL-RES-101", "UK-DEL-RES-104", "UK-DEL-RES-120", "UK-DEL-RES-181", "UK-DEL-RES-212", "UK-DEL-RES-220", "UK-DEL-RES-239", "UK-DEL-RES-242", "UK-DEL-RES-245"],
+      "quotes": [
+        {"id": "UK-DEL-RES-032", "doc": "UK174", "location": "Using AI safely and responsibly > Security > Scen…", "quote": "you can use the scenarios as a template for assessing the risks associated with different applications of AI."},
+        {"id": "UK-DEL-RES-048", "doc": "UK268", "location": "Governance.html, 4.1.4.2 Expected controls", "quote": "Consider established AI risk management frameworks62 and guidelines for legally required assessments63 to help identify and address AI-specific risks, even where not mandated by law."},
+        {"id": "UK-DEL-RES-101", "doc": "UK010", "location": "Section 4, Practice 2, para 4.9, p.15", "quote": "it may be beneficial for potential users of the technology to use risk matrix frameworks, for example Machine Learning Principles, on the NCSC website, and keep a record of the assessment to aid future use."},
+        {"id": "UK-DEL-RES-239", "doc": "UK136", "location": "AI specific considerations: Preparation and plann…", "quote": "For examples of risk assessment questionnaires for automated decision making, refer to the Government of Canada’s Directive on Automated Decision Making, and the framework on Algorithmic Impact Assessments from AI Now."}
+      ]
+    },
+    {
+      "theme": "Technical standards",
+      "source": "new",
+      "definition": "National and international technical standards named as aids for bias assessment, testing, risk management and AI management systems.",
+      "what_is_set_out": "UK139 and UK206 list ISO/IEC and IEEE standards: for bias (IEEE P7003, ISO/IEC TR 24027), for testing AI-based systems (ISO/IEC TR 29119-11), for risk management (ISO/IEC 23894) and for management systems (ISO/IEC 42001). UK206 says its list 'is not an exhaustive list of standards' but indicative; UK139 asks regulators to 'Map which technical standards could help' and cite them in tools and guidance, while adding that this is not to say regulators should prescribe specific standards and that it is not an endorsement. UK010 and UK206 send readers to the AI Standards Hub for standards and implementation support. Standards are named as references; none is made a requirement for public-sector AI tools.",
+      "documents": ["UK139", "UK206", "UK010"],
+      "holders": "Providers: ISO/IEC, IEEE, the AI Standards Hub. Users: regulators (UK139), AI developers and deployers, stakeholders (UK010), organisations (UK206).",
+      "binding": "Mentions; UK139 explicitly non-prescriptive. No consequence.",
+      "checks": "ISO/IEC TR 29119-11 gives guidelines on testing AI-based systems, but its content is not in this cell. Trigger, comparator, metric, who and result: not stated.",
+      "passage_ids": ["UK-DEL-RES-092", "UK-DEL-RES-176", "UK-DEL-RES-177", "UK-DEL-RES-194", "UK-DEL-RES-210", "UK-DEL-RES-211", "UK-DEL-RES-213", "UK-DEL-RES-216", "UK-DEL-RES-217"],
+      "quotes": [
+        {"id": "UK-DEL-RES-213", "doc": "UK139", "location": "Applying individual principles: Safety, security…", "quote": "ISO/IEC TR 29119-11:2020 - Software and systems engineering — Software testing — Part 11: Guidelines on the testing of AI-based systems"},
+        {"id": "UK-DEL-RES-216", "doc": "UK139", "location": "Guidance on interpreting and applying the AI regu…", "quote": "Map which technical standards could help AI developers and deployers understand the principles in practice and cite these standards in tools and guidance."},
+        {"id": "UK-DEL-RES-177", "doc": "UK206", "location": "p.19, 'Standards for bias audit' visual", "quote": "This is not an exhaustive list of standards. Rather, these are an indicative example of the types of standards that are available."},
+        {"id": "UK-DEL-RES-092", "doc": "UK010", "location": "Appendix 2, A2.2, p.39", "quote": "Read the standards listed on the AI Standards Hub."}
+      ]
+    }
+  ]
+}

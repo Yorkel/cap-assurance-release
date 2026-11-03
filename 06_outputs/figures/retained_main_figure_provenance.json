@@ -1,0 +1,25 @@
+{
+  "producer": "04_analysis/make_figures.py",
+  "producer_sha256": "93e93f55471b1dbae000d05227e92cac90702cdda3d88995a9c79e84a1cb4815",
+  "input_sha256": {
+    "06_outputs/tables/current/retained_configuration_accuracy.csv": "29299b2ff9714e61dd42a0a7bdc8b664796c7132d8fc656cb55853349ebfffc0",
+    "06_outputs/tables/current/retained_findings_audit.json": "043f4cd8e499c732bfcf5ea4495cbf8153e1c608971e7f882809ca79e9061b10",
+    "06_outputs/tables/current/topic_shares_reweighted.csv": "adcc6a4d25fe06c51232ba5da4aad28653663eef8689f091bd671f09442a5d07",
+    "05_evidence/confidence_per_question.csv": "9c7d92f854d67d651e30bf773df49c9ead4fc0fc1e9e4543f283ef5daf2d451f"
+  },
+  "output_sha256": {
+    "fig1_floor_vs_configurations.pdf": "f6cc3eb7ea416ad942ebe14febec9f88faee8221b31fe0596621aacff4264311",
+    "fig1_floor_vs_configurations.png": "2a6eb09787cc353f6e9107fd46fe4b8bcc6998386994d5b66a6bf8491dee271d",
+    "fig2_confidence_collapse.pdf": "2fe9412c80756389e3ba1e8d8fb8a4a7fabb5973969e22413753b5093f965996",
+    "fig2_confidence_collapse.png": "e10b6e386f71ce699e67747ba17cd19fe7a2ca7bd66a5b3a90c76700a5b7a679",
+    "fig3_leading_topic_by_year.pdf": "117c27e610471a25f9dfc2b1eb3278fd125953de29cd0ed02ceabc89c20451b6",
+    "fig3_leading_topic_by_year.png": "18093af7a5b33acd41791f4ae66da60d7f7e571828da055c81184075970af358"
+  },
+  "roles": {
+    "fig1_floor_vs_configurations": "Seven retained alternatives versus later repeats; descriptive comparison",
+    "fig2_confidence_collapse": "Hypothetical review routing under the extracted-score rule",
+    "fig3_leading_topic_by_year": "Full-period weighted topic shares; replaces annual-leader graphic"
+  },
+  "weighted_share_producer": "04_analysis/topic_shares_reweighted.py",
+  "note": "Established output filenames retained for path continuity; titles and roles above describe current content."
+}

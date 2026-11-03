@@ -1,0 +1,6 @@
+Device,What triggers it,What follows,Who decides,Status,Source
+Data protection impact assessment,"Processing ""likely to result in a high risk to the rights and freedoms of individuals""",An assessment before processing,The body,Statutory (data protection law); not specific to AI,UK099
+ATRS mandatory scope,"Tools with ""a significant influence on a decision-making process with public effect"" or that ""directly interact with the general public""",Publish an ATRS record,The body,"Mandatory for the organisations covered; policy, not statute","UK085, UK086, UK190"
+"""High-risk"" uses","Defined only loosely, as “high-risk areas which could cause harm to someone’s health, safety, fundamental rights or the environment” (UK174)",Consider whether AI is appropriate; humans validate high-risk decisions,The body,Guidance,UK174
+Proportionate assurance,"""low-risk"" and ""high-risk"" use cases, not defined",Fewer or more assurance techniques,The body,Guidance,UK206
+Depth of testing,"Factors such as ""impact on legal rights, safety, scale of use, novelty of the tech""; high-risk examples are tools that ""could endanger lives or cause legal determinations about individuals""","More exhaustive testing; for high-risk AI, possibly ""senior approval or an ethics board decision""",The body,Guidance,UK071

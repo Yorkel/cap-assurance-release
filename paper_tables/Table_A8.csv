@@ -1,0 +1,18 @@
+#,Configuration,Axis,Change from anchor
+1,Anchor,—,"Full codebook, rule and six examples; label-only JSON; no scope declaration"
+2,Descriptions only,Codebook,Coding rule and examples removed
+3,No few-shot examples,Codebook,Examples removed; coding rule retained
+4,Reasoning and label,Reasoning,Reasoning returned before the label
+5,Chain-of-thought,Reasoning,"Reasoning returned before the label, plus an explicit step-by-step instruction"
+6,Time scope,Scope,Period covered by the questions declared
+7,Speaker scope,Scope,Asking MP’s party declared
+8,Free-text output,Output,Unstructured response parsed after generation
+9,JSON mode,Output,Provider JSON mode enabled
+10,Strict schema,Output,Function calling and strict schema
+11,"Self-consistency, n=5",Decoding,Five temperature-0.7 samples combined by majority vote
+12,"Single sample, T=0.7",Decoding,One non-greedy sample generated
+13,Maximum 20 tokens,Decoding,Maximum output reduced from 500 to 20 tokens
+14,Logit bias,Decoding,Positive bias applied to valid label tokens
+15,Alternative topics,Examples,Examples drawn from different policy topics
+16,Alternative exemplars,Examples,Different questions from the original example topics
+17,Vendor swap,Provider,Anchor instructions applied to Claude Sonnet

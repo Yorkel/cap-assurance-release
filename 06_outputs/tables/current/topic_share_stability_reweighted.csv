@@ -1,0 +1,8 @@
+variant,max_share_shift_pp,mean_share_shift_pp,topics_changing_rank,max_rank_move,top10_changes,top5_changes
+L2_F_cot,2.0,0.41,7,3,1,0
+L2_C_drop_fewshot,1.95,0.36,10,4,0,0
+L3_freetext,1.81,0.39,10,3,0,0
+L2_C_drop_bundle,1.51,0.38,14,2,0,0
+L2_F_reasoning,1.11,0.4,8,3,1,0
+L2_D_speaker,1.1,0.21,9,2,1,0
+L2_D_time,1.01,0.27,7,2,0,0

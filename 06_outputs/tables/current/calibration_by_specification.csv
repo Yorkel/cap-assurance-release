@@ -1,0 +1,9 @@
+specification,mean_confidence,pct_above_99,conf_when_right,conf_when_wrong,separation
+L2_F_cot,0.999,99.1,0.9997,0.9975,0.0021
+L2_F_reasoning,0.9976,98.8,0.9995,0.9936,0.0059
+L3_freetext,0.9888,94.2,0.9924,0.9813,0.0111
+L2_D_time,0.9354,65.0,0.9618,0.8729,0.089
+anchor,0.9343,64.0,0.9615,0.8721,0.0894
+L2_C_drop_bundle,0.9156,59.0,0.9465,0.8484,0.0981
+L2_D_speaker,0.9328,64.5,0.9645,0.8619,0.1026
+L2_C_drop_fewshot,0.9229,61.7,0.9584,0.8455,0.1129

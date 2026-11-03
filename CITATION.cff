@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Anonymous review artifact. Citation metadata will be identified after review."
+type: software
+title: "AI assurance: anonymous reproducibility artifact"
+version: "0.1.0"
+authors:
+  - name: "Anonymous artifact contributors"
+license: MIT
+abstract: >-
+  Retained-data reproduction of a classification experiment and a UK/EU
+  documentary assurance study. Historical summaries and frozen qualitative
+  judgements are distinguished from recomputed principal results.

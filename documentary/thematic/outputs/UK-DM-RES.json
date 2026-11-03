@@ -1,0 +1,254 @@
+{
+  "group": "UK-DM-RES",
+  "themes": [
+    {
+      "theme": "Training offered to decision-makers",
+      "source": "starting code",
+      "definition": "Training that a document itself offers, or commits to deliver, to the senior people who make decisions about AI.",
+      "what_is_set_out": "Only two passages in this cell offer training rather than telling decision-makers to acquire skills. UK174 says that senior civil servants, grade 7s and grade 6s 'can also sign up' to the AI course within the Digital Excellence Programme, an offer (per the coder note) from the Central Digital and Data Office (CDDO) and the Government Skills and Curriculum Unit to leaders outside the digital and data profession. The National Audit Office's own AI strategy (NAO_AI_Strategy) lists as a priority action that it will 'Deliver senior leader training on leading through AI-enabled change'; this is one body's commitment to its own staff, not a cross-government offer. Neither passage says what the training covers in relation to particular decisions (approving, pausing or stopping a tool), how long it takes or who pays, and neither makes it a condition of holding a decision-making role.",
+      "documents": ["UK174", "NAO_AI_Strategy"],
+      "holders": "Providers: CDDO and the Government Skills and Curriculum Unit (UK174); the NAO (NAO_AI_Strategy). Recipients: senior civil servants, grade 7s and grade 6s (UK174); NAO senior leaders (NAO_AI_Strategy).",
+      "binding": "Offers, not obligations: enrolment is voluntary ('can also sign up') in UK174, and 'Deliver' is a priority action in one organisation's strategy in NAO_AI_Strategy. No consequence is stated for not taking the training.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-001", "UK-DM-RES-024"],
+      "quotes": [
+        {"id": "UK-DM-RES-001", "doc": "UK174", "location": "Building AI solutions > Acquiring skills and tale…", "quote": "Senior civil servants, grade 7s and grade 6s, can also sign up to the AI course within The Digital Excellence Programme."},
+        {"id": "UK-DM-RES-024", "doc": "NAO_AI_Strategy", "location": "p.14, Our priority actions, 2. Equip our people w…", "quote": "Deliver senior leader training on leading through AI-enabled change."}
+      ]
+    },
+    {
+      "theme": "Competence required of decision-makers and boards",
+      "source": "starting code",
+      "definition": "Statements that the people or boards who decide about AI must have particular skills, knowledge or understanding, where the document does not itself supply them.",
+      "what_is_set_out": "Most of what this cell says about skills puts the burden on the decision-maker or the organisation rather than providing anything. UK174 (Principle 9) says decision makers, policy professionals and senior responsible owners (SROs) 'should gain the skills they need to understand the risks and opportunities of AI', including its effect on culture, governance, ethics and strategy. UK010 says 'AI decision makers should have appropriate skills, knowledge, tools, and authority' and, per the coder note, spells out experience in the design, development, use and operation of AI and familiarity with the operational model; it also says a board should have 'the necessary competence', which may come from appointing board members with responsible-AI expertise. UK266, written for audit and risk assurance committees, states 'a need for senior leaders to have digital fluency, data fluency and AI fluency' and turns this into a question for the committee to ask: whether senior leaders understand AI well enough 'to make informed decisions'. The documents differ in who must act: UK174 addresses the individual ('gain'), UK010 the organisation that must ensure decision-makers are equipped, and UK266 the committee that tests it by questioning. None of these passages sets a standard of competence, a test or a qualification, or links the requirement to a training offer.",
+      "documents": ["UK174", "UK010", "UK266"],
+      "holders": "Decision makers, policy professionals and SROs (UK174); AI decision makers and boards (UK010); senior leaders, as questioned by audit and risk assurance committees (UK266).",
+      "binding": "Non-statutory recommendation and good practice: 'should' in UK174 and UK010; 'there is a need' and a question for committees in UK266. No consequence is stated if the competence is lacking.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-006", "UK-DM-RES-017", "UK-DM-RES-020", "UK-DM-RES-045", "UK-DM-RES-046"],
+      "quotes": [
+        {"id": "UK-DM-RES-006", "doc": "UK174", "location": "Principles > Principle 9: You have the skills and…", "quote": "Decision makers, policy professionals and senior responsible owners (SROs) should gain the skills they need to understand the risks and opportunities of AI"},
+        {"id": "UK-DM-RES-020", "doc": "UK010", "location": "Section 5, Practice 2, para 5.6, p.19", "quote": "AI decision makers should have appropriate skills, knowledge, tools, and authority."},
+        {"id": "UK-DM-RES-045", "doc": "UK266", "location": "'Innovation'", "quote": "there is a need for senior leaders to have digital fluency, data fluency and AI fluency."},
+        {"id": "UK-DM-RES-046", "doc": "UK266", "location": "Areas of focus and questions to ask, 'Leadership…", "quote": "Do senior leaders have sufficient understanding of AI to make informed decisions?"}
+      ]
+    },
+    {
+      "theme": "Information and metrics for ongoing oversight",
+      "source": "starting code",
+      "definition": "Reports, metrics and access to information that decision-makers, boards or data protection officers are to have so that they can oversee AI work while it is under way.",
+      "what_is_set_out": "UK010 is the main source. It says 'decision makers should have access to information (for example, metrics and reports)' so that uncertainties are taken into account, assumptions are challenged and risks are managed; the coder note records the information it lists as helpful, including the status and trajectory of AI risk (including in the supply chain), AI performance against key performance indicators (KPIs) and operational experience. In a case example on board governance, UK010 adds that a board should have 'access to reporting metrics' and 'opportunities to have meaningful discussion on AI'. UK099 tells a project team to talk to the organisation's data protection officer (DPO) 'and ensure they have the necessary information, tools and authority to govern the project', which implies a governing role for the DPO [inference, as the coder note also says]. In both documents the information must be produced by the organisation for its own decision-makers; no central body supplies it, and no reporting template, frequency or point of escalation is given in these passages.",
+      "documents": ["UK010", "UK099"],
+      "holders": "Recipients: decision makers and boards (UK010); the organisation's DPO (UK099). Duty to supply: not stated in UK010; the project team ('your team') in UK099.",
+      "binding": "Good practice and recommendation ('should'), partly given in a case example (UK010); a recommended action (UK099). Nothing is stated about what happens if the information is not provided.",
+      "checks": "Trigger: ongoing; frequency not stated. Compared against: not stated; UK010 names KPIs for AI performance but does not say what they are or what they are measured against. Metric or threshold: KPIs and risk status are named as examples; no threshold. Who: the producer of the reports is not stated; the recipients are decision makers and boards (UK010) and the DPO (UK099). What happens with the result: it is used so that 'uncertainties are taken into account, assumptions are challenged, and risks are managed' (UK010); no specific action or escalation is stated.",
+      "passage_ids": ["UK-DM-RES-016", "UK-DM-RES-017", "UK-DM-RES-018"],
+      "quotes": [
+        {"id": "UK-DM-RES-018", "doc": "UK010", "location": "Section 3, Practice 4, para 3.9d, p.12", "quote": "decision makers should have access to information (for example, metrics and reports) to ensure uncertainties are taken into account, assumptions are challenged, and risks are managed."},
+        {"id": "UK-DM-RES-017", "doc": "UK010", "location": "Section 3, Case example: Board governance, para 3…", "quote": "a board should have the necessary competence, access to reporting metrics, opportunities to have meaningful discussion on AI"},
+        {"id": "UK-DM-RES-016", "doc": "UK099", "location": "p. 20, Accountability: Recommended actions", "quote": "talk to your organisation’s DPO and ensure they have the necessary information, tools and authority to govern the project"}
+      ]
+    },
+    {
+      "theme": "Test and evaluation evidence for go/no-go and roll-out decisions",
+      "source": "new",
+      "definition": "Test and evaluation results that the documents say should be produced and used as the basis for deciding whether an AI system is deployed or rolled out further.",
+      "what_is_set_out": "Three documents tie a deployment or roll-out decision to evidence from testing. UK268 is the most direct: the results of performance and acceptance tests, 'along with evidence of meeting acceptance criteria, form the basis for the go/no-go deployment decision', and (per the coder note) potential weaknesses and corrective actions should be documented. UK071 says a testing phase for major changes or strategic solutions 'usually' ends with a formal test report whose key outcome is 'a recommendation on whether the system is fit for deployment', supported by management information on test coverage, issues found and how they were resolved. UK133 describes early, controlled internal testing with a small group of users (formative evaluation) whose findings 'may' be used to improve the system, refine the Theory of Change or decide whether to continue the roll-out. The strength differs: UK268 makes test evidence 'the basis' of the decision, UK071 has testers make a recommendation to a governance decision [inference from the coder note], and UK133 only says the findings 'may' be used. None of the passages says who sets the acceptance criteria, who takes the go/no-go decision, or what must happen if the criteria are not met.",
+      "documents": ["UK268", "UK071", "UK133"],
+      "holders": "Not stated (UK268); the testing team, per the coder note (UK071); the impact evaluation team working with the development team (UK133).",
+      "binding": "Good practice or example output, described rather than mandated: 'form the basis' (UK268), 'Usually' (UK071), 'may then be used' (UK133). None is statutory, and no consequence is stated if testing is skipped or criteria are missed.",
+      "checks": "Trigger: before deployment, through performance and acceptance testing (UK268); at the end of a testing phase for major changes or strategic solutions (UK071); early, before further roll-out (UK133). Compared against: 'acceptance criteria' whose content is not stated (UK268); not stated (UK071); the planned design of the intervention and its Theory of Change [inference] (UK133). Metric or threshold: not stated in any passage. Who: not stated (UK268); the testing team (UK071); the impact evaluation team with the development team (UK133). What happens with the result: it forms the basis for the go/no-go decision, and weaknesses and corrective actions are documented (UK268); a recommendation on whether the system is fit for deployment (UK071); the system or design may be improved, or a decision taken on whether to continue roll-out (UK133).",
+      "passage_ids": ["UK-DM-RES-010", "UK-DM-RES-015", "UK-DM-RES-023"],
+      "quotes": [
+        {"id": "UK-DM-RES-010", "doc": "UK268", "location": "Evaluation.html, 4.4.1 Performance and acceptance…", "quote": "The results of these tests, along with evidence of meeting acceptance criteria, form the basis for the go/no-go deployment decision"},
+        {"id": "UK-DM-RES-023", "doc": "UK071", "location": "Continuous Defensive Assurance Model, Validation…", "quote": "Usually a testing phase for major changes or strategic solutions ends with a formal test report. A key outcome is a recommendation on whether the system is fit for deployment."},
+        {"id": "UK-DM-RES-015", "doc": "UK133", "location": "p. 11, 2.4 'Think about evaluation early and embe…", "quote": "The findings of this testing may then be used to improve the AI system or the planned design of the intervention, refine the Theory of Change, and/or make key decisions on whether to progress the roll-out further."}
+      ]
+    },
+    {
+      "theme": "Evidence from outside the organisation for adoption decisions",
+      "source": "new",
+      "definition": "Information that assurance providers, regulators or suppliers are expected to give buyers and deployers so that they can decide whether to adopt an AI product.",
+      "what_is_set_out": "UK207, from the Centre for Data Ethics and Innovation (CDEI), sets an aspiration rather than a rule: 'The AI supply chain will need to demand, and receive, reliable evidence about the risks of these technologies' in order to make responsible adoption decisions, with assurance providers as the expected source (coder note). UK139 suggests that regulators could work to 'Enable AI deployers (within their remit) and end users to make informed decisions about the safety of AI products and services', for example by issuing tools and guidance (coder note). AI_Insights reports that suppliers of AI coding assistants 'either assure that code suggestions are licence-free and non-proprietary, or they will provide you with the opportunity to see the source of the code', so that users can decide on usage. In all three the evidence is hoped for, suggested or attributed to supplier practice: none says what the evidence must show or who checks it, and none makes adoption conditional on receiving it. AI_Insights leaves the choice between a supplier's own assurance and letting the user inspect the source to the supplier.",
+      "documents": ["UK207", "UK139", "AI_Insights"],
+      "holders": "The AI supply chain as the party that must demand evidence, with assurance providers as suppliers of it (UK207); regulators as providers, AI deployers and end users as recipients (UK139); AI coding assistant suppliers (AI_Insights).",
+      "binding": "Aspiration ('will need to', UK207); a non-binding aim for regulators ('could', UK139); a description of supplier practice, not an official offer (AI_Insights). No consequence is stated.",
+      "checks": "Trigger: before adoption [inference]. Compared against: not stated; UK207 speaks only of 'reliable evidence about the risks', and AI_Insights of whether code suggestions are licence-free and non-proprietary. Metric or threshold: not stated. Who: assurance providers (UK207), regulators (UK139), suppliers (AI_Insights). What happens with the result: it informs the adoption or usage decision; nothing is stated about what must follow.",
+      "passage_ids": ["UK-DM-RES-027", "UK-DM-RES-036", "UK-DM-RES-050"],
+      "quotes": [
+        {"id": "UK-DM-RES-050", "doc": "UK207", "location": "Priority area A. Demand for AI assurance", "quote": "The AI supply chain will need to demand, and receive, reliable evidence about the risks of these technologies, so they can make responsible adoption decisions."},
+        {"id": "UK-DM-RES-036", "doc": "UK139", "location": "Applying individual principles: Safety, security…", "quote": "Enable AI deployers (within their remit) and end users to make informed decisions about the safety of AI products and services."},
+        {"id": "UK-DM-RES-027", "doc": "AI_Insights", "location": "AI Insights: AI Coding Assistants for developers…", "quote": "Depending on the AICA supplier’s approach, they either assure that code suggestions are licence-free and non-proprietary, or they will provide you with the opportunity to see the source of the code."}
+      ]
+    },
+    {
+      "theme": "Means for humans to intervene in, override or approve AI actions",
+      "source": "starting code",
+      "definition": "Interfaces, training, standards and AI-produced explanations that let a person stop, override or authorise what an AI system does.",
+      "what_is_set_out": "Provision for human override in this cell is thin and scattered across four documents. UK071 lists the 'Existence of Manual override interfaces (e.g., admin dashboards)' as an example output in its assurance model, an item to evidence rather than a specification of how override works. UK010 calls for 'appropriate training of operators and overseers to identify incidents where the system is entering maloperation, and how to intervene', but only within its section on AI in cyber-physical systems. UK139's only passage on intervening in or stopping a system describes an international standard on controllability that is still under development (coder note), stating that 'it is vital to be able to intervene in its operations and potentially interrupt them'. AI_Insights describes AI-generated summaries that 'support those who authorise disposal actions' on records by giving 'a reason for the recommended action'; this is the one passage in the cell where an AI output is routed to a human who takes the decision. None of these passages says which cases must reach a human, how the human should check the AI's summary or reason, or what accuracy should be shown before people rely on it.",
+      "documents": ["UK071", "UK010", "UK139", "AI_Insights"],
+      "holders": "Not stated (UK071); operators and overseers, to be trained by an unnamed party (UK010); ISO/IEC as the body developing the standard (UK139); those who authorise disposal actions (AI_Insights).",
+      "binding": "Example output (UK071); a consideration in good-practice guidance (UK010); mention of a standard under development (UK139); a description of a use (AI_Insights). Nothing is binding, and no consequence is stated if the means to override are absent.",
+      "checks": "Trigger: during operation, when the system is 'entering maloperation' (UK010); each recommended disposal action (AI_Insights) [inference]; not stated (UK071, UK139). Compared against: not stated; AI_Insights gives the approver a summary and a reason but does not say what they should check them against. Metric or threshold: not stated. Who: operators and overseers (UK010); those who authorise disposal actions (AI_Insights); not stated (UK071, UK139). What happens with the result: the person intervenes in or interrupts the system (UK010, UK139); the approver authorises the disposal or does not [inference] (AI_Insights); the existence of an override interface is recorded as assurance evidence (UK071).",
+      "passage_ids": ["UK-DM-RES-021", "UK-DM-RES-022", "UK-DM-RES-029", "UK-DM-RES-037"],
+      "quotes": [
+        {"id": "UK-DM-RES-022", "doc": "UK071", "location": "Continuous Defensive Assurance Model, Operational…", "quote": "Existence of Manual override interfaces (e.g., admin dashboards)."},
+        {"id": "UK-DM-RES-021", "doc": "UK010", "location": "Section 6, AI in cyber-physical systems, para 6.1…", "quote": "appropriate training of operators and overseers to identify incidents where the system is entering maloperation, and how to intervene"},
+        {"id": "UK-DM-RES-037", "doc": "UK139", "location": "Applying individual principles: Safety, security…", "quote": "Irrespective of a system’s safety and level of autonomy, it is vital to be able to intervene in its operations and potentially interrupt them to avoid negative consequences."},
+        {"id": "UK-DM-RES-029", "doc": "AI_Insights", "location": "AI Insights: Using AI to manage the digital heap…", "quote": "support those who authorise disposal actions, by providing a summary of the content accompanied by a reason for the recommended action"}
+      ]
+    },
+    {
+      "theme": "Specialist advice on whether and how AI may be used",
+      "source": "new",
+      "definition": "Advice from government lawyers, information assurance staff, governance boards or an equality regulator that the documents direct decision-makers to when deciding whether and how AI may be used.",
+      "what_is_set_out": "UK174 tells readers 'You’re not alone' and that they 'should seek advice from government legal advisers', who 'will be able to advise you whether your use of AI is within the current legal framework or needs new legislation'; it also says an AI governance board 'should be able to guide you on whether you need an ethics committee'. AI_Insights says information assurance colleagues or senior responsible owners 'can help to determine the feasibility of use for different use cases', which the coder note reads as advice rather than a decision. UK216, guidance from the Equality and Human Rights Commission (EHRC), is addressed to people in public bodies 'responsible for making decisions on whether and how to introduce AI'. This is the most concrete in-government support in the cell, because the advisers already exist and the documents name them. The passages do not say whether advice must be obtained before a decision, whether the decision-maker must follow it, or how a disagreement between adviser and decision-maker is settled; 'should seek' in UK174 is the strongest wording.",
+      "documents": ["UK174", "AI_Insights", "UK216"],
+      "holders": "Government legal advisers and 'your lawyers' as advisers, and 'you' as the person who should seek advice (UK174); an AI governance board (UK174); information assurance colleagues and SROs (AI_Insights); the EHRC as provider of guidance (UK216).",
+      "binding": "Recommended: 'should seek' advice (UK174). The advice is described as available ('will be able to advise', 'can help', 'should be able to guide'). The EHRC guide is guidance. No consequence is stated for not seeking or not following advice.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-007", "UK-DM-RES-008", "UK-DM-RES-009", "UK-DM-RES-014", "UK-DM-RES-026"],
+      "quotes": [
+        {"id": "UK-DM-RES-008", "doc": "UK174", "location": "Using AI safely and responsibly > Legal considera…", "quote": "You’re not alone and should seek advice from government legal advisers who can help you navigate the design and use of AI in government."},
+        {"id": "UK-DM-RES-009", "doc": "UK174", "location": "Using AI safely and responsibly > Legal considera…", "quote": "Your lawyers will be able to advise you whether your use of AI is within the current legal framework or needs new legislation."},
+        {"id": "UK-DM-RES-026", "doc": "AI_Insights", "location": "AI Insights: AI Coding Assistants for developers…", "quote": "If in doubt, your information assurance (IA) colleagues or senior responsible owners can help to determine the feasibility of use for different use cases, including those involving private repositories."},
+        {"id": "UK-DM-RES-014", "doc": "UK216", "location": "Guide page 'Artificial intelligence in public ser…", "quote": "responsible for making decisions on whether and how to introduce AI"}
+      ]
+    },
+    {
+      "theme": "Expertise and multidisciplinary teams for the decision to adopt",
+      "source": "starting code",
+      "definition": "Expertise, team make-up and in-house capacity that documents say an organisation must assemble, or check it has, before deciding whether AI is a viable and appropriate solution.",
+      "what_is_set_out": "UK136, addressed to central government departments buying AI, tells them to 'Bring people into your team who have the knowledge and experience to consider whether AI is a viable and appropriate solution' and to 'Seek to establish a multidisciplinary team with a diverse combination of roles and skills'; the coder note lists roles such as data architect, data scientist, data engineer, technical architect and delivery manager. UK268 says that assessing prerequisites such as available data and expertise 'often requires collaboration between technical and domain experts at the earliest stages'. UK174 asks readers to 'assess the feasibility of implementing AI in your team' by checking whether 'the necessary skills and infrastructure' are in place and, per the coder note, whether they would need to train current employees, hire new talent or enter a partnership. In every case the organisation must find the people itself: none of these passages offers staff, money for hiring, or a central pool of experts. UK268 is descriptive ('often requires'), while UK136 uses imperatives and UK174 'should'.",
+      "documents": ["UK136", "UK268", "UK174"],
+      "holders": "Central government departments procuring AI ('you') (UK136); not stated, by inference the organisation (UK268); 'you', meaning government departments and public sector organisations (UK174).",
+      "binding": "Recommended: the imperatives 'Bring people into your team' and 'Seek to establish' (UK136); 'should' (UK174); descriptive good practice (UK268). Nothing is stated about what happens if the team or expertise is missing.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-005", "UK-DM-RES-011", "UK-DM-RES-047", "UK-DM-RES-049"],
+      "quotes": [
+        {"id": "UK-DM-RES-047", "doc": "UK136", "location": "AI specific considerations: Preparation and plann…", "quote": "Bring people into your team who have the knowledge and experience to consider whether AI is a viable and appropriate solution."},
+        {"id": "UK-DM-RES-049", "doc": "UK136", "location": "Preparation and planning, 'Multidisciplinary team…", "quote": "Seek to establish a multidisciplinary team with a diverse combination of roles and skills to support the procurement and implementation of your AI system."},
+        {"id": "UK-DM-RES-011", "doc": "UK268", "location": "Governance.html, 4.1.1", "quote": "assessing prerequisites such as available data and expertise, and developing a clear understanding of the technology’s potential and restrictions, often requires collaboration between technical and domain experts at the earliest stages."},
+        {"id": "UK-DM-RES-005", "doc": "UK174", "location": "Building AI solutions > Identifying use cases for…", "quote": "You should also assess the feasibility of implementing AI in your team. Are the necessary skills and infrastructure in place to implement and maintain AI solutions?"}
+      ]
+    },
+    {
+      "theme": "Designated AI leads, officers and support teams",
+      "source": "starting code",
+      "definition": "Named roles or teams, proposed or recommended, whose job is to lead, advise on or oversee AI adoption and direction.",
+      "what_is_set_out": "UK010 says 'Consideration should be given to the benefits of designating a person (such as an AI officer)' to oversee the ethical, responsible and effective deployment of AI: a suggestion to consider appointing, not a requirement. UK266 has audit and risk assurance committees ask whether there is 'a senior leader on the organisation’s executive committee or equivalent' who understands both business priorities and technology. UK174 suggests 'a change management team: a small team with access to senior leadership that can shape your approach'. UK082 proposes 'Appointing an AI lead for each mission' to help identify where AI could be a solution, and a cross-government 'technical horizon scanning and market intelligence capability' to work with the mission leads; the input records both as proposals whose acceptance is not recorded in the text, and UK082 does not say who appoints the leads. These roles mostly advise or shape ('help identify', 'can shape your approach', 'oversee'); none of the passages gives any of them authority to approve, pause or stop a tool.",
+      "documents": ["UK010", "UK266", "UK174", "UK082"],
+      "holders": "The organisation, which may designate an AI officer (UK010); a senior leader on the executive committee (UK266); a change management team (UK174); an AI lead for each mission and a cross-government capability, with the appointer not stated (UK082).",
+      "binding": "'Consideration should be given' (UK010); a question for committees (UK266); 'should also consider using' (UK174); proposals with acceptance not recorded (UK082). None is binding, and no consequence is stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-003", "UK-DM-RES-019", "UK-DM-RES-034", "UK-DM-RES-035", "UK-DM-RES-044"],
+      "quotes": [
+        {"id": "UK-DM-RES-019", "doc": "UK010", "location": "Section 5, Practice 2, para 5.5, pp.18-19", "quote": "Consideration should be given to the benefits of designating a person (such as an AI officer) to oversee the ethical, responsible and effective deployment of AI technologies."},
+        {"id": "UK-DM-RES-044", "doc": "UK266", "location": "'AI strategy', questions", "quote": "Is there a senior leader on the organisation’s executive committee or equivalent who understands the wider business priorities and how technology can be harnessed?"},
+        {"id": "UK-DM-RES-003", "doc": "UK174", "location": "Building AI solutions > Creating the AI support s…", "quote": "a change management team: a small team with access to senior leadership that can shape your approach"},
+        {"id": "UK-DM-RES-034", "doc": "UK082", "location": "2.2, Scan, recommendation 31", "quote": "Appointing an AI lead for each mission to help identify where AI could be a solution within the mission setting, considering the user needs from the outset."}
+      ]
+    },
+    {
+      "theme": "Decision routes, templates and processes",
+      "source": "starting code",
+      "definition": "Procedures, request routes, guidance templates and lists of bodies that documents provide or recommend for taking a particular decision about AI, such as a business case, access to a tool, or a purchase.",
+      "what_is_set_out": "UK174 tells readers whose investment falls below a threshold that they 'should strongly consider using the guidance on agile business cases' developed by CDDO, a template for the business-case decision. UK190, a Department for Work and Pensions (DWP) document, gives a route for one decision: where users have a business need to access a blocked online AI tool, 'a request can be submitted to unblock the website'; the coder note records that who decides such requests is not stated. UK190's Annex B also 'outlines the governance boards and business areas that can be engaged' when implementing and using AI tools, and says the list is not exhaustive. UK136 says departments 'may also consider completing a discovery exercise as part of the decision making process'. Only the DWP request route and list of boards are concrete mechanisms inside an organisation; the others are pointers or options. None of these passages states the criteria a request or business case must meet.",
+      "documents": ["UK174", "UK190", "UK136"],
+      "holders": "CDDO as provider and 'you' as user (UK174); DWP as provider and users as requesters, with the decider not stated (UK190); central government departments procuring AI (UK136).",
+      "binding": "'should strongly consider' (UK174); a route provided, with no duty on anyone to grant requests (UK190); optional 'may also consider' (UK136). No consequence is stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-002", "UK-DM-RES-012", "UK-DM-RES-013", "UK-DM-RES-048"],
+      "quotes": [
+        {"id": "UK-DM-RES-002", "doc": "UK174", "location": "Building AI solutions > Buying AI > AI business c…", "quote": "If the scale of investment is below this threshold, you should strongly consider using the guidance on agile business cases, which was developed by the Central Digital and Data Office (CDDO)."},
+        {"id": "UK-DM-RES-013", "doc": "UK190", "location": "Policy Statements, 6", "quote": "Where users have a business need to access a blocked online AI tool a request can be submitted to unblock the website (Unblocking Webpages)."},
+        {"id": "UK-DM-RES-012", "doc": "UK190", "location": "Annex B – Governance Boards and Associated teams", "quote": "This section outlines the governance boards and business areas that can be engaged in relation to the implementation and use of AI tools."},
+        {"id": "UK-DM-RES-048", "doc": "UK136", "location": "AI specific considerations: Preparation and plann…", "quote": "You may also consider completing a discovery exercise as part of the decision making process to explore your requirements."}
+      ]
+    },
+    {
+      "theme": "Guidance and methods for transparency-record scope and exemption decisions",
+      "source": "starting code",
+      "definition": "Material provided by the Government Digital Service (GDS) so that organisations can decide whether an algorithmic tool falls within the mandatory scope of the Algorithmic Transparency Recording Standard (ATRS) and what may be withheld from a published record.",
+      "what_is_set_out": "The ATRS documents give the most specific decision support in this cell. UK086 says that examples of algorithmic tools 'in and out of mandatory scope' can be found in 'the scope and exemptions policy', which (per the coder note) provides a detailed framework for exempting information. UK085, which appears to be that policy [inference], lists further in-scope and out-of-scope examples by type of tool in an annex (the coder note names large language models, chatbots, text recognition, productivity tools, scoring and risk assessment, and biometrics) and gives a method for deciding exemptions: imagine 'a full internal version of an ATRS record' had been written and a Freedom of Information (FOI) request received to publish it, then ask whether it would be released in full, redacted, or neither confirmed nor denied. The decision stays with the organisation; GDS provides examples and a reasoning test, not a review of the organisation's decision. These resources serve decisions about publication, not decisions about whether a tool is used.",
+      "documents": ["UK086", "UK085"],
+      "holders": "GDS as provider; the organisation as the one deciding scope and exemptions.",
+      "binding": "Guidance provided to support decisions under a standard that UK086 describes as having a 'mandatory scope'; the examples and the FOI test are aids, not rules. These passages state no consequence for a wrong scope or exemption decision.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-040", "UK-DM-RES-041", "UK-DM-RES-042"],
+      "quotes": [
+        {"id": "UK-DM-RES-040", "doc": "UK086", "location": "2. ATRS purpose and scope", "quote": "Further detail, including examples of algorithmic tools in and out of mandatory scope, can be found in the scope and exemptions policy ."},
+        {"id": "UK-DM-RES-041", "doc": "UK085", "location": "4.2", "quote": "Further examples are listed below in Annex 1."},
+        {"id": "UK-DM-RES-042", "doc": "UK085", "location": "5.1", "quote": "To understand how this applies in practice, imagine that you created a full internal version of an ATRS record and (hypothetically) received an FOI request to publish that record."}
+      ]
+    },
+    {
+      "theme": "Government examples and published guidance pointed to",
+      "source": "new",
+      "definition": "Pointers to existing government material, such as registers, departmental policies and published guidance, that readers can consult when making a decision.",
+      "what_is_set_out": "UK174 tells readers considering AI use cases to check, among other sources, the 'projects recorded in the Algorithmic Transparency Recording Standard (ATRS) register'; the coder note records that the keeper of the register is not named. AI_Insights, on using AI to manage the 'digital heap' of records, says 'You can refer to these examples:' and, per the coder note, lists retention policies from HM Revenue and Customs, the Foreign, Commonwealth and Development Office and the Ministry of Justice, and a Cabinet Office selection policy. UK206 notes that 'The UK government has also published initial guidance to regulators', but only as a pointer. These are references to material that exists elsewhere; the passages do not summarise it or say how it should be applied to a decision.",
+      "documents": ["UK174", "AI_Insights", "UK206"],
+      "holders": "Not stated, the keeper of the register being unnamed (UK174); HMRC, FCDO, MoJ and the Cabinet Office as authors of the example policies (AI_Insights); the UK government as publisher (UK206).",
+      "binding": "An imperative 'check the' (UK174), a permissive 'You can refer' (AI_Insights), and a bare pointer (UK206). There is no obligation to use the material.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-004", "UK-DM-RES-030", "UK-DM-RES-032"],
+      "quotes": [
+        {"id": "UK-DM-RES-004", "doc": "UK174", "location": "Building AI solutions > Identifying use cases for…", "quote": "projects recorded in the Algorithmic Transparency Recording Standard (ATRS) register"},
+        {"id": "UK-DM-RES-030", "doc": "AI_Insights", "location": "Using AI to manage the digital heap: 4.1 Set rete…", "quote": "You can refer to these examples:"},
+        {"id": "UK-DM-RES-032", "doc": "UK206", "location": "p.41, step 4 'Look out for new regulatory guidanc…", "quote": "The UK government has also published initial guidance to regulators as part of its response to the AI regulatory white paper consultation."}
+      ]
+    },
+    {
+      "theme": "Commercial, open-source and foreign support mentioned",
+      "source": "starting code",
+      "definition": "Mentions of help, tools or frameworks from suppliers, open-source projects or non-UK bodies, which the documents note but do not themselves provide.",
+      "what_is_set_out": "AI_Insights says that a cloud vendor's 'Technical account managers and solution architects supporting your enterprise account will be able to help' with applying for UK-located resources, that open-source models and tooling such as StarCoder2, Gemma2, Ollama and Continue 'are increasingly performant and easy to use', and that coding-assistant suppliers either assure that suggestions are licence-free or let users see the source. UK206 points to the US Risk Management Framework as able to 'support the management of organisational risk'; the document names its author as the 'National Institute for Science and Technology', whereas NIST is the National Institute of Standards and Technology. These passages give vendors and a foreign standards body a supporting role in decisions about tools, where data is held, and risk management. The coder notes treat all of them as mentions rather than official UK offers, and the passages set no conditions on relying on supplier help or assurances.",
+      "documents": ["AI_Insights", "UK206"],
+      "holders": "Vendors' technical account managers and solution architects; the providers of StarCoder2, Gemma2, Ollama and Continue; coding-assistant suppliers (AI_Insights); the US NIST (UK206).",
+      "binding": "Mentions only; no obligation on anyone and no official UK provision.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-025", "UK-DM-RES-027", "UK-DM-RES-028", "UK-DM-RES-031"],
+      "quotes": [
+        {"id": "UK-DM-RES-028", "doc": "AI_Insights", "location": "AI Insights: Generative AI > Cloud solutions (lin…", "quote": "Technical account managers and solution architects supporting your enterprise account will be able to help with this step."},
+        {"id": "UK-DM-RES-025", "doc": "AI_Insights", "location": "AI Insights: AI Coding Assistants for developers…", "quote": "Open source models with industry backing such as StarCoder2 or Gemma2, and tooling such as Ollama and Continue, are increasingly performant and easy to use."},
+        {"id": "UK-DM-RES-031", "doc": "UK206", "location": "p.41, step 3 'Review internal governance and risk…", "quote": "The US’s National Institute for Science and Technology (NIST) has developed an in-depth Risk Management Framework (RMF) that can support the management of organisational risk."}
+      ]
+    },
+    {
+      "theme": "Funding for AI capability",
+      "source": "starting code",
+      "definition": "Money announced, proposed or required to build AI capability, whether for regulators or for an organisation's own AI strategy.",
+      "what_is_set_out": "UK139 records that 'DSIT announced a £10 million package to boost regulators’ AI capabilities', the only sum of money in this cell (DSIT is the Department for Science, Innovation and Technology). UK082 recommends a commitment 'to funding regulators to scale up their AI capabilities, some of which need urgent addressing', with no amount and, per the input, no record in the text of whether it was accepted. UK139 also suggests that regulators' progress updates include 'An explanation of their current capability to address AI risks' and how it compares with what they need, covering, per the coder note, the number of people working on AI and the budget allocated: a statement of the gap, not money. UK266 says an organisation's AI strategy should be 'underpinned by committed funding and resources', which leaves the cost with the organisation. The money in this cell goes to regulators' general AI capability; for public bodies deciding on particular tools, funding is something they must find themselves.",
+      "documents": ["UK139", "UK082", "UK266"],
+      "holders": "DSIT as funder and regulators as recipients (UK139); government as proposed funder and regulators as recipients (UK082); regulators as reporters of their own capability (UK139); the organisation (UK266).",
+      "binding": "An announcement (UK139); a recommendation whose acceptance is not recorded (UK082); suggested content for an update ('could include', UK139); good practice 'should' (UK266). No consequence is stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-033", "UK-DM-RES-038", "UK-DM-RES-039", "UK-DM-RES-043"],
+      "quotes": [
+        {"id": "UK-DM-RES-038", "doc": "UK139", "location": "Background", "quote": "DSIT announced a £10 million package to boost regulators’ AI capabilities."},
+        {"id": "UK-DM-RES-033", "doc": "UK082", "location": "1.4, recommendation 25", "quote": "Commit to funding regulators to scale up their AI capabilities, some of which need urgent addressing."},
+        {"id": "UK-DM-RES-039", "doc": "UK139", "location": "How to communicate progress on engagement with AI…", "quote": "An explanation of their current capability to address AI risks within their regulatory remit - and how this compares with their assessment of the capabilities they need."},
+        {"id": "UK-DM-RES-043", "doc": "UK266", "location": "'AI strategy'", "quote": "It should also define measurable objectives with a credible roadmap, underpinned by committed funding and resources aligned to the wider business agenda."}
+      ]
+    },
+    {
+      "theme": "Advice and support to regulators, standard-setters and policy-makers",
+      "source": "new",
+      "definition": "Advice, partnership or guidance that a central body offers to those who regulate AI, set standards for it or write AI policy.",
+      "what_is_set_out": "UK207 records that the CDEI 'will also partner with and support professional bodies and regulators in the UK to set out assurable standards and requirements for AI systems', and its work programme includes advising the Office for AI (OAI) on the AI governance White Paper, including on the role of assurance. UK206 notes that the UK government has published initial guidance to regulators. These passages describe support going to those who set direction and standards, not to the public bodies that decide whether to use a tool. The CDEI items are the issuing body's own statements of intent ('will', 'Advise'); the passages do not say what the standards will require or whether the advice was taken up.",
+      "documents": ["UK207", "UK206"],
+      "holders": "The CDEI as adviser, with professional bodies, regulators and the OAI as recipients (UK207); the UK government as publisher and regulators as recipients (UK206).",
+      "binding": "A commitment by the issuing body ('will', UK207) and advice provided (UK207); a pointer to published guidance (UK206). This is advice, not authority; no consequence is stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-DM-RES-032", "UK-DM-RES-051", "UK-DM-RES-052"],
+      "quotes": [
+        {"id": "UK-DM-RES-051", "doc": "UK207", "location": "The CDEI is committed to making its vision a real…", "quote": "The CDEI will also partner with and support professional bodies and regulators in the UK to set out assurable standards and requirements for AI systems."},
+        {"id": "UK-DM-RES-052", "doc": "UK207", "location": "The CDEI’s work programme on AI assurance (table)", "quote": "Advise the OAI on the development of the AI governance White Paper; including on the role of assurance in addressing AI governance"},
+        {"id": "UK-DM-RES-032", "doc": "UK206", "location": "p.41, step 4 'Look out for new regulatory guidanc…", "quote": "The UK government has also published initial guidance to regulators as part of its response to the AI regulatory white paper consultation."}
+      ]
+    }
+  ],
+  "not_themed": [],
+  "absences": "Of the Resources starting codes, time and data have no passages: nothing gives decision-makers time to consider AI decisions, and data appears only as a prerequisite to check (UK268), not as something provided. Access appears only as DWP's route for asking for a blocked tool to be unblocked (UK190) and as a board's access to reporting metrics (UK010); nothing gives those who decide access to a model's workings, logs or supplier information. Tools are limited to manual override interfaces listed as assurance evidence (UK071) and mentions of supplier and open-source tooling (AI_Insights); templates are limited to the agile business case guidance (UK174) and the ATRS scope and exemption material (UK085, UK086). Money appears only for regulators (UK139, UK082) or as something an organisation must commit for itself (UK266). Against the Decision-making starting codes, there are no resources for deciding to pause or stop a tool, none for exemption decisions other than those about the transparency record, and none for setting standards inside public bodies; the only resource for appointing who decides is UK010's suggestion to consider designating an AI officer. A reader might expect, and does not find in these passages: any central service or body that reviews or approves AI decisions for public bodies; any independent check on a go/no-go decision; any resourcing (staff, time, tools, test data) for checking the accuracy, consistency or repeatability of outputs, prompts and configuration, model versions or confidence scores; and any statement of which cases must go to a human.",
+  "cross_cutting": "What dominates this cell is requirement rather than provision: most passages tell decision-makers, boards or organisations that they should have skills, expert teams, information, a designated lead or committed funding, without anything being supplied to them. The resources actually provided are few and specific: a CDDO course open to senior civil servants and grade 6 and 7 staff (UK174), the NAO's training for its own senior leaders, government legal advisers (UK174), the ATRS scope and exemption examples and FOI test (UK085, UK086), DWP's unblocking route and list of governance boards (UK190), and £10 million for regulators (UK139); much of the rest points to suppliers, open-source tools, a US framework or a draft international standard. Nothing in the cell is statutory: the verbs are 'should', 'could', 'may' and 'consider', alongside questions for committees, proposals whose acceptance is unrecorded and plain mentions, and no passage says what happens if a resource is missing. The holders are mostly senior people inside the deciding organisation (decision makers, SROs, boards, senior leaders), while the named providers are central bodies (CDDO, GDS, DSIT, CDEI), one department (DWP), one regulator (EHRC) and outside parties (vendors, NIST, ISO/IEC). On checking AI outputs, the cell links deployment decisions to test evidence (UK268, UK071, UK133) and oversight to performance KPIs (UK010), but no passage names a metric, a threshold or what the output is compared against, and none says who sets the acceptance criteria. Human override is resourced only as an example item of assurance evidence (UK071), as training confined to cyber-physical systems (UK010), and through a standard still under development (UK139). The one passage that routes an AI output to a human approver (AI_Insights, on records disposal) gives the approver a summary and a reason but does not say how to check them, so these passages provide nothing on accuracy, consistency, prompts, model versions or confidence scores."
+}

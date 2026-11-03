@@ -1,0 +1,1989 @@
+{
+ "themes": {
+  "Decision-making|Design": [
+   {
+    "key": "whether",
+    "theme": "Whether a tool is used, and what is banned",
+    "source": "starting code"
+   },
+   {
+    "key": "approval",
+    "theme": "Approval before use",
+    "source": "starting code"
+   },
+   {
+    "key": "pause",
+    "theme": "Pausing, stopping and changing a tool",
+    "source": "starting code"
+   },
+   {
+    "key": "override",
+    "theme": "Overriding outputs and decisions kept for humans",
+    "source": "starting code"
+   },
+   {
+    "key": "direction",
+    "theme": "Setting priorities, direction and standards",
+    "source": "starting code"
+   },
+   {
+    "key": "mandates",
+    "theme": "Mandates, permissions and conditions of use",
+    "source": "starting code"
+   },
+   {
+    "key": "scope",
+    "theme": "Scope and exemptions",
+    "source": "starting code"
+   },
+   {
+    "key": "appoint",
+    "theme": "Appointing who decides and supervises",
+    "source": "starting code"
+   },
+   {
+    "key": "risk",
+    "theme": "Classifying risk and accepting it",
+    "source": "new"
+   },
+   {
+    "key": "legal",
+    "theme": "Legal limits and data protection gates",
+    "source": "new"
+   },
+   {
+    "key": "proc",
+    "theme": "Procurement and authority over suppliers",
+    "source": "new"
+   }
+  ],
+  "Decision-making|Resources": [
+   {
+    "key": "roles",
+    "theme": "Roles, staff and expertise",
+    "source": "starting code"
+   },
+   {
+    "key": "skills",
+    "theme": "Skills and training",
+    "source": "starting code"
+   },
+   {
+    "key": "info",
+    "theme": "Information and evidence for deciding",
+    "source": "starting code"
+   },
+   {
+    "key": "guidance",
+    "theme": "Guidance, templates and tools",
+    "source": "starting code"
+   },
+   {
+    "key": "support",
+    "theme": "Advice and outside support",
+    "source": "starting code"
+   },
+   {
+    "key": "means",
+    "theme": "Means to intervene or stop",
+    "source": "new"
+   },
+   {
+    "key": "money",
+    "theme": "Money",
+    "source": "starting code"
+   }
+  ],
+  "Delivery|Design": [
+   {
+    "key": "testing",
+    "theme": "Testing and validation",
+    "source": "starting code"
+   },
+   {
+    "key": "outputs",
+    "theme": "Evaluating outputs: accuracy, bias, consistency, explainability",
+    "source": "starting code"
+   },
+   {
+    "key": "monitoring",
+    "theme": "Monitoring in use, incidents and fail-safes",
+    "source": "starting code"
+   },
+   {
+    "key": "logging",
+    "theme": "Logging and recording",
+    "source": "starting code"
+   },
+   {
+    "key": "review",
+    "theme": "Human review of outputs",
+    "source": "starting code"
+   },
+   {
+    "key": "impact",
+    "theme": "Impact and risk assessment",
+    "source": "starting code"
+   },
+   {
+    "key": "supply",
+    "theme": "Supply chain checks",
+    "source": "new"
+   },
+   {
+    "key": "data",
+    "theme": "Data quality and data protection",
+    "source": "new"
+   },
+   {
+    "key": "security",
+    "theme": "Security",
+    "source": "new"
+   },
+   {
+    "key": "transparency",
+    "theme": "Transparency to people",
+    "source": "new"
+   },
+   {
+    "key": "compliance",
+    "theme": "Compliance, assurance and scope",
+    "source": "new"
+   },
+   {
+    "key": "users",
+    "theme": "Users, accessibility and inclusion",
+    "source": "new"
+   },
+   {
+    "key": "roles",
+    "theme": "Named delivery roles",
+    "source": "new"
+   }
+  ],
+  "Delivery|Resources": [
+   {
+    "key": "roles",
+    "theme": "Roles and staff",
+    "source": "starting code"
+   },
+   {
+    "key": "skills",
+    "theme": "Skills, training and time",
+    "source": "starting code"
+   },
+   {
+    "key": "tools",
+    "theme": "Tools, methods and infrastructure",
+    "source": "starting code"
+   },
+   {
+    "key": "guidance",
+    "theme": "Guidance, templates and standards",
+    "source": "starting code"
+   },
+   {
+    "key": "data",
+    "theme": "Data and access",
+    "source": "starting code"
+   },
+   {
+    "key": "info",
+    "theme": "Information from providers and suppliers",
+    "source": "starting code"
+   },
+   {
+    "key": "support",
+    "theme": "Outside support, sandboxes and central offers",
+    "source": "starting code"
+   },
+   {
+    "key": "money",
+    "theme": "Money",
+    "source": "starting code"
+   }
+  ],
+  "Coordination|Design": [
+   {
+    "key": "contracts",
+    "theme": "Supplier contracts and procurement",
+    "source": "starting code"
+   },
+   {
+    "key": "supplyinfo",
+    "theme": "Information flows along the supply chain",
+    "source": "new"
+   },
+   {
+    "key": "notify",
+    "theme": "Notifications and reporting",
+    "source": "starting code"
+   },
+   {
+    "key": "referrals",
+    "theme": "Referrals between bodies",
+    "source": "starting code"
+   },
+   {
+    "key": "contacts",
+    "theme": "Contact points",
+    "source": "starting code"
+   },
+   {
+    "key": "templates",
+    "theme": "Shared templates, standards and repositories",
+    "source": "starting code"
+   },
+   {
+    "key": "registers",
+    "theme": "Registers and databases",
+    "source": "starting code"
+   },
+   {
+    "key": "groups",
+    "theme": "Groups, networks and governance bodies",
+    "source": "starting code"
+   },
+   {
+    "key": "internal",
+    "theme": "Internal consultation and escalation",
+    "source": "new"
+   },
+   {
+    "key": "regulators",
+    "theme": "Links among regulators, auditors and oversight bodies",
+    "source": "new"
+   },
+   {
+    "key": "public",
+    "theme": "Engaging the public, stakeholders and partners",
+    "source": "new"
+   }
+  ],
+  "Coordination|Resources": [
+   {
+    "key": "contracts",
+    "theme": "Procurement and contract resources",
+    "source": "starting code"
+   },
+   {
+    "key": "supplyinfo",
+    "theme": "Information from suppliers and providers",
+    "source": "starting code"
+   },
+   {
+    "key": "contacts",
+    "theme": "Contact points and channels",
+    "source": "starting code"
+   },
+   {
+    "key": "templates",
+    "theme": "Shared templates, guidance and repositories",
+    "source": "starting code"
+   },
+   {
+    "key": "networks",
+    "theme": "Networks, communities and support bodies",
+    "source": "starting code"
+   },
+   {
+    "key": "money",
+    "theme": "Funding and data",
+    "source": "starting code"
+   }
+  ],
+  "Accountability|Design": [
+   {
+    "key": "roles",
+    "theme": "Named roles and where responsibility rests",
+    "source": "starting code"
+   },
+   {
+    "key": "signoff",
+    "theme": "Sign-off and showing compliance",
+    "source": "starting code"
+   },
+   {
+    "key": "publication",
+    "theme": "Publication",
+    "source": "starting code"
+   },
+   {
+    "key": "telling",
+    "theme": "Telling and explaining to affected people",
+    "source": "new"
+   },
+   {
+    "key": "records",
+    "theme": "Registration, records and documentation",
+    "source": "starting code"
+   },
+   {
+    "key": "reporting",
+    "theme": "Reporting to regulators and boards",
+    "source": "starting code"
+   },
+   {
+    "key": "audit",
+    "theme": "Audit and supervision",
+    "source": "starting code"
+   },
+   {
+    "key": "redress",
+    "theme": "Complaint and redress",
+    "source": "starting code"
+   },
+   {
+    "key": "sanctions",
+    "theme": "Sanctions and liability",
+    "source": "starting code"
+   },
+   {
+    "key": "law",
+    "theme": "Existing law and measures scaled to risk",
+    "source": "new"
+   }
+  ],
+  "Accountability|Resources": [
+   {
+    "key": "publication",
+    "theme": "Publication, labelling and registers",
+    "source": "starting code"
+   },
+   {
+    "key": "guidance",
+    "theme": "Guidance and criteria",
+    "source": "starting code"
+   },
+   {
+    "key": "audit",
+    "theme": "Audit capacity, expertise and tools",
+    "source": "starting code"
+   },
+   {
+    "key": "access",
+    "theme": "Access, records and supplier cover",
+    "source": "starting code"
+   },
+   {
+    "key": "staff",
+    "theme": "Roles, staff and money for those who answer or enforce",
+    "source": "starting code"
+   }
+  ]
+ },
+ "groups": {
+  "UK-DM-DES": [
+   {
+    "subtheme": "Whether to use AI at all",
+    "theme_key": "whether"
+   },
+   {
+    "subtheme": "Risk appetite, risk tiers and accepting residual risk",
+    "theme_key": "risk"
+   },
+   {
+    "subtheme": "Approval gates and named approvers",
+    "theme_key": "approval"
+   },
+   {
+    "subtheme": "Evidence feeding the go/no-go decision",
+    "theme_key": "approval"
+   },
+   {
+    "subtheme": "Setting acceptance criteria, metrics and thresholds",
+    "theme_key": "approval"
+   },
+   {
+    "subtheme": "Automated deployment gates and automatic rollback",
+    "theme_key": "approval"
+   },
+   {
+    "subtheme": "Change control and re-approval after deployment",
+    "theme_key": "pause"
+   },
+   {
+    "subtheme": "Pausing, rolling back and decommissioning",
+    "theme_key": "pause"
+   },
+   {
+    "subtheme": "Decisions reserved to humans",
+    "theme_key": "override"
+   },
+   {
+    "subtheme": "Human review and override of outputs",
+    "theme_key": "override"
+   },
+   {
+    "subtheme": "Legal limits on using AI and delegating decisions",
+    "theme_key": "legal"
+   },
+   {
+    "subtheme": "Uses to avoid and named prohibitions",
+    "theme_key": "whether"
+   },
+   {
+    "subtheme": "Controlling unsanctioned and user-built AI",
+    "theme_key": "mandates"
+   },
+   {
+    "subtheme": "Controls on what information goes into AI tools",
+    "theme_key": "mandates"
+   },
+   {
+    "subtheme": "Bounding a tool's purpose and pilot scope",
+    "theme_key": "scope"
+   },
+   {
+    "subtheme": "Choosing the model, vendor and sourcing route",
+    "theme_key": "proc"
+   },
+   {
+    "subtheme": "Buyer control over suppliers",
+    "theme_key": "proc"
+   },
+   {
+    "subtheme": "Spend and procurement controls",
+    "theme_key": "proc"
+   },
+   {
+    "subtheme": "Organisational AI strategy and priorities",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Central push to adopt and scale AI",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Mandates, permissions and prescribed uses",
+    "theme_key": "mandates"
+   },
+   {
+    "subtheme": "Organisations' own AI policies and governance",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Standards set elsewhere that AI use must meet",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Central guidance as an adaptable baseline",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Regulators and standards bodies as standard-setters",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Appointing who decides",
+    "theme_key": "appoint"
+   },
+   {
+    "subtheme": "Scope: which bodies, tools and stages are covered",
+    "theme_key": "scope"
+   },
+   {
+    "subtheme": "Exemptions and who grants them",
+    "theme_key": "scope"
+   }
+  ],
+  "EU-DM-DES": [
+   {
+    "subtheme": "Practices banned outright",
+    "theme_key": "whether"
+   },
+   {
+    "subtheme": "Where the social scoring ban bites in public services",
+    "theme_key": "whether"
+   },
+   {
+    "subtheme": "Boundaries of the other bans: crime prediction, scraping, emotion recognition, manipulation, biometric categorisation",
+    "theme_key": "whether"
+   },
+   {
+    "subtheme": "Prior authorisation of police biometric identification",
+    "theme_key": "approval"
+   },
+   {
+    "subtheme": "Classifying tools as high-risk, and the provider's self-assessed way out",
+    "theme_key": "risk"
+   },
+   {
+    "subtheme": "Public bodies as providers and deployers",
+    "theme_key": "scope"
+   },
+   {
+    "subtheme": "Exclusions from the AI Act's scope",
+    "theme_key": "scope"
+   },
+   {
+    "subtheme": "When the rules apply: application dates and transition deadlines",
+    "theme_key": "scope"
+   },
+   {
+    "subtheme": "Commission power to change the rules and lists",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Appointing who supervises and decides",
+    "theme_key": "appoint"
+   },
+   {
+    "subtheme": "Supervisors' powers to correct, restrict, withdraw or recall",
+    "theme_key": "pause"
+   },
+   {
+    "subtheme": "EU-level review of national decisions",
+    "theme_key": "pause"
+   },
+   {
+    "subtheme": "Conformity assessment and the bodies that certify tools",
+    "theme_key": "approval"
+   },
+   {
+    "subtheme": "Emergency use of unassessed high-risk systems",
+    "theme_key": "approval"
+   },
+   {
+    "subtheme": "Setting the standards, codes and benchmarks tools are judged against",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Voluntary codes and self-imposed compliance",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Human authority to oversee, override or stop a tool",
+    "theme_key": "override"
+   },
+   {
+    "subtheme": "No decision on AI output alone; the final decision stays human",
+    "theme_key": "override"
+   },
+   {
+    "subtheme": "Operators' duties to suspend, withdraw or not use a tool",
+    "theme_key": "pause"
+   },
+   {
+    "subtheme": "Sandboxes and real-world testing: admission, conditions and stopping",
+    "theme_key": "approval"
+   },
+   {
+    "subtheme": "General-purpose AI models: provider status, systemic-risk designation and Commission enforcement",
+    "theme_key": "risk"
+   },
+   {
+    "subtheme": "Data protection law as a gate on AI: legal basis, purpose, roles and anonymity",
+    "theme_key": "legal"
+   },
+   {
+    "subtheme": "Whether a public body should adopt, keep, adjust or retire an AI tool",
+    "theme_key": "whether"
+   },
+   {
+    "subtheme": "Who decides what risk is acceptable",
+    "theme_key": "risk"
+   },
+   {
+    "subtheme": "Internal governance bodies and approval routes in public bodies",
+    "theme_key": "approval"
+   },
+   {
+    "subtheme": "Conditions on staff use of generative AI tools",
+    "theme_key": "mandates"
+   },
+   {
+    "subtheme": "Setting direction and priorities for public-sector AI",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "What is left to Member States, including fines on public bodies",
+    "theme_key": "appoint"
+   },
+   {
+    "subtheme": "Disclosure of AI-generated content: who is bound, exceptions and editorial control",
+    "theme_key": "scope"
+   },
+   {
+    "subtheme": "Carrying AI requirements into sectoral product law",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Status and revision of the guidance itself",
+    "theme_key": "direction"
+   },
+   {
+    "subtheme": "Procurement choices and authority over suppliers and others acting for the public body",
+    "theme_key": "proc"
+   }
+  ],
+  "UK-DM-RES": [
+   {
+    "subtheme": "Training offered to decision-makers",
+    "theme_key": "skills"
+   },
+   {
+    "subtheme": "Competence required of decision-makers and boards",
+    "theme_key": "skills"
+   },
+   {
+    "subtheme": "Information and metrics for ongoing oversight",
+    "theme_key": "info"
+   },
+   {
+    "subtheme": "Test and evaluation evidence for go/no-go and roll-out decisions",
+    "theme_key": "info"
+   },
+   {
+    "subtheme": "Evidence from outside the organisation for adoption decisions",
+    "theme_key": "info"
+   },
+   {
+    "subtheme": "Means for humans to intervene in, override or approve AI actions",
+    "theme_key": "means"
+   },
+   {
+    "subtheme": "Specialist advice on whether and how AI may be used",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Expertise and multidisciplinary teams for the decision to adopt",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Designated AI leads, officers and support teams",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Decision routes, templates and processes",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Guidance and methods for transparency-record scope and exemption decisions",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Government examples and published guidance pointed to",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Commercial, open-source and foreign support mentioned",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Funding for AI capability",
+    "theme_key": "money"
+   },
+   {
+    "subtheme": "Advice and support to regulators, standard-setters and policy-makers",
+    "theme_key": "support"
+   }
+  ],
+  "EU-DM-RES": [
+   {
+    "subtheme": "Commission guidance on scope, prohibition and risk classification",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Expert and advisory input to EU-level decisions",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Means, competence and authority for the human overseer to intervene or stop",
+    "theme_key": "means"
+   },
+   {
+    "subtheme": "Information supplied to whoever decides on using a tool",
+    "theme_key": "info"
+   },
+   {
+    "subtheme": "Staff, expertise and training for the bodies that decide",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Adoption frameworks and use-case lists for public administrations",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Risk and impact assessment tools for deciding on use",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Facilitating voluntary codes of conduct and practice",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Data-protection guidance pointed to for scope and role decisions",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Internal advice and inventories for institutions' own AI initiatives",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Unquantified calls for dedicated or adequate resources",
+    "theme_key": "money"
+   }
+  ],
+  "UK-DEL-DES": [
+   {
+    "subtheme": "Appraising whether AI is the right tool: benefits, alternatives, cost and pilots",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Setting requirements, metrics and thresholds before testing",
+    "theme_key": "testing"
+   },
+   {
+    "subtheme": "Pre-deployment testing and acceptance",
+    "theme_key": "testing"
+   },
+   {
+    "subtheme": "Checking output accuracy against a reference",
+    "theme_key": "outputs"
+   },
+   {
+    "subtheme": "Consistency, reproducibility and records of prompts, configuration and model versions",
+    "theme_key": "outputs"
+   },
+   {
+    "subtheme": "Re-testing when the tool, model, data or context changes",
+    "theme_key": "testing"
+   },
+   {
+    "subtheme": "Ongoing monitoring of performance, drift and harms in live use",
+    "theme_key": "monitoring"
+   },
+   {
+    "subtheme": "Bias and fairness testing across groups",
+    "theme_key": "outputs"
+   },
+   {
+    "subtheme": "Risk-tiered bias controls for generative AI (LLMs)",
+    "theme_key": "outputs"
+   },
+   {
+    "subtheme": "Human review of AI outputs",
+    "theme_key": "review"
+   },
+   {
+    "subtheme": "Over-reliance on AI and loss of human skills",
+    "theme_key": "review"
+   },
+   {
+    "subtheme": "Controls on AI coding assistants and AI-generated code",
+    "theme_key": "security"
+   },
+   {
+    "subtheme": "Agentic and autonomous systems: profiling, testing paths and human control",
+    "theme_key": "review"
+   },
+   {
+    "subtheme": "Fail-safes, rollback and decommissioning",
+    "theme_key": "monitoring"
+   },
+   {
+    "subtheme": "Logging prompts, outputs and interactions",
+    "theme_key": "logging"
+   },
+   {
+    "subtheme": "Documentation and record-keeping across the life cycle",
+    "theme_key": "logging"
+   },
+   {
+    "subtheme": "Incidents, user reports and feedback: detection, investigation and response",
+    "theme_key": "monitoring"
+   },
+   {
+    "subtheme": "Data protection impact assessment and data protection by design",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Equality impact assessment and the Public Sector Equality Duty",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Wider risk and impact assessment",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Environmental impact assessment and monitoring",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Security by design, access control and data-leakage protection",
+    "theme_key": "security"
+   },
+   {
+    "subtheme": "Adversarial, robustness and red-team testing",
+    "theme_key": "testing"
+   },
+   {
+    "subtheme": "Filtering and constraining prompts and outputs",
+    "theme_key": "security"
+   },
+   {
+    "subtheme": "AI used by others against the public body (edge cases)",
+    "theme_key": "security"
+   },
+   {
+    "subtheme": "Quality of training, input, retrieval and synthetic data",
+    "theme_key": "data"
+   },
+   {
+    "subtheme": "User research, usability, accessibility and inclusion",
+    "theme_key": "users"
+   },
+   {
+    "subtheme": "Impact evaluation of AI interventions",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Life-cycle assurance frameworks, standards and ethics reviews",
+    "theme_key": "compliance"
+   },
+   {
+    "subtheme": "Checking compliance with law and regulation",
+    "theme_key": "compliance"
+   },
+   {
+    "subtheme": "Named delivery roles and teams",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Due diligence on suppliers, vendors and third-party models",
+    "theme_key": "supply"
+   },
+   {
+    "subtheme": "Checking by regulators, central bodies and independent assurers",
+    "theme_key": "compliance"
+   },
+   {
+    "subtheme": "What the transparency record (ATRS) asks bodies to describe about delivery",
+    "theme_key": "transparency"
+   },
+   {
+    "subtheme": "Explainability of AI outputs",
+    "theme_key": "outputs"
+   }
+  ],
+  "EU-DEL-DES": [
+   {
+    "subtheme": "Conformity assessment before market entry or use, and re-assessment on change",
+    "theme_key": "testing"
+   },
+   {
+    "subtheme": "Provider risk-management system across the lifecycle",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Risk classification and assessment of each AI system by the institution using it",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Quality and representativeness of training, testing and input data",
+    "theme_key": "data"
+   },
+   {
+    "subtheme": "Testing and validation against defined metrics before and during deployment",
+    "theme_key": "testing"
+   },
+   {
+    "subtheme": "Accuracy, robustness and security of AI systems",
+    "theme_key": "outputs"
+   },
+   {
+    "subtheme": "Bias and fairness checks on data, models and outputs",
+    "theme_key": "outputs"
+   },
+   {
+    "subtheme": "Technical documentation and recording of design, testing and decisions",
+    "theme_key": "logging"
+   },
+   {
+    "subtheme": "Automatic logging and retention of logs",
+    "theme_key": "logging"
+   },
+   {
+    "subtheme": "Post-market monitoring, incident investigation and corrective action by providers",
+    "theme_key": "monitoring"
+   },
+   {
+    "subtheme": "Deployer duties when using high-risk systems",
+    "theme_key": "monitoring"
+   },
+   {
+    "subtheme": "Ongoing monitoring of performance, drift, bias and outputs in operation",
+    "theme_key": "monitoring"
+   },
+   {
+    "subtheme": "Institution-level and sector-wide monitoring of AI use and compliance",
+    "theme_key": "monitoring"
+   },
+   {
+    "subtheme": "Checks carried out by regulators and supervisory authorities",
+    "theme_key": "compliance"
+   },
+   {
+    "subtheme": "Fundamental rights and data protection impact assessments before use",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Necessity, proportionality and safeguards for biometric identification and other sensitive uses",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Human oversight built into system design",
+    "theme_key": "review"
+   },
+   {
+    "subtheme": "Human review of individual outputs before action, decision or publication",
+    "theme_key": "review"
+   },
+   {
+    "subtheme": "Explainability, interpretability and understanding of the system",
+    "theme_key": "outputs"
+   },
+   {
+    "subtheme": "Real-world testing, sandboxes and pilots",
+    "theme_key": "testing"
+   },
+   {
+    "subtheme": "Obligations on general-purpose AI model providers",
+    "theme_key": "supply"
+   },
+   {
+    "subtheme": "Telling people they are dealing with an AI system",
+    "theme_key": "transparency"
+   },
+   {
+    "subtheme": "Machine-readable marking and detection of AI-generated content",
+    "theme_key": "transparency"
+   },
+   {
+    "subtheme": "Labelling deep fakes and AI-generated text on matters of public interest",
+    "theme_key": "transparency"
+   },
+   {
+    "subtheme": "Measures to avoid prohibited practices",
+    "theme_key": "compliance"
+   },
+   {
+    "subtheme": "Compliance deadlines for existing systems",
+    "theme_key": "compliance"
+   },
+   {
+    "subtheme": "Quality management system",
+    "theme_key": "logging"
+   },
+   {
+    "subtheme": "Accessibility",
+    "theme_key": "users"
+   },
+   {
+    "subtheme": "Scope boundaries: repurposed, dual-use, research and excluded uses",
+    "theme_key": "compliance"
+   },
+   {
+    "subtheme": "Procurement checks and due diligence on suppliers and third-party models",
+    "theme_key": "supply"
+   },
+   {
+    "subtheme": "Personal data protection in AI development and use",
+    "theme_key": "data"
+   },
+   {
+    "subtheme": "Public value, needs, readiness and sustainability assessment",
+    "theme_key": "impact"
+   },
+   {
+    "subtheme": "Security against AI-enabled threats and use of AI in cyber defence",
+    "theme_key": "security"
+   },
+   {
+    "subtheme": "General duties to comply with law and principles across the lifecycle",
+    "theme_key": "compliance"
+   }
+  ],
+  "UK-DEL-RES": [
+   {
+    "subtheme": "Multidisciplinary teams and specialist roles",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "In-house capability, outsourcing and knowledge transfer",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Organisation-wide AI literacy, training plans and workforce planning",
+    "theme_key": "skills"
+   },
+   {
+    "subtheme": "Training for those who use AI tools and act on their outputs",
+    "theme_key": "skills"
+   },
+   {
+    "subtheme": "Human reviewers and expert backstops for AI outputs",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Learning offers and time entitlements",
+    "theme_key": "skills"
+   },
+   {
+    "subtheme": "Testing, evaluation and explainability tools",
+    "theme_key": "tools"
+   },
+   {
+    "subtheme": "Prompt-engineering capability and prompt resources",
+    "theme_key": "tools"
+   },
+   {
+    "subtheme": "Resources for impact evaluation of AI interventions",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Information sources for ongoing monitoring",
+    "theme_key": "info"
+   },
+   {
+    "subtheme": "Data quality, data gaps and access to data",
+    "theme_key": "data"
+   },
+   {
+    "subtheme": "Documentation templates and records (data cards, model cards, ATRS)",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Organisations' own AI policies, guidance and templates",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Official assurance and ethics catalogues, guides and self-assessment tools",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Government guidance series and signposting",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Regulator and data-protection guidance and toolkits",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Risk and impact assessment frameworks, templates and examples",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Technical standards",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Security guidance, tools and skills",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Technical environments, platforms, sandboxes and compute",
+    "theme_key": "tools"
+   },
+   {
+    "subtheme": "Money: funding, budgets and whole-life costs",
+    "theme_key": "money"
+   },
+   {
+    "subtheme": "Central capability and support offers to public bodies",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Resources secured from suppliers through procurement and contracts",
+    "theme_key": "info"
+   },
+   {
+    "subtheme": "Non-state assurance ecosystem: market, research and professional bodies",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Resources for operation, maintenance and user support after deployment",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Tools to measure environmental footprint",
+    "theme_key": "tools"
+   }
+  ],
+  "EU-DEL-RES": [
+   {
+    "subtheme": "Information from providers for interpreting and checking outputs",
+    "theme_key": "info"
+   },
+   {
+    "subtheme": "Competence, authority and conditions for human oversight and review",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "AI literacy duty on providers and deployers",
+    "theme_key": "skills"
+   },
+   {
+    "subtheme": "Public support for AI literacy",
+    "theme_key": "skills"
+   },
+   {
+    "subtheme": "Information and technical access along the AI value chain",
+    "theme_key": "info"
+   },
+   {
+    "subtheme": "Legal access to data for training, testing and bias detection",
+    "theme_key": "data"
+   },
+   {
+    "subtheme": "Templates and inputs for fundamental rights impact assessment",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Benchmarks, metrics and validation methods",
+    "theme_key": "tools"
+   },
+   {
+    "subtheme": "Resources for third-party conformity assessment",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Templates and simplified forms for documentation, quality management and post-market monitoring",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Regulatory sandboxes: establishment, deadlines and resourcing",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "What sandboxes and real-world testing give participants",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Testing facilities, innovation hubs and technical support structures",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Independent and outside experts for evaluation and testing",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Commission guidelines and pointers to interpretive sources",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Help channels, information platforms, templates and awareness campaigns",
+    "theme_key": "support"
+   },
+   {
+    "subtheme": "Standards, codes of practice and codes of conduct",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Marking, detection and labelling tools for AI-generated content",
+    "theme_key": "tools"
+   },
+   {
+    "subtheme": "Guidance and templates from data protection and cybersecurity authorities",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Pointers to technical tools for explainability, bias, privacy and vulnerability checks",
+    "theme_key": "tools"
+   },
+   {
+    "subtheme": "Building AI skills and capacity in public administrations",
+    "theme_key": "skills"
+   },
+   {
+    "subtheme": "Training and awareness for staff who use or build AI",
+    "theme_key": "skills"
+   },
+   {
+    "subtheme": "Specialist staff and in-house expertise",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Data protection officers as an advisory resource",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Internal competence centres, support networks and staff guidance",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "AI tools, licences and infrastructure for staff",
+    "theme_key": "tools"
+   },
+   {
+    "subtheme": "Data quality and readiness",
+    "theme_key": "data"
+   },
+   {
+    "subtheme": "Money: funding programmes, fees and resource allocation",
+    "theme_key": "money"
+   },
+   {
+    "subtheme": "Frameworks, indicators and assistance for assessing AI's impact in public administrations",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Self-assessment lists and risk methods",
+    "theme_key": "guidance"
+   }
+  ],
+  "UK-COO-DES": [
+   {
+    "subtheme": "Procurement law, routes and market engagement",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Allocating responsibilities, risks, liabilities and ownership with suppliers",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Contract terms that carry standards, testing, fairness and audit duties to suppliers",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Service levels, support and incident handling in supplier arrangements",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Supplier selection criteria: sustainability, security and contract type",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Information requested from suppliers before purchase",
+    "theme_key": "supplyinfo"
+   },
+   {
+    "subtheme": "Information flowing from suppliers and developers during use",
+    "theme_key": "supplyinfo"
+   },
+   {
+    "subtheme": "Securing supplier information for the public transparency record (ATRS)",
+    "theme_key": "supplyinfo"
+   },
+   {
+    "subtheme": "Data sharing and data-transfer agreements",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Consulting specialist teams within the organisation",
+    "theme_key": "internal"
+   },
+   {
+    "subtheme": "Keeping named officers informed",
+    "theme_key": "internal"
+   },
+   {
+    "subtheme": "Consultation before acting on AI-supported records disposal",
+    "theme_key": "internal"
+   },
+   {
+    "subtheme": "Escalation routes and internal governance coordination",
+    "theme_key": "internal"
+   },
+   {
+    "subtheme": "Reporting misuse, security incidents and exceptions (DWP)",
+    "theme_key": "notify"
+   },
+   {
+    "subtheme": "Notice when a tool is rolled back, switched off or decommissioned",
+    "theme_key": "notify"
+   },
+   {
+    "subtheme": "Contact points",
+    "theme_key": "contacts"
+   },
+   {
+    "subtheme": "The ATRS submission route and shared template",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "ATRS record fields that disclose suppliers, models and data sharing",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Internal inventories and registers",
+    "theme_key": "registers"
+   },
+   {
+    "subtheme": "Cross-government communities, networks and central support",
+    "theme_key": "groups"
+   },
+   {
+    "subtheme": "Recording and passing on lessons, and reuse",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Engaging and informing the public, civil society, affected groups and other stakeholders",
+    "theme_key": "public"
+   },
+   {
+    "subtheme": "Feedback loops from users, operators and stakeholders",
+    "theme_key": "public"
+   },
+   {
+    "subtheme": "Ethics committees and review committees",
+    "theme_key": "groups"
+   },
+   {
+    "subtheme": "Links between evaluators, testers and the teams that build, run and govern the tool",
+    "theme_key": "internal"
+   },
+   {
+    "subtheme": "Partnerships with industry, academia and external researchers",
+    "theme_key": "public"
+   },
+   {
+    "subtheme": "Referrals from public bodies to regulators",
+    "theme_key": "referrals"
+   },
+   {
+    "subtheme": "Coordination among regulators and with central government",
+    "theme_key": "regulators"
+   },
+   {
+    "subtheme": "Auditors' links with audited bodies, Parliament and peers",
+    "theme_key": "regulators"
+   },
+   {
+    "subtheme": "Building the AI assurance ecosystem: standards, accreditation and convening",
+    "theme_key": "regulators"
+   }
+  ],
+  "EU-COO-DES": [
+   {
+    "subtheme": "Notifications between authorities about incidents, risks and enforcement measures",
+    "theme_key": "notify"
+   },
+   {
+    "subtheme": "Notification of national rules and frameworks to the Commission",
+    "theme_key": "notify"
+   },
+   {
+    "subtheme": "Referrals, alerts and mutual assistance in enforcement between EU and national bodies",
+    "theme_key": "referrals"
+   },
+   {
+    "subtheme": "Links between AI regulators and fundamental-rights bodies",
+    "theme_key": "regulators"
+   },
+   {
+    "subtheme": "Coordination across overlapping regulatory regimes",
+    "theme_key": "regulators"
+   },
+   {
+    "subtheme": "EU-level coordination bodies: the AI Board, its sub-groups and duties to support the AI Office",
+    "theme_key": "groups"
+   },
+   {
+    "subtheme": "Confidentiality conditions on information exchange",
+    "theme_key": "regulators"
+   },
+   {
+    "subtheme": "Coordination of notifying authorities and notified bodies",
+    "theme_key": "regulators"
+   },
+   {
+    "subtheme": "Regulatory sandboxes and real-world testing: agreed plans and cooperating authorities",
+    "theme_key": "regulators"
+   },
+   {
+    "subtheme": "Consultation and stakeholder input into EU rules, standards and guidance",
+    "theme_key": "public"
+   },
+   {
+    "subtheme": "Codes of practice and codes of conduct as shared instruments",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Contact points",
+    "theme_key": "contacts"
+   },
+   {
+    "subtheme": "Dialogue between the AI Office and providers of general-purpose AI models",
+    "theme_key": "supplyinfo"
+   },
+   {
+    "subtheme": "Information duties along the AI value chain",
+    "theme_key": "supplyinfo"
+   },
+   {
+    "subtheme": "Written agreements and cooperation duties between providers and their suppliers",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Public bodies' procurement and contract terms with AI suppliers",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Marking, labelling and detection across the content value chain",
+    "theme_key": "supplyinfo"
+   },
+   {
+    "subtheme": "Supporting the GovTech supplier market",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Shared templates, typologies, standards and interoperability requirements",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "EU database and public lists under the AI Act",
+    "theme_key": "registers"
+   },
+   {
+    "subtheme": "Registries of AI systems and algorithms for public administrations",
+    "theme_key": "registers"
+   },
+   {
+    "subtheme": "Shared repositories, reusable components and data spaces",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Proposed networks, observatories and learning communities for public-sector AI",
+    "theme_key": "groups"
+   },
+   {
+    "subtheme": "Internal AI governance bodies, networks and task forces within EU institutions",
+    "theme_key": "groups"
+   },
+   {
+    "subtheme": "Cooperation between EU institutions and with peer bodies on AI use",
+    "theme_key": "groups"
+   },
+   {
+    "subtheme": "Data protection referrals: DPO advice and prior consultation of the EDPS",
+    "theme_key": "referrals"
+   },
+   {
+    "subtheme": "Involving stakeholders, affected people, end-users, workers and citizens",
+    "theme_key": "public"
+   },
+   {
+    "subtheme": "Remote biometric identification by law enforcement: notification, delegation and national laws",
+    "theme_key": "notify"
+   },
+   {
+    "subtheme": "Cybersecurity cooperation on AI",
+    "theme_key": "regulators"
+   },
+   {
+    "subtheme": "International cooperation and alignment",
+    "theme_key": "regulators"
+   }
+  ],
+  "UK-COO-RES": [
+   {
+    "subtheme": "Routes to market and central commercial agreements",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Contract templates, clauses and supplier requirement checklists",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Information flowing between suppliers, model providers and public buyers",
+    "theme_key": "supplyinfo"
+   },
+   {
+    "subtheme": "In-house commercial, legal and supplier-facing expertise",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Pointers to other official guidance and toolkits",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Central contact mailboxes",
+    "theme_key": "contacts"
+   },
+   {
+    "subtheme": "Directories of internal teams and roles",
+    "theme_key": "contacts"
+   },
+   {
+    "subtheme": "Transparency-record template and coordinating roles (ATRS)",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Cross-government communities, networks and champions",
+    "theme_key": "networks"
+   },
+   {
+    "subtheme": "Central and oversight bodies offering support, funding or partnership",
+    "theme_key": "networks"
+   },
+   {
+    "subtheme": "Regulator coordination and joint regulatory advice",
+    "theme_key": "networks"
+   },
+   {
+    "subtheme": "Shared reference frameworks, knowledge hubs and repositories",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Consulting stakeholders and business owners",
+    "theme_key": "networks"
+   }
+  ],
+  "EU-COO-RES": [
+   {
+    "subtheme": "Model contract terms for the AI supply chain",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Guidance and best practice for public procurement of AI",
+    "theme_key": "contracts"
+   },
+   {
+    "subtheme": "Shared electronic tools for notification and reporting",
+    "theme_key": "contacts"
+   },
+   {
+    "subtheme": "Advice channels and contact points for deployers, SMEs and local public authorities",
+    "theme_key": "contacts"
+   },
+   {
+    "subtheme": "Secretariat and support for EU coordination bodies and joint investigations",
+    "theme_key": "networks"
+   },
+   {
+    "subtheme": "Competence and knowledge of the people who connect actors",
+    "theme_key": "networks"
+   },
+   {
+    "subtheme": "Common interpretive guidance and shared frameworks",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Registers of AI systems and their common vocabulary",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Shared repositories, platforms and reusable components",
+    "theme_key": "templates"
+   },
+   {
+    "subtheme": "Funding for AI adoption, experimentation and research",
+    "theme_key": "money"
+   },
+   {
+    "subtheme": "Data availability and open data sharing",
+    "theme_key": "money"
+   },
+   {
+    "subtheme": "Networks, champions and inter-institutional sharing",
+    "theme_key": "networks"
+   },
+   {
+    "subtheme": "Information and metrics passed between AI providers and deployers",
+    "theme_key": "supplyinfo"
+   },
+   {
+    "subtheme": "Interoperable detection of AI-generated content",
+    "theme_key": "supplyinfo"
+   },
+   {
+    "subtheme": "Capacity of vulnerability disclosure systems",
+    "theme_key": "networks"
+   }
+  ],
+  "UK-ACC-DES": [
+   {
+    "subtheme": "Named accountable roles and owners",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Responsibility for AI outputs and decisions stays with the deploying body and its people",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Sign-off, approval and clearance gates",
+    "theme_key": "signoff"
+   },
+   {
+    "subtheme": "Oversight by boards and audit and risk committees",
+    "theme_key": "reporting"
+   },
+   {
+    "subtheme": "Independent review, ethics scrutiny and commissioned external audit",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Public audit institutions auditing government AI",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "What auditors are to examine: scope, criteria and depth",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Auditor examination of models and outputs",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Internal and periodic audits and compliance inspection",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Documentation and evidence for auditors and reviewers",
+    "theme_key": "records"
+   },
+   {
+    "subtheme": "Logs and audit trails of AI outputs, versions and actions taken on AI judgements",
+    "theme_key": "records"
+   },
+   {
+    "subtheme": "ATRS: who must publish",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "ATRS: what a record discloses, how it is cleared, and what may be withheld",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Other publication: assessments, evaluation results, code, data and governance information",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Telling people that AI is in use",
+    "theme_key": "telling"
+   },
+   {
+    "subtheme": "Explaining AI outputs and decisions",
+    "theme_key": "telling"
+   },
+   {
+    "subtheme": "Acknowledging limitations, uncertainty and residual risk",
+    "theme_key": "telling"
+   },
+   {
+    "subtheme": "Challenge, complaint and redress routes",
+    "theme_key": "redress"
+   },
+   {
+    "subtheme": "User reporting and escalation of suspect outputs to human review",
+    "theme_key": "redress"
+   },
+   {
+    "subtheme": "Incident, breach and misuse reporting",
+    "theme_key": "reporting"
+   },
+   {
+    "subtheme": "Discipline, sanctions and legal exposure",
+    "theme_key": "sanctions"
+   },
+   {
+    "subtheme": "Supplier and supply-chain responsibility and liability",
+    "theme_key": "sanctions"
+   },
+   {
+    "subtheme": "Answering to regulators and central government",
+    "theme_key": "reporting"
+   },
+   {
+    "subtheme": "Regulators' role and remit in holding AI to account",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Existing law restated as accountability duties",
+    "theme_key": "law"
+   },
+   {
+    "subtheme": "The wider assurance ecosystem: accreditation, certification and civil society",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Accountability measures scaled to risk",
+    "theme_key": "law"
+   }
+  ],
+  "EU-ACC-DES": [
+   {
+    "subtheme": "Provider and deployer roles, and when they shift",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Authorised representatives and identifiable contact points",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Controller responsibility under data protection law",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Responsibility that stays put when AI outputs, suppliers or staff are involved",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Internal accountability lines inside EU institutions and providers",
+    "theme_key": "roles"
+   },
+   {
+    "subtheme": "Sign-off: declarations of conformity, CE marking and signed records",
+    "theme_key": "signoff"
+   },
+   {
+    "subtheme": "Burden on operators to demonstrate compliance, lawfulness or an exception",
+    "theme_key": "signoff"
+   },
+   {
+    "subtheme": "Codes of practice, standards and comply-or-explain",
+    "theme_key": "signoff"
+   },
+   {
+    "subtheme": "Documentation and information supplied to supervisors on request",
+    "theme_key": "records"
+   },
+   {
+    "subtheme": "Registration in the EU database",
+    "theme_key": "records"
+   },
+   {
+    "subtheme": "AI registers and inventories outside the AI Act database",
+    "theme_key": "records"
+   },
+   {
+    "subtheme": "Records of processing and decision documentation",
+    "theme_key": "records"
+   },
+   {
+    "subtheme": "Serious incident and non-compliance reporting",
+    "theme_key": "reporting"
+   },
+   {
+    "subtheme": "Prior authorisation and use-by-use reporting for police biometric identification",
+    "theme_key": "reporting"
+   },
+   {
+    "subtheme": "Fundamental rights impact assessment: notification and complaint arrangements",
+    "theme_key": "reporting"
+   },
+   {
+    "subtheme": "General-purpose model systemic-risk notification, designation and reassessment",
+    "theme_key": "reporting"
+   },
+   {
+    "subtheme": "Reporting from national authorities and Member States to the Commission",
+    "theme_key": "reporting"
+   },
+   {
+    "subtheme": "Commission answerable to the European Parliament and Council",
+    "theme_key": "reporting"
+   },
+   {
+    "subtheme": "Designated supervisors: who supervises whom",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Investigation, evaluation and corrective powers over AI systems",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Commission and AI Office oversight of general-purpose AI models",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Data protection supervisors' review of AI models",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Oversight of notified bodies",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Procedural safeguards on supervisors and challenge routes for operators",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Audit and auditability",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Accountability conditions on real-world testing and sandboxes",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Publication by regulators and advisory bodies",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Publication of general-purpose model training-content summaries",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Transparency of public administrations' AI use to citizens (non-binding)",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Telling people that AI is in use or is deciding about them",
+    "theme_key": "telling"
+   },
+   {
+    "subtheme": "Explanation of AI-assisted decisions, human intervention and contest",
+    "theme_key": "telling"
+   },
+   {
+    "subtheme": "Marking and labelling AI-generated content",
+    "theme_key": "telling"
+   },
+   {
+    "subtheme": "Human review and editorial responsibility as the exemption from labelling AI text",
+    "theme_key": "telling"
+   },
+   {
+    "subtheme": "Complaints to regulators, whistleblowing and courts",
+    "theme_key": "redress"
+   },
+   {
+    "subtheme": "Data subject rights against AI models and their outputs",
+    "theme_key": "redress"
+   },
+   {
+    "subtheme": "Civil liability",
+    "theme_key": "sanctions"
+   },
+   {
+    "subtheme": "Administrative fines and penalties on operators",
+    "theme_key": "sanctions"
+   },
+   {
+    "subtheme": "Sanctions on public bodies themselves",
+    "theme_key": "sanctions"
+   }
+  ],
+  "UK-ACC-RES": [
+   {
+    "subtheme": "ATRS template and completion guidance",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Publication channels and public repositories",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Records kept as evidence for answering",
+    "theme_key": "access"
+   },
+   {
+    "subtheme": "Guidance on explaining AI-assisted decisions and on transparency",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Guidance and advice on legal duties, rights and enforcement",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Outside audit, certification and accreditation support",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Purpose-built audit catalogue, helper tool and fairness metrics",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "International and other-field sources of audit criteria",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "UK government guidance named as audit references",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Ethics and governance frameworks pointed to",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Skills, training and team make-up for auditors",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "The NAO's own capability to audit AI",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Access, cooperation and reporting channels for compliance checks",
+    "theme_key": "access"
+   },
+   {
+    "subtheme": "Support for audit and risk assurance committees",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Expertise, authority and defined roles for those held accountable",
+    "theme_key": "staff"
+   },
+   {
+    "subtheme": "Resources to respond to the public and remedy harms",
+    "theme_key": "staff"
+   },
+   {
+    "subtheme": "Supplier indemnity as liability cover",
+    "theme_key": "access"
+   }
+  ],
+  "EU-ACC-RES": [
+   {
+    "subtheme": "Funding and staffing of supervisors and enforcers",
+    "theme_key": "staff"
+   },
+   {
+    "subtheme": "Scientific panel of independent experts",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Testing structures and appointed outside evaluators and auditors",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Access to information, documentation, data and systems for overseers",
+    "theme_key": "access"
+   },
+   {
+    "subtheme": "Template for the public summary of training content",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Templates, forms and formats for reporting, documentation and attestation",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Labels, icons and detection tools for AI-generated content",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Codes of practice and other recognised routes to show compliance",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Official guidance for enforcers and the regulated",
+    "theme_key": "guidance"
+   },
+   {
+    "subtheme": "Tools and information owed by developers and suppliers for individuals' data rights",
+    "theme_key": "access"
+   },
+   {
+    "subtheme": "Registers, databases and public information for outside scrutiny",
+    "theme_key": "publication"
+   },
+   {
+    "subtheme": "Skills, training and awareness for supervisors and staff",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "The European Court of Auditors' capacity to audit AI",
+    "theme_key": "audit"
+   },
+   {
+    "subtheme": "Internal roles that support a body's own accountability",
+    "theme_key": "staff"
+   }
+  ]
+ }
+}

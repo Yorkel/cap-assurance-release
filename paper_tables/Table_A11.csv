@@ -1,0 +1,22 @@
+Category,Anchor,Minimum,Maximum,Range
+Defence,0.432,0.400,0.516,11.6 pp
+Domestic Commerce,0.449,0.449,0.547,9.8 pp
+Foreign Trade,0.759,0.667,0.759,9.3 pp
+Technology,0.622,0.530,0.622,9.2 pp
+Culture,0.600,0.577,0.667,9.0 pp
+Environment,0.812,0.726,0.812,8.6 pp
+Government Operations,0.570,0.497,0.581,8.4 pp
+Labour,0.777,0.726,0.800,7.4 pp
+Social Welfare,0.724,0.672,0.746,7.3 pp
+Civil Rights,0.624,0.624,0.694,7.0 pp
+Health,0.844,0.797,0.866,6.8 pp
+Law and Crime,0.694,0.667,0.730,6.3 pp
+Housing,0.766,0.738,0.800,6.2 pp
+Transportation,0.844,0.796,0.852,5.6 pp
+Energy,0.941,0.889,0.941,5.2 pp
+International Affairs,0.469,0.449,0.500,5.1 pp
+Macroeconomics,0.610,0.568,0.615,4.7 pp
+Agriculture,0.906,0.874,0.909,3.5 pp
+Immigration,0.877,0.865,0.895,3.0 pp
+Education,0.909,0.894,0.924,3.0 pp
+Public Lands,0.143,0.137,0.145,0.8 pp

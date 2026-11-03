@@ -1,0 +1,47 @@
+{
+  "producer": "04_analysis/compare_retained_agreement.py",
+  "producer_sha256": "8dc20e5370599af26a31ae1cc2d00a5c5a38b21c216d2f271079b67840d72fd1",
+  "input_sha256": {
+    "05_evidence/confidence_per_question.csv": "9c7d92f854d67d651e30bf773df49c9ead4fc0fc1e9e4543f283ef5daf2d451f",
+    "01_data/splits/sst_main.csv": "9ab2740b2df1a9b34d2195415cf861365078edbcf87046f99702c526c4b22d2e",
+    "06_outputs/tables/current/claude_labels_reconstructed.csv": "43204a99ec534a077775567cc8392e60b6632b8fb3374cfd6be4edafd0e8e484"
+  },
+  "n_matched_questions": 1199,
+  "AI_AI": {
+    "n_pairs": 28,
+    "mean_agreement": 0.8960741093768618,
+    "min_agreement": 0.8490408673894912,
+    "max_agreement": 0.9499582985821518
+  },
+  "AI_CAP": {
+    "n_configurations": 8,
+    "mean_agreement": 0.6894286905754796,
+    "min_agreement": 0.6822351959966639,
+    "max_agreement": 0.7039199332777314
+  },
+  "every_AI_pair_agreement_exceeds_every_AI_CAP_agreement": true,
+  "examples": {
+    "6728": {
+      "CAP": 12,
+      "retained_label_counts": {
+        "12": 5,
+        "13": 3
+      }
+    },
+    "6265": {
+      "CAP": 14,
+      "retained_label_counts": {
+        "14": 7,
+        "21": 1
+      }
+    }
+  },
+  "historical_vendor_example": {
+    "question_id": 6265,
+    "label": 9,
+    "CAP": 14,
+    "source": "recorded_disagreement",
+    "included_in_principal_eight_configuration_analysis": false
+  },
+  "scope": "Operational GPT-4o configurations and the same CAP benchmark on matched questions; not general AI-versus-human ability, independent corroboration, or observed human-review performance."
+}

@@ -1,0 +1,134 @@
+{
+  "group": "UK-ACC-RES",
+  "themes": [
+    {
+      "theme": "Ethics and governance frameworks pointed to",
+      "source": "new",
+      "definition": "Broad UK ethics and governance frameworks that documents point to for documenting governance actions, ethical assurance, and being transparent and accountable, without being specific to AI tools.",
+      "what_is_set_out": "UK174 points to the national public sector guidance 'understanding AI ethics and safety', whose process-based governance framework 'can help project teams establish and document proportionate governance actions'; its author is not named in the passage. UK133 points, in a footnote, to Government Social Research professional guidance on ethical assurance for social and behavioural research in government, serving its ethics review requirements (coder note). UK136 tells readers to apply Principle 6 of the Data Ethics Framework, 'Make your work transparent and be accountable', under its 'Publication' considerations, next to advice on avoiding vendor lock-in. All three point to wider frameworks rather than supplying something specific to an AI tool, and none of the passages says what the framework requires in practice.",
+      "documents": ["UK174", "UK133", "UK136"],
+      "holders": "Providers: not named for 'understanding AI ethics and safety' (UK174) or the Data Ethics Framework (UK136); Government Social Research (UK133). Users: project teams (UK174); not stated (UK133, UK136).",
+      "binding": "UK174 and UK133 are pointers ('can help', 'please see'); UK136 uses an imperative ('Apply'). None is statutory and no consequence is stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-ACC-RES-002", "UK-ACC-RES-032", "UK-ACC-RES-073"],
+      "quotes": [
+        {"id": "UK-ACC-RES-002", "doc": "UK174", "location": "Using AI safely and responsibly > Ethics > Transp…", "quote": "the UK’s national public sector AI ethics and safety guidance, understanding AI ethics and safety, which outlines a process-based governance framework that can help project teams establish and document proportionate governance actions"},
+        {"id": "UK-ACC-RES-032", "doc": "UK133", "location": "footnote list item 7 (in-text footnote 8), p. 28", "quote": "For further guidance, please see Government Social Research Professional Guidance - Ethical Assurance for Social and Behavioural Research in Government"},
+        {"id": "UK-ACC-RES-073", "doc": "UK136", "location": "Publication, 'Consider strategies to avoid vendor…", "quote": "Apply the Data Ethics Framework - Principle 6: Make your work transparent and be accountable"}
+      ]
+    },
+    {
+      "theme": "Skills, training and team make-up for auditors",
+      "source": "starting code",
+      "definition": "The knowledge, training and mix of specialists that auditors and supreme audit institutions are told they need in order to audit AI (starting codes: roles and staff, skills and training, serving audit).",
+      "what_is_set_out": "UK268 sets out what audit offices need in order to audit AI. Teams should combine specialist auditors, IT auditors and data scientists, and teams without data science experience should seek input from colleagues who have it (coder note). Auditors need specific training: high-level AI and machine learning principles for baseline audits, and coding languages, model implementation and software tools for in-depth audits (the list continues beyond the coder note). Auditors who want to perform all levels of review need a deep understanding of the system's technology, which may require AI or IT specialists, and must keep up with best practice and emerging requirements, for example on environmental impact, where measurement methods are 'not yet well developed' (coder note). At institutional level, supreme audit institutions 'should invest in developing their auditors’ capabilities' and 'should be equipped to audit AI systems to fulfil their statutory responsibilities', judging whether the AI delivers 'efficient, effective, and compliant public services'. Strength varies within the document, from 'good practice' on team make-up to 'need' and 'should' on training and equipment.",
+      "documents": ["UK268"],
+      "holders": "Supreme Audit Institutions (SAIs); auditors; audit teams.",
+      "binding": "Recommendations and good practice ('It is good practice', 'should', 'need'). UK-ACC-RES-021 ties the capacity to SAIs' statutory responsibilities, but the recommendation itself is not statutory (coder note). No consequence stated.",
+      "checks": "Trigger: an audit of an AI system; timing not stated. Compared against: whether the use of the AI delivers efficient, effective and compliant public services (UK-ACC-RES-021). Metric or threshold: not stated. Who: auditors, with data scientists and IT auditors or AI specialists for in-depth review. What happens with the result: 'meaningful recommendations for improvements' (UK-ACC-RES-016). [inference] The training list (coding languages, model implementation) implies that in-depth audits examine models and code directly, but the passages do not say how outputs are tested.",
+      "passage_ids": ["UK-ACC-RES-007", "UK-ACC-RES-010", "UK-ACC-RES-016", "UK-ACC-RES-019", "UK-ACC-RES-020", "UK-ACC-RES-021"],
+      "quotes": [
+        {"id": "UK-ACC-RES-007", "doc": "UK268", "location": "A1.html, Appendix 1", "quote": "It is good practice to form audit teams with a mix of skills. A balanced team might include specialist auditors, IT auditors, and data scientists."},
+        {"id": "UK-ACC-RES-016", "doc": "UK268", "location": "audit-depth-and-audit-design.html, 4.0", "quote": "Auditors who would like to perform all levels of review should have a deep understanding of the AI system’s technology in order to give meaningful recommendations for improvements."},
+        {"id": "UK-ACC-RES-019", "doc": "UK268", "location": "executive-summary.html, 1 Executive summary", "quote": "Auditors need specific training in the following areas of expertise to perform meaningful assessments of AI applications and to give appropriate recommendations"},
+        {"id": "UK-ACC-RES-021", "doc": "UK268", "location": "executive-summary.html, 1 Executive summary, conc…", "quote": "SAIs should be equipped to audit AI systems to fulfil their statutory responsibilities and assess whether the use of the AI system being audited delivers efficient, effective, and compliant public services."}
+      ]
+    },
+    {
+      "theme": "The NAO's own capability to audit AI",
+      "source": "new",
+      "definition": "The National Audit Office's commitments to build its own staff, methods and internal structures for auditing AI used in government.",
+      "what_is_set_out": "NAO_AI_Strategy commits the NAO, 'Over time', to 'a sustainable capability to audit AI' so that it can give 'robust, independent assurance where AI is material to public spending and service delivery'. It describes its approach as being developed and applied, drawing on international good practice and working with unnamed partners; the coder notes record its maturity level as L0 ('Established 2025'), with foundational approaches, methods and skills, including common risk questions, still being developed. It commits to strengthening its people's ability 'to audit and challenge AI-enabled systems with confidence', with a success measure of audit teams 'confident and capable of auditing AI-enabled services' (coder note), and sets a priority action to establish an 'AI in audit working group' to develop capabilities and methods. [inference] Read alongside UK268 and UK266, where the NAO offers tools and question sets to others, the NAO's own strategy describes its capability to audit AI as foundational and still being built.",
+      "documents": ["NAO_AI_Strategy"],
+      "holders": "National Audit Office; its audit teams; the AI in audit working group; partners (not named).",
+      "binding": "Organisational commitments ('we will', a roadmap priority action). Not statutory; no deadline beyond 'Over time'; no consequence stated.",
+      "checks": "Trigger: AI being 'material to public spending and service delivery'; this is the only stated threshold for scrutiny in the cell, and how materiality is judged is not stated. Compared against: not stated (methods in development). Metric or threshold: not stated. Who: NAO audit teams. What happens with the result: 'robust, independent assurance'; the reporting route is not stated in these passages.",
+      "passage_ids": ["UK-ACC-RES-043", "UK-ACC-RES-044", "UK-ACC-RES-045", "UK-ACC-RES-046"],
+      "quotes": [
+        {"id": "UK-ACC-RES-043", "doc": "NAO_AI_Strategy", "location": "p.10, Auditing AI in government", "quote": "Over time, we will establish a sustainable capability to audit AI, ensuring we can provide robust, independent assurance where AI is material to public spending and service delivery."},
+        {"id": "UK-ACC-RES-044", "doc": "NAO_AI_Strategy", "location": "p.10, Auditing AI in government", "quote": "We are developing and applying our approach to auditing AI use in government, drawing on international good practice and working with partners to build capability."},
+        {"id": "UK-ACC-RES-046", "doc": "NAO_AI_Strategy", "location": "p.14, Our priority actions, 1. Support the evolut…", "quote": "Establish a working group (AI in audit working group) to explore how we will develop our capabilities and methodologies in light of the increasing use of AI in the bodies we audit."},
+        {"id": "UK-ACC-RES-045", "doc": "NAO_AI_Strategy", "location": "p.12, Our people, Skills for today - and tomorrow", "quote": "strengthening our ability to audit and challenge AI-enabled systems with confidence."}
+      ]
+    },
+    {
+      "theme": "Access, cooperation and reporting channels for compliance checks",
+      "source": "starting code",
+      "definition": "What is made available so that auditors or compliance staff can actually examine an AI tool or receive reports about it: access to data and documentation, required cooperation from staff and suppliers, and an incident reporting channel (starting codes: access and tools, serving audit and reporting).",
+      "what_is_set_out": "UK268 tells auditors to 'assume that the data, or relevant extracts, are available alongside the documentation', but the coder note records its warning that the code and model may not be accessible, especially for purchased systems. DWP's policy (UK190) says all DWP employees, permanent or temporary, and suppliers and third parties who use DWP devices or licensed software 'will be required to support this activity' (its compliance assessment), and gives the DWP Security Incident Referral Webform for reporting, with a supplier portal and security standard as the suppliers' equivalents (coder note). The two differ sharply in strength: UK190 places a duty to cooperate on staff and suppliers by internal policy, whereas UK268 states only an expectation of access, with no party named as obliged to provide it. [inference] No passage requires a supplier to give auditors access to a purchased model or its code.",
+      "documents": ["UK268", "UK190"],
+      "holders": "Auditors (UK268; the party providing data is not stated, nearest actor the auditee [inference, coder note]); all DWP employees, permanent or temporary, and suppliers and third parties using DWP devices and/or licensed software (UK190); DWP as provider of the webform (UK190).",
+      "binding": "UK190: mandatory by departmental policy for the named groups ('will be required'); consequence not stated. UK268: an expectation ('should assume'); no duty and no consequence.",
+      "checks": "Trigger: DWP's compliance assessment, timing not stated; security incidents (webform); an audit (UK268). Compared against: DWP policy [inference]; not stated in UK268. Metric or threshold: not stated. Who: DWP (assessor not named); auditors. What happens with the result: not stated. The warning that a purchased system's code and model may be out of reach limits what any check on outputs can rest on.",
+      "passage_ids": ["UK-ACC-RES-017", "UK-ACC-RES-028", "UK-ACC-RES-029"],
+      "quotes": [
+        {"id": "UK-ACC-RES-017", "doc": "UK268", "location": "audit-depth-and-audit-design.html, 4.0", "quote": "Auditors should assume that the data, or relevant extracts, are available alongside the documentation."},
+        {"id": "UK-ACC-RES-028", "doc": "UK190", "location": "Compliance, (c)", "quote": "whether permanent or temporary and including suppliers and third parties who use DWP devices and/or licenced software will be required to support this activity."},
+        {"id": "UK-ACC-RES-029", "doc": "UK190", "location": "Compliance, b)", "quote": "using the DWP Security Incident Referral Webform"}
+      ]
+    },
+    {
+      "theme": "Support for audit and risk assurance committees",
+      "source": "new",
+      "definition": "The NAO guide that equips audit and risk assurance committees to oversee AI in their organisations, and the understanding committees are told they need.",
+      "what_is_set_out": "UK266 is an NAO guide for audit and risk assurance committees overseeing 'the planning, deployment and scaling' of AI within public sector organisations. It provides a picture of where AI is used in government (Figure 1, by type of AI and whether personal data is used, per the coder note), the areas organisations need to consider, and areas of focus with suggested questions to ask. It says committees need to understand 'the characteristics of the specific type of AI being proposed' in order to evaluate, manage and mitigate its risks. It is the only resource in the cell aimed at a board-level oversight body inside public organisations.",
+      "documents": ["UK266"],
+      "holders": "Provided by the National Audit Office; used by audit and risk assurance committees.",
+      "binding": "Provided guidance. The knowledge requirement is framed as important ('It is important for committees to understand'), good practice, with no consequence stated.",
+      "checks": "Trigger: proposals to use AI, and their planning, deployment and scaling. Compared against: the guide's areas of focus and suggested questions. Metric or threshold: not stated. Who: audit and risk assurance committees. What happens with the result: committees evaluate, manage and mitigate risks; what they do with an unsatisfactory answer is not stated.",
+      "passage_ids": ["UK-ACC-RES-069", "UK-ACC-RES-070", "UK-ACC-RES-071"],
+      "quotes": [
+        {"id": "UK-ACC-RES-069", "doc": "UK266", "location": "Aim of this guidance", "quote": "This guide highlights key considerations for audit and risk assurance committees when overseeing the planning, deployment and scaling of artificial intelligence (AI) within public sector organisations."},
+        {"id": "UK-ACC-RES-070", "doc": "UK266", "location": "Aim of this guidance", "quote": "This guidance includes: where AI is used in government; areas that organisations need to consider; and areas of focus and suggested questions to ask."},
+        {"id": "UK-ACC-RES-071", "doc": "UK266", "location": "Where AI is used in government, 'Use of AI' (befo…", "quote": "It is important for committees to understand the characteristics of the specific type of AI being proposed in their organisations in order to evaluate, manage and mitigate its associated risks."}
+      ]
+    },
+    {
+      "theme": "Expertise, authority and defined roles for those held accountable",
+      "source": "starting code",
+      "definition": "The skills, authority and formal role definitions that people named as accountable for an AI project are expected to have (starting codes: roles and staff, skills, serving named accountable roles).",
+      "what_is_set_out": "UK099 says it is 'essential' that the people accountable for a project's governance have appropriate technical expertise and knowledge, and the authority to make necessary changes; the coder note says it points to the Service Manual on building a digital and data team. It also points to government guidance on data ownership, which 'formalises the roles of the people in government responsible for managing data throughout its life cycle', listed alongside guidance on the senior responsible owner role and the Government Project Delivery Functional Standard (coder note). This is the only document in the cell that addresses resources for accountable individuals inside public bodies, and it does not say who checks that they have the expertise or the authority.",
+      "documents": ["UK099"],
+      "holders": "The people accountable for project governance (UK-ACC-RES-034); people in government responsible for managing data (UK-ACC-RES-039); the provider of the data ownership guidance is not named.",
+      "binding": "'essential' (strong wording, but good practice, not statutory); the data ownership guidance is pointed to. No consequence stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-ACC-RES-034", "UK-ACC-RES-039"],
+      "quotes": [
+        {"id": "UK-ACC-RES-034", "doc": "UK099", "location": "p. 16, Accountability: Set clear roles and respon…", "quote": "it’s essential that the people accountable have appropriate technical expertise and knowledge, and authority, to implement necessary changes."},
+        {"id": "UK-ACC-RES-039", "doc": "UK099", "location": "p.16, Accountability, Set clear roles and respons…", "quote": "sets out a data ownership model that formalises the roles of the people in government responsible for managing data throughout its life cycle"}
+      ]
+    },
+    {
+      "theme": "Resources to respond to the public and remedy harms",
+      "source": "starting code",
+      "definition": "Staff, money or time that an organisation is told to set aside to answer people who raise concerns about an AI tool, to change the tool, and to put right harms (starting codes: money, roles and staff, serving complaint and redress routes).",
+      "what_is_set_out": "UK174 tells each project using AI to 'ensure you allocate adequate resources' to respond to messages received through public communication channels and to make changes 'where necessary across the life cycle of the system', serving its contestability and redress entries; 'adequate' is not defined (coder note). UK099 asks project teams to 'Consider what resources you should make available' throughout the life cycle to fix newly identified fairness problems and to remediate harms. The two differ in strength (an imperative in a recommendations box against 'Consider') and in what sets them off (messages from the public against newly found fairness problems). Neither says how much, from which budget, how quickly, or who checks that the resources exist.",
+      "documents": ["UK174", "UK099"],
+      "holders": "'You': government departments and public sector organisations and their project teams (UK174); public sector project teams (UK099).",
+      "binding": "UK174: recommended, imperative wording in a practical recommendations box, not statutory. UK099: 'Consider', weaker. No consequence stated in either.",
+      "checks": "Trigger: messages received through public communication channels (UK174); newly identified fairness problems (UK099); both ongoing across the life cycle. Compared against: not stated. Metric or threshold: not stated. Who: the project team or organisation. What happens with the result: changes to the system 'where necessary' (UK174); fixes and remediation of harms (UK099).",
+      "passage_ids": ["UK-ACC-RES-001", "UK-ACC-RES-037"],
+      "quotes": [
+        {"id": "UK-ACC-RES-001", "doc": "UK174", "location": "Using AI safely and responsibly > Ethics > Contes…", "quote": "For each project using AI, ensure you allocate adequate resources to respond to messages received through public communication channels and make changes where necessary across the life cycle of the system."},
+        {"id": "UK-ACC-RES-037", "doc": "UK099", "location": "p. 30, Fairness: Ongoing fairness commitments", "quote": "Consider what resources you should make available throughout the life cycle of the system, to fix newly identified fairness problems and to remediate harms."}
+      ]
+    },
+    {
+      "theme": "Supplier indemnity as liability cover",
+      "source": "new",
+      "definition": "Contract terms under which a commercial supplier of an AI tool, rather than the public body using it, bears the legal consequences of certain faulty outputs.",
+      "what_is_set_out": "AI_Insights notes that most enterprise or professional AI coding assistant offerings include intellectual property indemnity clauses that protect users from legal challenges for inadvertent use of proprietary code. This is a mention, not an offer and not a requirement to obtain such cover. [inference, following the coder note] It moves the legal consequence of one kind of faulty output, generated code that infringes someone else's rights, from the public body to the supplier. It is the only passage in the cell in which an outside commercial provider carries a consequence.",
+      "documents": ["AI_Insights"],
+      "holders": "Suppliers of AI coding assistants (enterprise or professional offerings); users of those tools.",
+      "binding": "Mention of contract terms; nothing is required of public bodies; consequence n/a.",
+      "checks": "n/a",
+      "passage_ids": ["UK-ACC-RES-048"],
+      "quotes": [
+        {"id": "UK-ACC-RES-048", "doc": "AI_Insights", "location": "AI Insights: AI Coding Assistants for developers…", "quote": "Most enterprise or professional level AICA offerings include IP indemnity clauses that protect users from legal challenges for inadvertent use of proprietary code."}
+      ]
+    }
+  ],
+  "not_themed": [],
+  "absences": "Money and time, two of the Resources starting codes, are absent. No passage gives a budget, a headcount, a funding source or a time allowance; the two passages on resources for answering the public and remedying harms (UK174, UK099) leave 'adequate' undefined, and the NAO's commitment to build its own capability runs only 'Over time'. Roles and staff appear as advisers (the DPO or information assurance team, UK099), auditors and audit teams (UK268, NAO_AI_Strategy) and audit and risk assurance committees (UK266), but no passage creates or funds a post. Against the Accountability starting codes: nothing resources sign-off; resources for named accountable roles come from one document (UK099); complaint and redress routes have only the two resource passages above and a pointer to ICO guidance on rights about automated decisions (UK086), with nothing provided to affected people themselves (no advice, advocacy, legal aid, accessible channel or named body to complain to); sanctions have only Ofgem's pointer to its own enforcement guidelines (UK010), with nothing on sanctions against public bodies; reporting appears only as DWP's internal incident webform; registration appears only through the ATRS repository. Nothing is provided to regulators so that they can deal with AI; UK139 asks regulators to issue guidance, not that they be resourced. Publication is resourced (template, guidance, repository), but nothing resources checking that published records are accurate or complete. For checking AI outputs, the cell offers only UK268's starting-point fairness metrics: there are no accuracy or error thresholds, and nothing on consistency or repeatability, prompts and configuration, model versions, confidence scores, logs of outputs, or which cases reach a human reviewer. No passage gives auditors or the public a right of access to a purchased model or its code, and UK268 warns these may be inaccessible. The contents of the Audit Helper Tool workbook were not extracted, so whatever controls it lists are not in the passages.",
+  "cross_cutting": "This cell is dominated by information supplied by pointing: guidance documents, templates and standards make up most passages, while staff, money and time are almost absent. Two clusters carry most of it: publication, built around the ATRS template, its completion guidance and the GOV.UK repository (eight documents); and audit, where one international audit-office source (UK268) supplies auditor skills, a helper tool, fairness metrics and long lists of criteria, many non-UK and some non-state, backed by the NAO's own strategy and its guide for audit and risk assurance committees. The ICO and Alan Turing Institute guidance on explaining AI decisions is the most repeated single item across documents. Almost nothing is binding: most passages provide or mention a resource with no obligation, demands on holders are 'should', 'consider', 'good practice' or 'essential', the one mandatory requirement is DWP's internal policy that staff and suppliers support compliance activity, and no passage states a consequence for not providing or not using a resource. Providers are central bodies and regulators (GDS and the ATRS team, CDDO and CDEI, the ICO, the EHRC, Ofgem, the NAO) and outside bodies (the Alan Turing Institute, standards bodies, UKAS, the Royal Society, Google, suppliers, foreign audit offices); recipients are project teams, auditors and committees, never affected members of the public. The documents differ on small but telling points, such as who issues the ATRS and whether the explanation guidance is the ICO's alone, and on strength, as when UK174 tells projects to 'ensure' adequate resources for answering the public while UK099 asks them only to 'Consider' resources for remedying harms. On checking AI outputs the cell offers little: a 'not exhaustive' list of classification fairness metrics with no thresholds, training in model implementation for in-depth auditors, model cards that document training and testing data, and a warning that a purchased system's code and model may be out of auditors' reach; nothing addresses accuracy thresholds, repeatability, prompts, model versions, confidence scores or which cases reach a human."
+}

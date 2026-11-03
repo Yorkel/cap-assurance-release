@@ -1,0 +1,61 @@
+gold_category,error_rate_pct,absorbed_into,share_of_errors_pct
+Macroeconomics,22.7,Labor,35.8
+Macroeconomics,22.7,Social Welfare,24.8
+Macroeconomics,22.7,Health,14.7
+Civil Rights,37.5,Govt Operations,36.1
+Civil Rights,37.5,International Affairs,23.3
+Civil Rights,37.5,Law & Crime,16.7
+Health,5.2,Law & Crime,32.0
+Health,5.2,Education,28.0
+Health,5.2,Social Welfare,28.0
+Agriculture,11.5,Environment,56.4
+Agriculture,11.5,Foreign Trade,25.5
+Agriculture,11.5,Labor,12.7
+Labor,21.5,Social Welfare,34.0
+Labor,21.5,Macroeconomics,23.3
+Labor,21.5,Health,12.6
+Education,8.1,Health,41.0
+Education,8.1,Housing,20.5
+Education,8.1,Social Welfare,20.5
+Environment,14.8,Public Lands,38.0
+Environment,14.8,Health,23.9
+Environment,14.8,Energy,15.5
+Energy,11.7,Labor,30.4
+Energy,11.7,Macroeconomics,23.2
+Energy,11.7,Civil Rights,14.3
+Immigration,16.7,Govt Operations,28.7
+Immigration,16.7,Civil Rights,26.2
+Immigration,16.7,International Affairs,20.0
+Transportation,24.8,Defence,17.6
+Transportation,24.8,Domestic Commerce,15.1
+Transportation,24.8,Macroeconomics,13.4
+Law & Crime,18.5,Health,21.3
+Law & Crime,18.5,International Affairs,14.6
+Law & Crime,18.5,Social Welfare,11.2
+Social Welfare,30.2,Macroeconomics,25.5
+Social Welfare,30.2,Govt Operations,11.7
+Social Welfare,30.2,Health,10.3
+Housing,32.5,Environment,17.3
+Housing,32.5,Macroeconomics,10.9
+Housing,32.5,Social Welfare,10.9
+Domestic Commerce,57.5,Macroeconomics,42.4
+Domestic Commerce,57.5,Culture,13.4
+Domestic Commerce,57.5,Environment,12.7
+Defence,66.2,International Affairs,68.9
+Defence,66.2,Law & Crime,14.2
+Defence,66.2,Govt Operations,8.5
+Technology,59.0,Govt Operations,23.0
+Technology,59.0,Culture,20.1
+Technology,59.0,Domestic Commerce,19.1
+Foreign Trade,38.6,International Affairs,49.6
+Foreign Trade,38.6,Macroeconomics,22.3
+Foreign Trade,38.6,Agriculture,12.9
+International Affairs,32.3,Macroeconomics,40.6
+International Affairs,32.3,Govt Operations,12.9
+International Affairs,32.3,Foreign Trade,10.3
+Govt Operations,30.8,Macroeconomics,22.3
+Govt Operations,30.8,Civil Rights,14.2
+Govt Operations,30.8,Education,13.5
+Public Lands,91.7,International Affairs,42.7
+Public Lands,91.7,Govt Operations,28.2
+Public Lands,91.7,Culture,6.6

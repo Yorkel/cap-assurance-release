@@ -1,0 +1,146 @@
+[
+ {
+  "group": "EU-ACC-DES",
+  "map": "EU",
+  "function": "Accountability",
+  "dimension": "Design",
+  "passages": 463,
+  "documents": 17,
+  "file": "EU-ACC-DES.txt"
+ },
+ {
+  "group": "EU-ACC-RES",
+  "map": "EU",
+  "function": "Accountability",
+  "dimension": "Resources",
+  "passages": 67,
+  "documents": 15,
+  "file": "EU-ACC-RES.txt"
+ },
+ {
+  "group": "EU-COO-DES",
+  "map": "EU",
+  "function": "Coordination",
+  "dimension": "Design",
+  "passages": 289,
+  "documents": 18,
+  "file": "EU-COO-DES.txt"
+ },
+ {
+  "group": "EU-COO-RES",
+  "map": "EU",
+  "function": "Coordination",
+  "dimension": "Resources",
+  "passages": 60,
+  "documents": 14,
+  "file": "EU-COO-RES.txt"
+ },
+ {
+  "group": "EU-DM-DES",
+  "map": "EU",
+  "function": "Decision-making",
+  "dimension": "Design",
+  "passages": 614,
+  "documents": 18,
+  "file": "EU-DM-DES.txt"
+ },
+ {
+  "group": "EU-DM-RES",
+  "map": "EU",
+  "function": "Decision-making",
+  "dimension": "Resources",
+  "passages": 45,
+  "documents": 15,
+  "file": "EU-DM-RES.txt"
+ },
+ {
+  "group": "EU-DEL-DES",
+  "map": "EU",
+  "function": "Delivery",
+  "dimension": "Design",
+  "passages": 521,
+  "documents": 18,
+  "file": "EU-DEL-DES.txt"
+ },
+ {
+  "group": "EU-DEL-RES",
+  "map": "EU",
+  "function": "Delivery",
+  "dimension": "Resources",
+  "passages": 259,
+  "documents": 18,
+  "file": "EU-DEL-RES.txt"
+ },
+ {
+  "group": "UK-ACC-DES",
+  "map": "UK",
+  "function": "Accountability",
+  "dimension": "Design",
+  "passages": 354,
+  "documents": 19,
+  "file": "UK-ACC-DES.txt"
+ },
+ {
+  "group": "UK-ACC-RES",
+  "map": "UK",
+  "function": "Accountability",
+  "dimension": "Resources",
+  "passages": 74,
+  "documents": 17,
+  "file": "UK-ACC-RES.txt"
+ },
+ {
+  "group": "UK-COO-DES",
+  "map": "UK",
+  "function": "Coordination",
+  "dimension": "Design",
+  "passages": 227,
+  "documents": 19,
+  "file": "UK-COO-DES.txt"
+ },
+ {
+  "group": "UK-COO-RES",
+  "map": "UK",
+  "function": "Coordination",
+  "dimension": "Resources",
+  "passages": 65,
+  "documents": 19,
+  "file": "UK-COO-RES.txt"
+ },
+ {
+  "group": "UK-DM-DES",
+  "map": "UK",
+  "function": "Decision-making",
+  "dimension": "Design",
+  "passages": 362,
+  "documents": 19,
+  "file": "UK-DM-DES.txt"
+ },
+ {
+  "group": "UK-DM-RES",
+  "map": "UK",
+  "function": "Decision-making",
+  "dimension": "Resources",
+  "passages": 52,
+  "documents": 18,
+  "file": "UK-DM-RES.txt"
+ },
+ {
+  "group": "UK-DEL-DES",
+  "map": "UK",
+  "function": "Delivery",
+  "dimension": "Design",
+  "passages": 666,
+  "documents": 19,
+  "file": "UK-DEL-DES.txt"
+ },
+ {
+  "group": "UK-DEL-RES",
+  "map": "UK",
+  "function": "Delivery",
+  "dimension": "Resources",
+  "passages": 257,
+  "documents": 19,
+  "file": "UK-DEL-RES.txt"
+ }
+]

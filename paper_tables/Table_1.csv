@@ -1,0 +1,8 @@
+Dimension,Anchor and alternatives
+Codebook,"Full descriptions, rule and six examples; descriptions only; descriptions and rule without examples"
+Reasoning,Label only; reasoning then label; explicit step-by-step reasoning then label
+Scope,No scope; historical period; speaker’s party
+Output,Requested JSON; free text; provider JSON mode; strict function schema
+Decoding,One temperature-zero sample; temperature 0.7; five-sample self-consistency; 20-token limit; label logit bias
+Examples,Original examples; different topics; different exemplars from the original topics
+Provider,GPT-4o; Claude Sonnet under the anchor instructions

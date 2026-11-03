@@ -1,0 +1,175 @@
+{
+  "group": "UK-COO-DES",
+  "themes": [
+    {
+      "theme": "Consulting specialist teams within the organisation",
+      "source": "starting code",
+      "definition": "Instructions to project teams to bring in, consult or coordinate with in-house specialist functions (legal, data protection, security, information assurance, commercial, assurance, architecture) at named points in a project; a within-organisation form of the 'referrals between bodies' starting code.",
+      "what_is_set_out": "The guidance repeatedly tells teams that build or buy AI to go to internal specialists early. UK174 names legal teams (to whom teams should explain the tool's aims, capabilities and known risks, so lawyers can say whether legislation is needed), data protection, privacy, compliance and legal experts 'from the outset', assurance teams 'early in the project life cycle', commercial colleagues, and the security team, which teams 'should always' consult before deploying embedded AI applications, extensions or plugins; it also says teams 'must be ready to collaborate' with other teams to fill capability gaps. UK099 asks teams to engage the organisation's data protection officer. AI_Insights tells developers using coding assistants to coordinate with commercial colleagues when in doubt and to 'Always reach out' to the information assurance team. UK136 asks procurement teams to consult the Chief Digital Information Officer or technical architect when suppliers propose AI inside a non-AI requirement, and data and technical architects about integration. The consultations concern legality, security, data protection and procurement; none of these passages asks a specialist to examine what the tool produces.",
+      "documents": ["UK174", "UK099", "AI_Insights", "UK136"],
+      "holders": "'You (government departments and public sector organisations and their…' and 'you (AI project teams)' (UK174); 'you (people working in government and other public sector organisatio…' (UK099); 'you: developers' (AI_Insights); central government departments and procurement teams (UK136). Specialists (legal teams, DPO, security team, IA team, commercial colleagues, CDIO, architects) are the counterparts.",
+      "binding": "Mostly 'should' or imperative; UK174 uses 'must' (be ready to collaborate) and 'should always' (security team), AI_Insights 'Always'. All non-statutory; no consequence stated, though UK174 links legal advice to reducing the risk of 'being challenged in court'.",
+      "checks": "n/a",
+      "passage_ids": ["UK-COO-DES-002", "UK-COO-DES-011", "UK-COO-DES-014", "UK-COO-DES-017", "UK-COO-DES-026", "UK-COO-DES-040", "UK-COO-DES-044", "UK-COO-DES-094", "UK-COO-DES-134", "UK-COO-DES-137", "UK-COO-DES-138", "UK-COO-DES-203", "UK-COO-DES-208"],
+      "quotes": [
+        {"id": "UK-COO-DES-044", "doc": "UK174", "location": "Using AI safely and responsibly > Security > How…", "quote": "You should always speak with your security team to discuss your requirements before deploying any embedded AI applications, extensions or plugins."},
+        {"id": "UK-COO-DES-138", "doc": "AI_Insights", "location": "AI Insights: AI Coding Assistants for developers…", "quote": "Always reach out to your organisation’s IA team to ensure that you’re adhering to the correct processes."},
+        {"id": "UK-COO-DES-208", "doc": "UK136", "location": "How should the guidelines be used?", "quote": "discuss with your Chief Digital Information Officer/ Technical Architect to assess the impact AI models may have on the solution"},
+        {"id": "UK-COO-DES-094", "doc": "UK099", "location": "p. 33, Privacy: Purpose and benefit in the contex…", "quote": "engage with your organisation’s data protection officer (DPO)"}
+      ]
+    },
+    {
+      "theme": "Keeping named officers informed",
+      "source": "starting code",
+      "definition": "Statements that particular officers (chief information officer, data protection official, IT security officer) must be told about AI systems or concerns about them, without naming who tells them; a form of the 'notifications' starting code.",
+      "what_is_set_out": "UK268's appendix on roles says the auditee's CIO, being responsible for all IT, should be informed about all AI systems in operation and all projects developing them. It says the data protection official 'must be informed of any concerns about the use of personal data by the AI system', and the IT security officer must be informed about all IT security aspects of development and operation. These are role descriptions in an audit guide, describing what an auditor would expect to find, rather than duties placed on a named sender; the informer is not stated (project staff [inference]). They create information flows to three central roles but give those roles no stated power over the AI system.",
+      "documents": ["UK268"],
+      "holders": "Recipients: the CIO of the auditee organisation, the data protection official, the IT security officer. Sender: 'not stated'.",
+      "binding": "Descriptive role summaries using 'should' and 'must' in an audit guide; no consequence stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-COO-DES-045", "UK-COO-DES-046", "UK-COO-DES-047"],
+      "quotes": [
+        {"id": "UK-COO-DES-045", "doc": "UK268", "location": "A5.html, Appendix 5: Roles, Chief information off…", "quote": "The CIO of the auditee organisation is responsible for all its IT and thus should be informed about all AI systems already in operation and all projects that are developing such software."},
+        {"id": "UK-COO-DES-046", "doc": "UK268", "location": "A5.html, Appendix 5: Roles, Commissioner for data…", "quote": "They must be informed of any concerns about the use of personal data by the AI system."},
+        {"id": "UK-COO-DES-047", "doc": "UK268", "location": "A5.html, Appendix 5: Roles, IT security officer", "quote": "They must be informed about any and all IT security aspects of the development and operation of the AI system."}
+      ]
+    },
+    {
+      "theme": "Consultation before acting on AI-supported records disposal",
+      "source": "new",
+      "definition": "Steps that bring records, legal, data protection and business owners into an AI-assisted review of shared drives and digital records before content is deleted.",
+      "what_is_set_out": "AI_Insights' guidance on using AI to manage digital records and shared drives is the one place in this cell where coordination is tied to acting on what an AI-supported review proposes. Knowledge and information management (KIM) professionals 'should be involved in any AI implementation' that changes how content is managed through its lifecycle, the departmental record officer and information asset owner should be consulted at discovery and again at alpha before the project moves into beta, and the work 'will require' collaboration between KIM professionals, data scientists and IT professionals. Before disposal, KIM professionals should involve data protection colleagues early, consult legal, inquiries, FOI and data protection teams to confirm the drives are not under a legal hold or relevant to an inquiry or access request, and give business or asset owners a chance to comment, with a time window for objections, possibly informed (per the note) by an AI-generated summary of the drives. These consultations act as a human check on disposal proposals that the AI review helps produce [inference], but the passages do not say how the AI's classifications themselves are verified.",
+      "documents": ["AI_Insights"],
+      "holders": "'KIM professionals' and the project team ('you'); consulted: departmental record officer, information asset owner, data protection colleagues, 'Legal, Inquiries, FOI and Data Protection teams', 'business or asset owners', digital and data colleagues.",
+      "binding": "Guidance using 'should', 'will require' and 'would ideally include checks with'; no consequence stated.",
+      "checks": "Trigger: before disposal of drive content, and at the discovery and alpha phase gates for the project. Compared against: legal holds, inquiries and access-to-information requests; owners' knowledge of their own content [inference]. Metric or threshold: not stated. Who: legal, inquiry liaison, FOI and data protection teams; business or asset owners; the departmental record officer and information asset owner at phase gates. What happens with the result: owners may object within the set window, but what follows an objection is not stated; content confirmed to be under a legal hold is presumably kept [inference].",
+      "passage_ids": ["UK-COO-DES-145", "UK-COO-DES-146", "UK-COO-DES-147", "UK-COO-DES-148", "UK-COO-DES-149", "UK-COO-DES-150", "UK-COO-DES-151"],
+      "quotes": [
+        {"id": "UK-COO-DES-150", "doc": "AI_Insights", "location": "AI insights: Using AI to manage shared drives > 5…", "quote": "give business or asset owners a chance to comment on proposed disposals – alert them to the disposal plans and set a time window for objections"},
+        {"id": "UK-COO-DES-151", "doc": "AI_Insights", "location": "AI insights: Using AI to manage shared drives > 5…", "quote": "check for legal holds – consult Legal, Inquiries, FOI and Data Protection teams to confirm if the drives proposed for disposal are affected by litigation, inquiries or access to information requests"},
+        {"id": "UK-COO-DES-146", "doc": "AI_Insights", "location": "AI Insights: Using AI to manage the digital heap…", "quote": "should be consulted during the discovery phase, and again during the alpha phase before the project moves into beta"}
+      ]
+    },
+    {
+      "theme": "Escalation routes and internal governance coordination",
+      "source": "new",
+      "definition": "Internal channels for raising AI-related issues, risks, alerts and concerns to people with authority, including review boards and automated alert routes.",
+      "what_is_set_out": "UK174 asks for clearly documented review and escalation processes with an AI review board or programme-level board, pathways for escalation and points of contact for AI-related issues, and a risk management framework with defined roles and 'clear escalation routes' ('need to'). UK206 lists, as a baseline governance process, clear avenues for escalation with staff at all levels empowered to flag concerns, and UK010 (Ofgem) wants roles cascaded down the management chain, including supply-chain organisations, with channels for communicating and escalating risks. AI_Insights gives the only technical version: threshold alerts notify responsible teams when bias metrics exceed acceptable levels, and alert configuration should separate minor breaches (investigate) from major breaches (immediate action), with escalation so that critical incidents reach decision-makers quickly. The NAO's own AI Governance Board reviews higher-risk and novel use cases and escalates issues 'where risks exceed agreed tolerances', and UK266 asks audit committees whether there is proper coordination and monitoring of AI development. In most passages the destination of escalation ('appropriate levels', 'decision-makers') is not named.",
+      "documents": ["UK174", "UK206", "UK010", "AI_Insights", "NAO_AI_Strategy", "UK266"],
+      "holders": "Organisations and 'Teams (for all programmes or services that use AI systems)' (UK174); 'organisations' and staff 'at all levels' (UK206); 'Stakeholders (management chain including supply chain organisations)' (UK010); 'responsible teams' and unnamed 'decision-makers' (AI_Insights); 'The AI Governance Board' (NAO_AI_Strategy); audit and risk assurance committees asking the organisation (UK266).",
+      "binding": "Recommended ('should', 'need to') in non-statutory guidance; an internal role allocation for the NAO's own use; a question for audit committees. No consequence stated.",
+      "checks": "Bias threshold alerts (AI_Insights): trigger: ongoing in production, when bias metrics exceed acceptable levels; compared against: configured thresholds ('acceptable levels'); metric or threshold: bias metrics, with separate minor and major breach levels whose values are not stated; who: responsible teams receive alerts through configured channels, decision-makers receive critical incidents; what happens with the result: minor breaches are investigated, major breaches require immediate action and escalation, but the action is not stated. NAO AI Governance Board: trigger: higher-risk and novel use cases; compared against: 'agreed tolerances' (not stated); who: the Board; result: escalation, recipient not stated ([inference] the Executive Team, per the coder note).",
+      "passage_ids": ["UK-COO-DES-015", "UK-COO-DES-037", "UK-COO-DES-038", "UK-COO-DES-109", "UK-COO-DES-126", "UK-COO-DES-143", "UK-COO-DES-144", "UK-COO-DES-152", "UK-COO-DES-195"],
+      "quotes": [
+        {"id": "UK-COO-DES-143", "doc": "AI_Insights", "location": "AI Insights: Large language models (LLMs) Bias >…", "quote": "Alert configuration should distinguish between minor threshold breaches that warrant investigation and major breaches that require immediate action, with escalation procedures that ensure critical incidents reach decision-makers quickly."},
+        {"id": "UK-COO-DES-152", "doc": "UK206", "location": "p.32, 'Governance' (core governance processes)", "quote": "Clear avenues for escalation and staff (at all levels) empowered to flag concerns to appropriate levels."},
+        {"id": "UK-COO-DES-015", "doc": "UK174", "location": "Principles > Principle 10: You use these principl…", "quote": "You should have clearly documented review and escalation processes in place, and have an AI review board or programme-level board."},
+        {"id": "UK-COO-DES-126", "doc": "NAO_AI_Strategy", "location": "p.16, Governing AI", "quote": "The AI Governance Board provides delegated oversight, reviewing higher-risk and novel use cases, setting assurance expectations, and escalating issues where risks exceed agreed tolerances."}
+      ]
+    },
+    {
+      "theme": "Reporting misuse, security incidents and exceptions (DWP)",
+      "source": "starting code",
+      "definition": "Mandatory routes in a departmental policy for staff, suppliers and contract managers to report misuse of AI tools, security incidents and data breaches, and to seek exceptions to the policy; a form of the 'notifications' starting code.",
+      "what_is_set_out": "UK190, a DWP policy, sets out a chain of reporting duties, nearly all 'must' by policy. All users are responsible for reporting misuse of AI tools to their line manager and, if required, the Security Incident Response Team; security incidents must be reported as soon as possible through the DWP Security Incident Referral Webform, and anyone aware of a breach of security policy should notify the Security Policy and Standards team. Suppliers and their third parties must report suspected or actual abuse of AI tools affecting DWP information to contract managers, raise incidents and breaches with the DWP Contract Manager and follow the DPIA process through their contract manager; contract managers must then report onward through the DWP Place portal. A supplier that cannot comply must discuss this with the contract manager, who contacts the Security Policy and Standards Team about a possible exception. This is the most fully specified and most binding coordination machinery in the cell, but it concerns misuse and security, not the quality or correctness of a tool's outputs.",
+      "documents": ["UK190"],
+      "holders": "'all users'; 'DWP users'; 'Suppliers and their third parties'; 'Contract managers'; 'an individual (anyone aware of a breach)'. Recipients: line managers, the Security Incident Response Team, the DWP Contract Manager, the Security Policy and Standards Team.",
+      "binding": "Mandatory by departmental policy ('must'), except the individual's notification of a breach, which is 'should' (advisory). Stated consequence: 'Failure to report a security incident, potential or otherwise, could result in disciplin…' (cut off in the input; disciplinary action [inference]).",
+      "checks": "n/a",
+      "passage_ids": ["UK-COO-DES-063", "UK-COO-DES-064", "UK-COO-DES-066", "UK-COO-DES-067", "UK-COO-DES-068", "UK-COO-DES-069", "UK-COO-DES-074", "UK-COO-DES-075"],
+      "quotes": [
+        {"id": "UK-COO-DES-063", "doc": "UK190", "location": "Accountabilities and Responsibilities, c)", "quote": "It is the responsibility of all users to ensure that misuse of AI tools is reported to their line manager and, if required, to the Security Incident Response Team"},
+        {"id": "UK-COO-DES-068", "doc": "UK190", "location": "Annex A, accountabilities, 3", "quote": "Suppliers and their third parties must report any suspected or actual abuse of AI tools that affect DWP information or assets to contract managers."},
+        {"id": "UK-COO-DES-069", "doc": "UK190", "location": "Annex A, accountabilities, 4", "quote": "Contract managers must report any suspected or actual abuse of AI tools by suppliers and their third parties that affect DWP information or assets through the DWP Place portal."},
+        {"id": "UK-COO-DES-067", "doc": "UK190", "location": "Annex A, Third Party Compliance, e)", "quote": "must discuss this with the contract manager who must then contact the DWP Security Policy and Standards Team to discuss a possible exception to policy."}
+      ]
+    },
+    {
+      "theme": "Notice when a tool is rolled back, switched off or decommissioned",
+      "source": "starting code",
+      "definition": "Requirements to tell stakeholders, users or the central transparency team when an AI tool is corrected, withdrawn or decommissioned; a form of the 'notifications' starting code.",
+      "what_is_set_out": "UK268 expects that, after problems in production, the organisation notify stakeholders 'as required' and take corrective action, including model rollback or decommissioning if needed. UK071 lists notifying stakeholders and users before switch-off as a core practice of continuous monitoring. UK086 tells organisations that decommission a tool with a published ATRS record to contact the ATRS team. The passages do not say who decides on rollback or switch-off, which stakeholders must be told, or how much notice is given.",
+      "documents": ["UK268", "UK071", "UK086"],
+      "holders": "'The organisation' (UK268); 'not stated (team)' (UK071); 'Organisations that decommission a tool with a published record' (UK086).",
+      "binding": "Good-practice expected control (UK268); recommended core practice (UK071); instruction (UK086). No consequence stated.",
+      "checks": "Corrective action after production monitoring (UK268): trigger: a problem found in production [inference from the 'Production' section]; compared against: not stated; metric or threshold: not stated; who: not stated (the organisation); what happens with the result: notification of stakeholders and corrective action, up to rollback or decommissioning, with the decider not stated.",
+      "passage_ids": ["UK-COO-DES-061", "UK-COO-DES-119", "UK-COO-DES-183"],
+      "quotes": [
+        {"id": "UK-COO-DES-061", "doc": "UK268", "location": "Production.html, 4.6.2 Expected controls", "quote": "Notify stakeholders as required and take corrective action, including model rollback or decommissioning if needed."},
+        {"id": "UK-COO-DES-119", "doc": "UK071", "location": "Modular AI Testing Approach, Continuous Monitorin…", "quote": "Notify stakeholders and users before switch-off."},
+        {"id": "UK-COO-DES-183", "doc": "UK086", "location": "14. 'Updating your ATRS record'", "quote": "Should you decommission an algorithmic tool for which you have published an ATRS record, contact the team on algorithmic-transparency@dsit.gov.uk."}
+      ]
+    },
+    {
+      "theme": "Contact points",
+      "source": "starting code",
+      "definition": "Named teams or addresses to which people inside or outside the body are directed for a specific AI-related need.",
+      "what_is_set_out": "Two kinds appear. Internal: UK190 names DWP teams as the primary contact point for a DPIA (the DPO team) or a risk assessment (Digital Security Risk Management; Enterprise Security Risk Management), and describes the Change Portfolio Management Office as an 'information, advice, management, and governance hub'. Public-facing: the ATRS template (UK087) requires an email address for the team or organisation responsible for the tool, the ATRS guidance (UK086) says it should be a team address rather than an individual's for continuity and security, and UK174 recommends, 'where possible', giving impacted individuals the option to contact the responsible team directly. UK174 also gives a commercial contact (CCS's email) for buyers wishing to shape CCS's agreements. The public-facing contact is the only coordination route in this cell that runs from affected members of the public to the team operating a tool, and the passages do not say what it is for (questions, complaints or challenges) or what the team must do with what it receives.",
+      "documents": ["UK190", "UK087", "UK086", "UK174"],
+      "holders": "DWP teams named as contact points (UK190); 'the team or organisation responsible for the tool' (UK087); organisations completing ATRS records (UK086); 'You (government departments and public sector organisations and their…' (UK174); 'Public sector buyers interested in shaping CCS’s portfolio' (UK174).",
+      "binding": "Descriptive in UK190; a required record field in UK087; 'should' in UK086; 'where possible' (box only) in UK174. No consequence stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-COO-DES-007", "UK-COO-DES-030", "UK-COO-DES-070", "UK-COO-DES-071", "UK-COO-DES-072", "UK-COO-DES-073", "UK-COO-DES-165", "UK-COO-DES-190"],
+      "quotes": [
+        {"id": "UK-COO-DES-071", "doc": "UK190", "location": "Annex B, DWP Data Protection Officer’s (DPO) Team", "quote": "are the primary contact point if you require a Data Protection Impact Assessment (DPIA)."},
+        {"id": "UK-COO-DES-165", "doc": "UK087", "location": "Sheet 1. Summary, field 1.4 'Contact email'", "quote": "Email address for the team or organisation responsible for the tool."},
+        {"id": "UK-COO-DES-190", "doc": "UK086", "location": "5. Summary Information (Tier 1)", "quote": "The email address you provide should be that of the team responsible for the tool, not an individual, for business continuity and security purposes."},
+        {"id": "UK-COO-DES-030", "doc": "UK174", "location": "Using AI safely and responsibly > Ethics > Contes…", "quote": "Where possible, provide impacted individuals with the option to contact the responsible team directly."}
+      ]
+    },
+    {
+      "theme": "The ATRS submission route and shared template",
+      "source": "starting code",
+      "definition": "The process and fixed template through which public bodies submit algorithmic transparency records to the central ATRS team for publication in a central repository; covers the 'shared templates' and 'registers' starting codes.",
+      "what_is_set_out": "The ATRS documents set up a hub-and-spoke link between public bodies and a central ATRS team (algorithmic-transparency@dsit.gov.uk). Organisations within the mandatory scope 'should have' a single point of contact (SPOC) who coordinates with the ATRS team on identifying in-scope tools, drafting and publishing records; staff should contact their SPOC before starting a record, and the completed template is emailed to the ATRS team or sent through the SPOC, while organisations outside mandatory scope, such as local government and police forces (per the holder field), can submit directly. The template must not be altered because that 'may affect our ability to process and publish' the record, and its metadata support filtering and search in the ATRS repository. Before publication the communications team or press office should know of the plan, have reviewed the record and be ready for media requests; concerns about publishing information go to the ATRS team, whose power over the outcome is not stated; and decommissioning is reported to the team. The coordination is about producing and publishing a description of a tool, not about its performance.",
+      "documents": ["UK086", "UK087", "UK085"],
+      "holders": "'Organisations completing ATRS records' ('you'); 'single point of contact (SPOC)'; communications team or press office; 'Organisations outside mandatory scope (local government, police force…'; the central ATRS team (DSIT) as recipient.",
+      "binding": "Mandatory by policy for organisations in mandatory scope (the SPOC); instructions and requests ('Please', 'we would ask you') otherwise; optional for organisations outside scope. The only stated consequence is that altering the template 'may affect our ability to process and publish your ATRS record'.",
+      "checks": "n/a (the ATRS team's review of records is coded elsewhere, per the coder notes)",
+      "passage_ids": ["UK-COO-DES-164", "UK-COO-DES-171", "UK-COO-DES-181", "UK-COO-DES-182", "UK-COO-DES-183", "UK-COO-DES-184", "UK-COO-DES-185", "UK-COO-DES-187", "UK-COO-DES-189", "UK-COO-DES-192"],
+      "quotes": [
+        {"id": "UK-COO-DES-184", "doc": "UK086", "location": "2. 'How do I know if I should complete an ATRS re…", "quote": "If your organisation is within the mandatory scope of the ATRS policy, it should have a single point of contact (SPOC) whose role is to coordinate with the ATRS team on identifying in-scope algorithmic tools, drafting and publishing records."},
+        {"id": "UK-COO-DES-189", "doc": "UK086", "location": "4. 'Downloading the template'", "quote": "Please do not alter or change the format of the template as this may affect our ability to process and publish your ATRS record."},
+        {"id": "UK-COO-DES-164", "doc": "UK087", "location": "Sheet 0. Metadata, Section 0", "quote": "Metadata and Title Information asks for basic information for filtering, search and display purposes in the ATRS repository."},
+        {"id": "UK-COO-DES-192", "doc": "UK085", "location": "5.2 How to exempt types of information within a t…", "quote": "If you have any concerns about publishing information that are not covered above, we would ask you to get in touch with the ATRS team to discuss"}
+      ]
+    },
+    {
+      "theme": "ATRS record fields that disclose suppliers, models and data sharing",
+      "source": "starting code",
+      "definition": "Required fields in the ATRS template that make a tool's supplier relationships, model provider and data-sharing arrangements part of a public register entry.",
+      "what_is_set_out": "The ATRS template (UK087) requires the publishing organisation to name every third-party organisation contracted to develop or deploy all or part of the tool, describe each third party's role, state the procurement procedure used, and set out the terms of access to data granted to them ('N/A' allowed where there is no third party). For a pre-trained model it asks for the API provider or 'self-hosted', and (per the coder note) the version as specified by the model provider. It also asks for any data sharing agreements for development and operational data, including who data is shared with, on what conditions and with what restrictions, with a link to the Digital Economy Act register where relevant. These fields make private supplier and data arrangements visible but record that the arrangements exist rather than what they require of the supplier [inference].",
+      "documents": ["UK087"],
+      "holders": "'the organisation, department or public sector body completing the ATR…'; third parties and model (API) providers are the subjects of the fields.",
+      "binding": "Required record fields (the template's 'required' flag is TRUE for several; 'N/A' allowed where not applicable); their force follows the ATRS policy's mandatory scope [inference]. No consequence stated.",
+      "checks": "n/a (no check is attached; the model name, provider and provider-specified version are recorded, which bears on knowing which model produced a tool's outputs)",
+      "passage_ids": ["UK-COO-DES-162", "UK-COO-DES-163", "UK-COO-DES-166", "UK-COO-DES-167", "UK-COO-DES-168", "UK-COO-DES-169", "UK-COO-DES-170"],
+      "quotes": [
+        {"id": "UK-COO-DES-166", "doc": "UK087", "location": "Sheet 2.1. Owner, field 2.1.4.1 'Third party'", "quote": "Name(s) of third-party organisation(s) contracted to develop/deploy all or part of the tool. List the names of all third-party organisations involved."},
+        {"id": "UK-COO-DES-168", "doc": "UK087", "location": "Sheet 2.1. Owner, field 2.1.4.5 'Third party data…", "quote": "Terms of access to data granted to the third party/parties."},
+        {"id": "UK-COO-DES-169", "doc": "UK087", "location": "Sheet 2.4.2. Model, field 2.4.2.1 'Model name'", "quote": "If using a pre-trained model, please specify the name of the API provider, where applicable, or mention if it is 'self-hosted'."},
+        {"id": "UK-COO-DES-170", "doc": "UK087", "location": "Sheet 2.4.3. Development Data, field 2.4.3.9; sam…", "quote": "Any data sharing agreements in place, including who the development data is shared with, under what conditions, and any restrictions on its use."}
+      ]
+    },
+    {
+      "theme": "Internal inventories and registers",
+      "source": "starting code",
+      "definition": "Organisational lists of AI systems, agents, pilots or data assets that give an organisation a single view of what it runs.",
+      "what_is_set_out": "UK174 recommends that organisations set up an AI and machine learning systems inventory covering all deployed systems, kept up to date (per the note) with purpose, usage, risks, data elements, ownership and key dates, and suggests sharing it with the AI community of practice. AI_Insights says a signed-off agent 'entity' should be added to the internal inventory with a detailed description of its behaviours. UK099 says project teams 'must' register new data assets in organisational data catalogues or, across departments, as Essential Shared Data Assets. UK266 asks audit committees whether there is organisation-wide visibility of what AI is being piloted and why. None of these passages says the internal inventory is published or connected to the ATRS repository.",
+      "documents": ["UK174", "AI_Insights", "UK099", "UK266"],
+      "holders": "'Organisations (government organisations or programmes)' and 'You / the organisation' (UK174); 'not stated; nearest: entity creator / administrators' (AI_Insights); 'your team' (UK099); audit and risk assurance committees asking the organisation (UK266).",
+      "binding": "'Should' (UK174, AI_Insights); 'must' in non-statutory guidance (UK099); 'should consider' for sharing; a question (UK266). No consequence stated.",
+      "checks": "n/a",
+      "passage_ids": ["UK-COO-DES-034", "UK-COO-DES-035", "UK-COO-DES-089", "UK-COO-DES-141", "UK-COO-DES-197"],
+      "quotes": [
+        {"id": "UK-COO-DES-035", "doc": "UK174", "location": "Using AI safely and responsibly > Governance > Cr…", "quote": "To provide a comprehensive view of all deployed AI systems within an organisation or programme, organisations should set up an AI and machine learning (ML) systems inventory."},
+        {"id": "UK-COO-DES-141", "doc": "AI_Insights", "location": "AI Insights: Integrated Agents > Entity Guideline…", "quote": "A signed-off entity should be added to the internal inventory with a detailed description of its behaviours."},
+        {"id": "UK-COO-DES-089", "doc": "UK099", "location": "p. 17, Accountability: Traceability and auditabil…", "quote": "register new data assets – either via organisational data catalogues, or cross-departmentally by designating Essential Shared Data Assets (ESDAs)"},
+        {"id": "UK-COO-DES-197", "doc": "UK266", "location": "'Pilots', questions", "quote": "Is there organisation-wide visibility of what type of AI is being piloted and why?"}
+      ]
+    }
+  ],
+  "not_themed": [],
+  "absences": "See UK-COO-DES__part3.json.",
+  "cross_cutting": "See UK-COO-DES__part3.json."
+}

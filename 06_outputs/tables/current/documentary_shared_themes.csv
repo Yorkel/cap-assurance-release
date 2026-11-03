@@ -1,0 +1,72 @@
+function,dimension,key,theme,source
+Decision-making,Design,whether,"Whether a tool is used, and what is banned",starting code
+Decision-making,Design,approval,Approval before use,starting code
+Decision-making,Design,pause,"Pausing, stopping and changing a tool",starting code
+Decision-making,Design,override,Overriding outputs and decisions kept for humans,starting code
+Decision-making,Design,direction,"Setting priorities, direction and standards",starting code
+Decision-making,Design,mandates,"Mandates, permissions and conditions of use",starting code
+Decision-making,Design,scope,Scope and exemptions,starting code
+Decision-making,Design,appoint,Appointing who decides and supervises,starting code
+Decision-making,Design,risk,Classifying risk and accepting it,new
+Decision-making,Design,legal,Legal limits and data protection gates,new
+Decision-making,Design,proc,Procurement and authority over suppliers,new
+Decision-making,Resources,roles,"Roles, staff and expertise",starting code
+Decision-making,Resources,skills,Skills and training,starting code
+Decision-making,Resources,info,Information and evidence for deciding,starting code
+Decision-making,Resources,guidance,"Guidance, templates and tools",starting code
+Decision-making,Resources,support,Advice and outside support,starting code
+Decision-making,Resources,means,Means to intervene or stop,new
+Decision-making,Resources,money,Money,starting code
+Delivery,Design,testing,Testing and validation,starting code
+Delivery,Design,outputs,"Evaluating outputs: accuracy, bias, consistency, explainability",starting code
+Delivery,Design,monitoring,"Monitoring in use, incidents and fail-safes",starting code
+Delivery,Design,logging,Logging and recording,starting code
+Delivery,Design,review,Human review of outputs,starting code
+Delivery,Design,impact,Impact and risk assessment,starting code
+Delivery,Design,supply,Supply chain checks,new
+Delivery,Design,data,Data quality and data protection,new
+Delivery,Design,security,Security,new
+Delivery,Design,transparency,Transparency to people,new
+Delivery,Design,compliance,"Compliance, assurance and scope",new
+Delivery,Design,users,"Users, accessibility and inclusion",new
+Delivery,Design,roles,Named delivery roles,new
+Delivery,Resources,roles,Roles and staff,starting code
+Delivery,Resources,skills,"Skills, training and time",starting code
+Delivery,Resources,tools,"Tools, methods and infrastructure",starting code
+Delivery,Resources,guidance,"Guidance, templates and standards",starting code
+Delivery,Resources,data,Data and access,starting code
+Delivery,Resources,info,Information from providers and suppliers,starting code
+Delivery,Resources,support,"Outside support, sandboxes and central offers",starting code
+Delivery,Resources,money,Money,starting code
+Coordination,Design,contracts,Supplier contracts and procurement,starting code
+Coordination,Design,supplyinfo,Information flows along the supply chain,new
+Coordination,Design,notify,Notifications and reporting,starting code
+Coordination,Design,referrals,Referrals between bodies,starting code
+Coordination,Design,contacts,Contact points,starting code
+Coordination,Design,templates,"Shared templates, standards and repositories",starting code
+Coordination,Design,registers,Registers and databases,starting code
+Coordination,Design,groups,"Groups, networks and governance bodies",starting code
+Coordination,Design,internal,Internal consultation and escalation,new
+Coordination,Design,regulators,"Links among regulators, auditors and oversight bodies",new
+Coordination,Design,public,"Engaging the public, stakeholders and partners",new
+Coordination,Resources,contracts,Procurement and contract resources,starting code
+Coordination,Resources,supplyinfo,Information from suppliers and providers,starting code
+Coordination,Resources,contacts,Contact points and channels,starting code
+Coordination,Resources,templates,"Shared templates, guidance and repositories",starting code
+Coordination,Resources,networks,"Networks, communities and support bodies",starting code
+Coordination,Resources,money,Funding and data,starting code
+Accountability,Design,roles,Named roles and where responsibility rests,starting code
+Accountability,Design,signoff,Sign-off and showing compliance,starting code
+Accountability,Design,publication,Publication,starting code
+Accountability,Design,telling,Telling and explaining to affected people,new
+Accountability,Design,records,"Registration, records and documentation",starting code
+Accountability,Design,reporting,Reporting to regulators and boards,starting code
+Accountability,Design,audit,Audit and supervision,starting code
+Accountability,Design,redress,Complaint and redress,starting code
+Accountability,Design,sanctions,Sanctions and liability,starting code
+Accountability,Design,law,Existing law and measures scaled to risk,new
+Accountability,Resources,publication,"Publication, labelling and registers",starting code
+Accountability,Resources,guidance,Guidance and criteria,starting code
+Accountability,Resources,audit,"Audit capacity, expertise and tools",starting code
+Accountability,Resources,access,"Access, records and supplier cover",starting code
+Accountability,Resources,staff,"Roles, staff and money for those who answer or enforce",starting code

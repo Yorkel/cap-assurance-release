@@ -1,0 +1,82 @@
+[
+  {
+    "number": "1",
+    "caption": "Table 1. Experimental configuration dimensions.",
+    "file": "Table_1.csv"
+  },
+  {
+    "number": "2",
+    "caption": "Table 2. CAP agreement and label variation across eight retained configurations (1,199 complete cases).",
+    "file": "Table_2.csv"
+  },
+  {
+    "number": "3",
+    "caption": "Table 3. Experimental checks, assurance coverage and remaining questions.",
+    "file": "Table_3.csv"
+  },
+  {
+    "number": "A1",
+    "caption": "Table A1. EU AI Act risk tiers and applicable obligations.",
+    "file": "Table_A1.csv"
+  },
+  {
+    "number": "A2",
+    "caption": "Table A2. Risk and assurance requirements in the UK sample.",
+    "file": "Table_A2.csv"
+  },
+  {
+    "number": "A3",
+    "caption": "Table A3. Documentary coding placements, contributing documents and themes.",
+    "file": "Table_A3.csv"
+  },
+  {
+    "number": "A4",
+    "caption": "Table A4. Extracted-score discrimination and hypothetical review routing at a 0.99 cutoff.",
+    "file": "Table_A4.csv"
+  },
+  {
+    "number": "A5",
+    "caption": "Table A5. Detailed documentary findings: UK, EU, combined interpretation and implications.",
+    "file": "Table_A5.csv"
+  },
+  {
+    "number": "A6",
+    "caption": "Table A6. Allocation of decisions and checking responsibilities.",
+    "file": "Table_A6.csv"
+  },
+  {
+    "number": "A7",
+    "caption": "Table A7. Provider and deployer responsibilities in the sampled instruments.",
+    "file": "Table_A7.csv"
+  },
+  {
+    "number": "A8",
+    "caption": "Table A8. The 17 historical configurations and their differences from the anchor.",
+    "file": "Table_A8.csv"
+  },
+  {
+    "number": "A9",
+    "caption": "Table A9. Target sample size by CAP category.",
+    "file": "Table_A9.csv"
+  },
+  {
+    "number": "A10",
+    "caption": "Table A10. Pairwise label disagreement across five unchanged anchor runs.",
+    "file": "Table_A10.csv"
+  },
+  {
+    "number": "A11",
+    "caption": "Table A11. Per-category F1 across the eight retained GPT-4o configurations.",
+    "file": "Table_A11.csv"
+  },
+  {
+    "number": "A12",
+    "caption": "Table A12. Historical recovered-summary sensitivity to alternative corpus definitions.",
+    "file": "Table_A12.csv"
+  },
+  {
+    "number": "A13",
+    "caption": "Table A13. API calls and expenditure by study component.",
+    "file": "Table_A13.csv"
+  }
+]

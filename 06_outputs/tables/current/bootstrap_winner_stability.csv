@@ -1,0 +1,9 @@
+specification,wins,win_rate
+L2_D_time,889,0.889
+anchor,74,0.074
+L2_F_cot,10,0.01
+L2_C_drop_bundle,7,0.007
+L2_D_speaker,7,0.007
+L2_C_drop_fewshot,6,0.006
+L3_freetext,4,0.004
+L2_F_reasoning,3,0.003

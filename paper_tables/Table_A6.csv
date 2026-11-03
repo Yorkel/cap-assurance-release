@@ -1,0 +1,22 @@
+Decision,UK,EU,Finding
+DECISION-MAKING,,,
+Whether to use AI at all,Each body applies the test to itself,The deployer decides; some practices are banned (Art. 5),"F4, F5"
+Whether a tool counts as high-risk,No legal category; each body judges,"Provider assesses the conditional Article 6(3) exception, documents its assessment and meets registration duties (Art. 6(4)); authority scrutiny remains.",F5
+Approval before use,"Internal, plus central spend approvals; ICO consultation where data-protection risk remains","Police biometric identification, authorised independently; EDPS consultation for EU institutions; third-party conformity assessment of some systems before market (Art. 43(1))",F5
+Pausing or stopping a tool,"Named in guidance rather than binding rules (UK174, UK071, UK268, AI_Insights)",The deployer must suspend use if it has reason to consider a risk (Art. 26(5)); authorities can order withdrawal or recall (Art. 79(2)),F5
+DELIVERY,,,
+What the tool is for,Each body,"The provider (""intended purpose"", Art. 3(12))",F1
+"What to measure, and the pass mark",Bodies choose purpose-appropriate measures within applicable duties; the Playbook asks for objective measures and UK071 offers illustrative thresholds and testing methods.,The provider (Art. 9(8)),F1
+Whether it passes,Each body,"Article 43(2) provides internal-control conformity assessment for Annex III points 2–8; other assessment routes apply to specified systems, including applicable sectoral product-law routes (Art. 43(3)).",F1
+Stability over repeated runs and setups,Non-binding guidance only,"Consistency required by Arts 9(6), 15(1); no repeated-run statistic named there. Art. 15(2) provides for encouraging benchmarks and measurement methods.",F2
+Which outputs a person reviews,"Use, output risk or uncertainty, and user-reported problems; guidance includes handover and reviewer-capability tests",Risk and context shape oversight under Art. 14; use-specific biometric/text rules and data-protection limits apply in their respective scopes,F3
+How a reviewer should judge,"Rarely stated, and only in guidance (AI_Insights on benchmarks and uncertain cases; UK071 on when to override)",Fact-checking for published AI text (Art. 50 guidelines); police uses (EU043); overseers of high-risk systems to stay aware of automation bias (Art. 14(4)),F3
+COORDINATION,,,
+What the body learns about the tool,ATRS record; model version may be left blank for off-the-shelf tools,"Instructions for use declare accuracy levels and metrics (Arts 13, 15(3))","F1, F2"
+RESOURCES,,,
+"Staff, money, time","Announced £10m regulator package; cited £21m NHS deployment example; training, advice, templates and expertise also identified. Actual capacity not measured.","""Adequate"", unquantified; guidance",F6
+Means for logging and consistency testing,"No dedicated funding identified in the cited passages; guidance points to a free evaluation framework (Inspect, UK071)","High-risk logging duties coexist with UK consistency-testing guidance, including repeatability and version-comparison methods (UK071; UK268). Actual resource sufficiency is not established.",F6
+ACCOUNTABILITY,,,
+Who is responsible for outputs,"The body that uses the tool, even if bought in","The deployer is responsible for its use; under the AI Act the provider answers for the system’s conformity, and the EDPS treats responsibility for an output as depending on its origin",F8
+Who it answers to,Public ATRS records and challenge routes coexist with existing legal/regulatory accountability,Supervisor notifications/documentation coexist with public database information and scoped complaint/explanation rights,F8
+What follows a failure,"Rarely stated; DWP discipline, Ofgem penalties, Equality Act legal action","Member States set the extent of public-body fines; Union institutions have a separate fines regime. Art. 111(2) contains a scoped transition provision for relevant existing high-risk systems, not all public-sector AI.",F7

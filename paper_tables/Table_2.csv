@@ -1,0 +1,6 @@
+Classification,nn,%
+Agrees with CAP under all eight,717,59.8
+Agrees with CAP under some only,215,17.9
+"Disagrees with CAP throughout, with different labels",76,6.3
+"Disagrees with CAP throughout, with the same label",191,15.9
+Total,"1,199",100.0

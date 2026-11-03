@@ -1,0 +1,148 @@
+{
+  "design": "Option B \u2014 all 21 CAP categories via mixed-n stratified sampling",
+  "date_locked": "2026-04-19",
+  "cap_n": 60,
+  "categories": {
+    "20": {
+      "name": "Govt Operations",
+      "available": 1573,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "16": {
+      "name": "Defence",
+      "available": 1099,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "19": {
+      "name": "International Affairs",
+      "available": 958,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "3": {
+      "name": "Health",
+      "available": 864,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "12": {
+      "name": "Law & Crime",
+      "available": 777,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "1": {
+      "name": "Macroeconomics",
+      "available": 636,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "6": {
+      "name": "Education",
+      "available": 554,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "13": {
+      "name": "Social Welfare",
+      "available": 431,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "10": {
+      "name": "Transportation",
+      "available": 339,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "15": {
+      "name": "Domestic Commerce",
+      "available": 283,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "5": {
+      "name": "Labor",
+      "available": 258,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "14": {
+      "name": "Housing",
+      "available": 227,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "2": {
+      "name": "Civil Rights",
+      "available": 179,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "4": {
+      "name": "Agriculture",
+      "available": 172,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "9": {
+      "name": "Immigration",
+      "available": 146,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "21": {
+      "name": "Public Lands",
+      "available": 143,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "7": {
+      "name": "Environment",
+      "available": 137,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "8": {
+      "name": "Energy",
+      "available": 137,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "17": {
+      "name": "Technology",
+      "available": 88,
+      "target_n": 60,
+      "viable_at_cap": true
+    },
+    "18": {
+      "name": "Foreign Trade",
+      "available": 45,
+      "target_n": 45,
+      "viable_at_cap": false
+    },
+    "23": {
+      "name": "Culture",
+      "available": 15,
+      "target_n": 15,
+      "viable_at_cap": false
+    }
+  },
+  "total_target_sample": 1200,
+  "rare_natural_n": {
+    "18": {
+      "name": "Foreign Trade",
+      "available": 45,
+      "target_n": 45,
+      "viable_at_cap": false
+    },
+    "23": {
+      "name": "Culture",
+      "available": 15,
+      "target_n": 15,
+      "viable_at_cap": false
+    }
+  }
+}
