@@ -1,6 +1,6 @@
 # AI assurance: anonymous review artifact
 
-Code, frozen inputs and analytical materials accompanying a study of AI-produced information in public services. The package connects a topic-classification experiment with analysis of UK/EU assurance requirements. It is an anonymous local release candidate: no public repository or anonymous URL is assigned yet.
+Code, frozen inputs and analytical materials accompanying a study of AI-produced information in public services. The package connects a topic-classification experiment with analysis of UK/EU assurance requirements. It is prepared for anonymous review, with independent Git history and anonymous contributor metadata.
 
 ## What is reproduced
 
@@ -56,7 +56,7 @@ The table PDFs are review/reference assets. They do not replace accessible nativ
 
 ## Review anonymity
 
-The package has independent Git history with anonymous attribution, no remote configured, and no working-repository history, local usernames, author profiles, manuscript comments or session logs. Public names within parliamentary source material, policy documents and data-source attribution are retained as scientific source content. An anonymous review URL should be added only after the release candidate has been approved for publication.
+The package has independent Git history with anonymous attribution and no working-repository history, local usernames, author profiles, manuscript comments or session logs. Public names within parliamentary source material, policy documents and data-source attribution are retained as scientific source content. Use the anonymous mirror URL when referring to this artifact in an anonymous submission.
 
 ## Licensing and citation
 
